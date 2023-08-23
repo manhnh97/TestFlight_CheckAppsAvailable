@@ -1,8 +1,7 @@
-import csv
+# import csv
 from bs4 import BeautifulSoup as bs
 import requests
 import re
-
 
 def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testflight_Available, Testflight_Error):
     with open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as wfile:
@@ -18,7 +17,6 @@ if __name__ == "__main__":
     txtTestflight_List = "Testflight_List.txt"
     txtResult_AvailableTestflight = "Result_Testflight.txt"
     txtResult_ErrorLinkTestflight = "Result_ErrorLinkTestflight.txt"
-
 
     with open(txtTestflight_List, 'r', encoding='utf-8') as rfile:
         lines = [line for line in rfile]
