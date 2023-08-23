@@ -2,10 +2,11 @@
 from bs4 import BeautifulSoup as bs
 import requests
 import re
+from datetime import datetime
 
 def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testflight_Available, Testflight_Error):
     with open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as wfile:
-        wfile.write(f"# CheckStatusTestflight\n## Beta Apps is available\n")
+        wfile.write(f"""# CheckStatusTestflight\n## Beta Apps is available\t[{datetime.now().strftime("%d/%m/%Y %I:%M %p")}]\n""")
         wfile.write('<ol>\n')
         wfile.write('\n'.join(Testflight_Available))
         wfile.write('\n</ol>')
