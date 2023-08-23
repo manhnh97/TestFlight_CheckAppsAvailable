@@ -5,6 +5,7 @@ import re
 
 def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testflight_Available, Testflight_Error):
     with open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as wfile:
+        wfile.write(f"# CheckStatusTestflight\n## Beta Apps is available\n")
         wfile.write('<ol>\n')
         wfile.write('\n'.join(Testflight_Available))
         wfile.write('\n</ol>')
@@ -15,7 +16,7 @@ def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testf
 
 if __name__ == "__main__":
     txtTestflight_List = "Testflight_List.txt"
-    txtResult_AvailableTestflight = "Result_Testflight.txt"
+    txtResult_AvailableTestflight = "README.md"
     txtResult_ErrorLinkTestflight = "Result_ErrorLinkTestflight.txt"
 
     with open(txtTestflight_List, 'r', encoding='utf-8') as rfile:
@@ -45,9 +46,9 @@ if __name__ == "__main__":
                     if match_JoinBeta:
                         name_testfight = match_JoinBeta.group(1)
                         matches = re.findall(r'\b[A-Z][A-Za-z]*\b', name_testfight)
-                        hashtag_testflight = '#' + ' #'.join(matches)
+                        # hashtag_testflight = '#' + ' #'.join(matches)
                         # Testflight_Available.append(f"[{hashtag_testflight.upper()}]{name_testfight} => {url_testflight}")
-                        Testflight_Available.append(f'''<li><img src="{background_image_url}" border="0" alt="{name_testfight}" width="30" height="30" /> <strong><a href="{url_testflight}" title="{name_testfight}">{name_testfight}</a></strong></li>''')
+                        Testflight_Available.append(f'''<li><img src="{background_image_url}" alt="{name_testfight}" align="center" width="40" height="40" />   <strong><a href="{url_testflight}" title="{name_testfight}">{name_testfight}</a></strong></li>''')
                     count += 1
                 else:
                     Testflight_Error.append(url_testflight)
