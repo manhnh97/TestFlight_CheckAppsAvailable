@@ -8,7 +8,7 @@ def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testf
     with open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as wfile:
         wfile.write(f"""# Beta Apps is available\t[{nowTime}]\n""")
         wfile.write('| Sort | Image | Description |\n| --- | --- | --- | \n')
-        wfile.write('<br />'.join(Testflight_Available))
+        wfile.write('\n'.join(Testflight_Available))
         wfile.write(f'''| \'ZzZ\' | <img src="https://avatars.githubusercontent.com/u/42213325?v=4" alt="Have a great day" align="center" width="40" height="40" /> | **[Have a great day <3](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)** |''')
 
     with open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as wfile:
