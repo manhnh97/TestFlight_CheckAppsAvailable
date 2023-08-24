@@ -6,6 +6,7 @@ from datetime import datetime
 def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testflight_Available, Testflight_Error):
     with open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as wfile:
         wfile.write(f"""# CheckStatusTestflight\n## Beta Apps is available\t[{datetime.now().strftime("%d/%m/%Y %I:%M %p")}]\n""")
+        wfile.write('| Sort | Image | Description |\n| --- | --- | --- | \n')
         wfile.write('\n'.join(Testflight_Available))
 
     with open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as wfile:
@@ -44,7 +45,7 @@ if __name__ == "__main__":
                     if match_JoinBeta:
                         name_testfight = match_JoinBeta.group(1)
                         matches = re.findall(r'\b[A-Z][A-Za-z]*\b', name_testfight)
-                        Testflight_Available.append(f'''{name_testfight[1].upper()}. <img src="{background_image_url}" alt="{name_testfight}" align="center" width="40" height="40" />  <strong><a href="{url_testflight}" title="{name_testfight}">{name_testfight}</a></strong>''')
+                        Testflight_Available.append(f'''| \'{name_testfight[1].upper()}\' | <img src="{background_image_url}" alt="{name_testfight}" align="center" width="40" height="40" /> | **[{name_testfight}]({background_image_url})** |''')
                     count += 1
                 else:
                     Testflight_Error.append(url_testflight)
