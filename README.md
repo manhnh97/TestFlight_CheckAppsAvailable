@@ -1,12 +1,8 @@
 # CheckStatusTestflight
-## Beta Apps is available
+## Beta Apps is available	[24/08/2023 07:18 AM]
 <ol>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e7/6b/9e/e76b9e56-0cbf-2939-f84f-fcf21b5de1cd/AppIcon-0-0-85-220-0-0-0-0-4-0-0-0-2x-sRGB-0-0-0-0-0.png/152x152bb-80.png" alt=" AdGuard for Safari" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/c31mEr6q
-" title=" AdGuard for Safari"> AdGuard for Safari</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/18/db/42/18db42bb-51ee-43de-f4b4-67386a571303/AppIcon-0-1x_U007epad-0-85-220.png/152x152bb-80.png" alt=" Proton Pass - Password Manager" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/GiTMzX3I
 " title=" Proton Pass - Password Manager"> Proton Pass - Password Manager</a></strong></li>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/41/6f/fa/416ffacc-7c28-67e0-ddcf-73f65adf8d9d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" AdGuard  — adblock&privacy" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/PMfu4nmW
-" title=" AdGuard  — adblock&privacy"> AdGuard  — adblock&privacy</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/1f/38/75/1f387526-d045-4f8d-7cdc-296ae7920ec8/ScannerPro-1x_U007emarketing-0-6-0-0-85-220.png/152x152bb-80.png" alt=" Scanner Pro - Scan Documents" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/6YzgDpdZ
 " title=" Scanner Pro - Scan Documents"> Scanner Pro - Scan Documents</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7b/07/d6/7b07d663-772a-9945-7a5c-57b5b6316399/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Abode App" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/7Ag40mLL
@@ -27,8 +23,12 @@
 " title=" Everlog"> Everlog</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/38/30/2c/38302cc3-bb7d-fc3e-0543-5fab7363240a/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Theme Park Shark" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/xF1VMpwg
 " title=" Theme Park Shark"> Theme Park Shark</a></strong></li>
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/58/cd/78/58cd78c4-3efa-a520-557f-c7025242932c/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Egern" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/AzU6kAzX
+" title=" Egern"> Egern</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/ec/3e/b0/ec3eb079-a905-5516-b3e4-41b83b961370/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Aloha Browser: Private VPN" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/Xh9VNQoA
 " title=" Aloha Browser: Private VPN"> Aloha Browser: Private VPN</a></strong></li>
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/08/1f/00/081f0006-1234-bdd1-575d-2ede6f87a952/AppIconProd-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Notion - notes, docs, tasks" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/YSo8aVCS
+" title=" Notion - notes, docs, tasks"> Notion - notes, docs, tasks</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/81/39/3d/81393dfa-dc2b-693e-da21-308d60d32c0f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Vybe SocialFi" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/C7O1iE0n
 " title=" Vybe SocialFi"> Vybe SocialFi</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/d4/bd/3e/d4bd3ed6-bfc9-a42b-e8a1-2c7a1c91f8b2/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Hayatar: Armenian Keyboard" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/Xh8dQ0O9
@@ -69,6 +69,8 @@
 " title=" Notilify"> Notilify</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/be/8f/ef/be8fefc8-578c-d0d0-5aad-d5dfe224ce2c/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Lemmios" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/BF7pq1hn
 " title=" Lemmios"> Lemmios</a></strong></li>
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/d6/2b/b8d62ba2-79b4-1406-c23f-cb0391c3771d/AppIcon-0-1x_U007emarketing-0-5-0-85-220.png/152x152bb-80.png" alt=" iCost 记账 - 快速简洁好用的理财助手" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/pm1jk978
+" title=" iCost 记账 - 快速简洁好用的理财助手"> iCost 记账 - 快速简洁好用的理财助手</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/97/11/03/9711034e-698f-808c-1fbb-cf74b101c8b6/AppIcon-0-1x_U007emarketing-0-5-0-85-220.png/152x152bb-80.png" alt=" Cartender" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/cTm5n7yt
 " title=" Cartender"> Cartender</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/ea/d1/02/ead102af-af4b-5893-5f84-2c2d6bc99a7b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" phyphox" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/r05iODWL
@@ -83,7 +85,7 @@
 " title=" Mint: Budget & Expense Manager"> Mint: Budget & Expense Manager</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/0e/12/d7/0e12d762-c144-16ba-dfa1-3c041fed8c26/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" KDB" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/5NYuoa0E
 " title=" KDB"> KDB</a></strong></li>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c5/c5/fb/c5c5fb2a-5fbf-ac02-9734-845a8aac57cf/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" xcloc" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/xC5Pa2KA
+<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f4/3e/20/f43e2039-4451-21e3-797a-58638d901a5d/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" xcloc" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/xC5Pa2KA
 " title=" xcloc"> xcloc</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/3d/3c/90/3d3c906c-7d22-8850-1a7e-1ef67c3d2bf8/AppIcon-0-1x_U007emarketing-0-6-0-85-220.png/152x152bb-80.png" alt=" Email App –  Mail.ru" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/G04Eq2nO
 " title=" Email App –  Mail.ru"> Email App –  Mail.ru</a></strong></li>
@@ -125,7 +127,7 @@
 " title=" winTwins"> winTwins</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/f6/55/b7/f655b742-0c71-698c-842b-d4d5d677e380/AppIcon-85-220-4-2x.png/152x152bb-80.png" alt=" School Calendar Class Schedule" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/aoXGI4Ix
 " title=" School Calendar Class Schedule"> School Calendar Class Schedule</a></strong></li>
-<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/15/15/9b/15159bd4-e93a-8916-8b22-57f2bf38e4f5/AppIcon-1x_U007ephone-85-220.png/152x152bb-80.png" alt=" Console Chat" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/NilySbJY
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/1d/8e/4d/1d8e4d1c-1c40-adf7-bb1f-600b7405a82b/AppIcon-1x_U007ephone-85-220.png/152x152bb-80.png" alt=" Console Chat" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/NilySbJY
 " title=" Console Chat"> Console Chat</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/0d/5d/0c/0d5d0c69-dc51-11bf-0d86-6c3ec055d085/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Hertz Staging" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/kD6BpH5U
 " title=" Hertz Staging"> Hertz Staging</a></strong></li>
@@ -139,7 +141,7 @@
 " title=" Task Manager - NotePlan"> Task Manager - NotePlan</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fc/90/3f/fc903f21-f633-9800-e732-b0917720c692/AppIcon-0-1x_U007emarketing-0-4-0-sRGB-85-220.png/152x152bb-80.png" alt=" Doppi" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/eMHoOSsL
 " title=" Doppi"> Doppi</a></strong></li>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b1/f3/d4/b1f3d425-7a6f-fd2f-2593-4a6fd9b9835a/MessagesApplicationStub60x60@2x.png/152x152bb-80.png" alt=" Wrist Notes" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/tsZQLpr6
+<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ee/87/1f/ee871f77-3fa8-b85d-ee4a-6de11dd92b41/MessagesApplicationStub60x60@2x.png/152x152bb-80.png" alt=" Wrist Notes" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/tsZQLpr6
 " title=" Wrist Notes"> Wrist Notes</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/85/de/84/85de8451-a147-80fb-13df-6820232a817f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" PR-Tracker" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/8Uq1VAJk
 " title=" PR-Tracker"> PR-Tracker</a></strong></li>
@@ -175,7 +177,7 @@
 " title=" EasyVFR 4"> EasyVFR 4</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/94/a9/4f/94a94f39-5683-7536-c19c-3f587d5809b7/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" 豆瓣阅读" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/Bh2Bo9ab
 " title=" 豆瓣阅读"> 豆瓣阅读</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/84/af/f084af62-16c7-1d6e-af1c-aea8332e7cbf/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/152x152bb-80.png" alt=" Memento: Modern Reminders" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/aRvubPov
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/be/5a/41/be5a410b-1d0d-5111-5f74-5788fcdb94ee/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/152x152bb-80.png" alt=" Memento: Modern Reminders" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/aRvubPov
 " title=" Memento: Modern Reminders"> Memento: Modern Reminders</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/67/ae/58/67ae58d3-79f1-2f00-b7c7-0dcb8297e6d2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Zeedz" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/d07IQDEf
 " title=" Zeedz"> Zeedz</a></strong></li>
@@ -267,8 +269,6 @@
 " title=" Zeroqode Native Preview"> Zeroqode Native Preview</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a3/48/12/a3481205-fbec-292c-1dd3-fa417460ac51/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Hubitat" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/a7XAJr1L
 " title=" Hubitat"> Hubitat</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/80/5f/9c/805f9cf7-b0df-d6e6-2f57-9a322ce59489/AppIcon-0-1x_U007ephone-0-85-220.png/152x152bb-80.png" alt=" Strava: Run, Bike, Hike" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/j1cjOW6Z
-" title=" Strava: Run, Bike, Hike"> Strava: Run, Bike, Hike</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/74/c3/70/74c37052-923f-303f-69fa-9d01db177490/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" CamStar-Video Chat" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/M22pJcve
 " title=" CamStar-Video Chat"> CamStar-Video Chat</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/35/fc/80/35fc8032-020e-b6fc-587b-31ab01e79cef/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" FieldEdge 3" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/Sn5ZlSry
@@ -437,7 +437,7 @@
 " title=" Sunsama"> Sunsama</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/5b/a3/12/5ba312c4-a06a-dd45-bf4f-67085cb03690/icon1280x768.lsr/400x240bb-80.png" alt=" LazyMiao" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/rNfAK51Q
 " title=" LazyMiao"> LazyMiao</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/89/ff/4b/89ff4bbf-c97d-5283-3527-9c466ba6e81a/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" MobileCity" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/S3srofuh
+<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/89/90/8e/89908ebb-8089-19a7-591c-7d607b00c274/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" MobileCity" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/S3srofuh
 " title=" MobileCity"> MobileCity</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/49/6b/1f/496b1f8d-0bd8-cadb-492f-dae54594627b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" ChromaPulse" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/TifM2Pyl
 " title=" ChromaPulse"> ChromaPulse</a></strong></li>
@@ -459,6 +459,8 @@
 " title=" Nature's Scribe"> Nature's Scribe</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/ed/8c/d7/ed8cd727-d87b-7c37-732d-fe22a5869e90/AppIcon-85-220-0-4-2x.png/152x152bb-80.png" alt=" Notchmeister" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/pIGViV74
 " title=" Notchmeister"> Notchmeister</a></strong></li>
+<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/40/a0/e9/40a0e9d9-67e8-710f-cccb-5a6fffebb1dd/AppIconPurple-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Cirka – Budget and tracking" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/8Mib8YQ7
+" title=" Cirka – Budget and tracking"> Cirka – Budget and tracking</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/8e/7f/46/8e7f46ad-c782-2f4e-acef-b8093a6bf16f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" IZUMO-AR playground-" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/PcG7RYxS
 " title=" IZUMO-AR playground-"> IZUMO-AR playground-</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e2/fc/25/e2fc259d-1141-5d9a-39ee-35e5e354e980/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Addagrams: Word Puzzle Games" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/9n8Er7Ht
@@ -513,7 +515,7 @@
 " title=" DentoHelp"> DentoHelp</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/11/ff/1e/11ff1e8a-fd29-21f9-2feb-117875f80638/AppIcon-edu-0-0-1x_U007emarketing-0-0-0-3-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Minecraft Education" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/sBDlEXYr
 " title=" Minecraft Education"> Minecraft Education</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/41/de/7b/41de7b89-1ff7-b7af-decc-8a33c3d59f58/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Flat: Music Score & Tab Editor" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/40tsZiyi
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/8e/cd/91/8ecd91e8-3890-4e64-f40d-96919a955f63/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Flat: Music Score & Tab Editor" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/40tsZiyi
 " title=" Flat: Music Score & Tab Editor"> Flat: Music Score & Tab Editor</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/28/16/c3/2816c317-a0fa-1def-943b-11b044fc7692/AppIcon-0-0-85-220-0-0-0-0-4-0-0-0-2x-sRGB-0-0-0-0-0.png/152x152bb-80.png" alt=" DerPinger" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/KK5BOvi4
 " title=" DerPinger"> DerPinger</a></strong></li>
@@ -569,7 +571,7 @@
 " title=" Object Captures"> Object Captures</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/d1/82/b4/d182b441-bd0e-274c-f4f0-5a87e36e7a31/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Exobots" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/EnbxfBLt
 " title=" Exobots"> Exobots</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/b3/e7/da/b3e7dabc-edc1-4a55-a279-ddb7d4593017/Twidere-1x_U007emarketing-0-8-0-85-220.png/152x152bb-80.png" alt=" Twidere X" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/GJIDXvW7
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/5d/b4/98/5db49831-05a7-144e-ba5e-d45760dbf9e7/Twidere-1x_U007emarketing-0-8-0-85-220.png/152x152bb-80.png" alt=" Twidere X" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/GJIDXvW7
 " title=" Twidere X"> Twidere X</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/47/dc/ab/47dcab2c-1e71-fd18-37f2-d463520556bc/PennyHungary_appicon_release-1x_U007ephone-0-85-220.png/152x152bb-80.png" alt=" PENNY Magyarország" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/Yw6XnFO1
 " title=" PENNY Magyarország"> PENNY Magyarország</a></strong></li>
@@ -603,7 +605,7 @@
 " title=" Castle Empire: Tower Defense"> Castle Empire: Tower Defense</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/ba/8d/00/ba8d0023-324c-fecd-ae33-b215abb3ffed/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Heptabase" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/6Q6AFAlF
 " title=" Heptabase"> Heptabase</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/75/08/09/7508093c-4120-b4ad-4f04-4dc9f8421a65/AppIcon-1x_U007emarketing-0-5-0-85-220.png/152x152bb-80.png" alt=" World App - Worldcoin Wallet" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/GC0ngSh8
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/a0/1e/2a/a01e2ad6-846c-702f-c313-da2ee8cdb508/AppIcon-1x_U007emarketing-0-5-0-85-220.png/152x152bb-80.png" alt=" World App - Worldcoin Wallet" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/GC0ngSh8
 " title=" World App - Worldcoin Wallet"> World App - Worldcoin Wallet</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/46/6f/7a/466f7a53-ee99-a5a6-1c0e-8a9e7b650f66/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" gallery.so" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/rc0NcVih
 " title=" gallery.so"> gallery.so</a></strong></li>
@@ -679,6 +681,8 @@
 " title=" Poetic - your lyrical copilot"> Poetic - your lyrical copilot</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/55/92/43/559243a2-6f90-8e11-e5fb-ed5fdeea0014/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Voccent: Language Learning" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/QzjibGi4
 " title=" Voccent: Language Learning"> Voccent: Language Learning</a></strong></li>
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/2a/ea/86/2aea864d-1ad0-5e33-3e98-6d2823247d69/AppIcon-1x_U007emarketing-0-10-0-0-85-220.png/152x152bb-80.png" alt=" LadderVPN" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/gMEDe30T
+" title=" LadderVPN"> LadderVPN</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/84/34/00/843400cf-67b3-29e7-ccbc-418758b2ffb5/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" JeeConnect" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/luZsKILI
 " title=" JeeConnect"> JeeConnect</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/1d/19/e0/1d19e02a-5a4b-18e9-4f54-44ad149381fb/AppIcon-0-1x_U007ephone-0-0-0-0-P3-85-220.png/152x152bb-80.png" alt=" Ridd" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/S5Ektubb
@@ -729,8 +733,6 @@
 " title=" Shatterpoint - Web3 Action RPG"> Shatterpoint - Web3 Action RPG</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/ac/7b/b0/ac7bb050-e671-3739-1960-b7b517d3c8de/AppIcon-1x_U007emarketing-0-7-0-P3-85-220-0.png/152x152bb-80.png" alt=" ChargeRadar" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/WU76HBq5
 " title=" ChargeRadar"> ChargeRadar</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/0a/dd/27/0add2738-91d6-45d5-14a2-7351c974f58a/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/152x152bb-80.png" alt=" M8-我的密友广场" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/rHbqG28q
-" title=" M8-我的密友广场"> M8-我的密友广场</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/54/1f/e4/541fe4a4-23b4-5e8a-d2b4-59a0fd40c6c8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Skimdevil Pure" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/7PzfAgY7
 " title=" Skimdevil Pure"> Skimdevil Pure</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d5/a1/2e/d5a12ee6-60f0-5f74-8e89-d9f87fae9b82/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Pati-Games&Chat" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/OySOWcrj
@@ -777,7 +779,7 @@
 " title=" SealVault"> SealVault</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/56/72/87/56728742-0428-f89a-3b19-becd424f70e5/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" 轻遇" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/6PmvekuQ
 " title=" 轻遇"> 轻遇</a></strong></li>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/fa/84/81/fa8481c9-e50b-7e99-6ff8-567a9d2dfbe0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" MusConv" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/18KuhbvM
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/68/ee/80/68ee8092-8d73-4f00-9435-ec81a36a0c4d/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" MusConv" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/18KuhbvM
 " title=" MusConv"> MusConv</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/7d/ea/cd/7deacd5c-0451-9d13-faf9-7352cb15f5c1/AppIcon-85-220-4-2x.png/152x152bb-80.png" alt=" Vetero°" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/ZWxfgPhp
 " title=" Vetero°"> Vetero°</a></strong></li>
@@ -839,6 +841,8 @@
 " title=" Metalstorm Beta"> Metalstorm Beta</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/ba/55/bd/ba55bd61-ac32-8f2c-4a3e-928f556a4fa5/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Eddie" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/7PuHYFko
 " title=" Eddie"> Eddie</a></strong></li>
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/53/a9/96/53a9960f-004d-7c11-503e-a4edee653c8f/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-0-85-220.png/152x152bb-80.png" alt=" Nexar - AI Dash Cam" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/f8tSQ2q0
+" title=" Nexar - AI Dash Cam"> Nexar - AI Dash Cam</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/71/df/69/71df698d-9627-a66c-9a00-3fc4ff7a669e/AppIcon-1x_U007emarketing-0-6-0-85-220.png/152x152bb-80.png" alt=" Helium HNT Wallet" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/SsAjbJEi
 " title=" Helium HNT Wallet"> Helium HNT Wallet</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/35/71/95/357195b3-4039-3c1a-9e3f-f03800fa36a2/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Xanababy Sleep" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/On0uasYT
@@ -847,7 +851,7 @@
 " title=" Pal - A ChatBot Client"> Pal - A ChatBot Client</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/85/35/9a/85359a42-e568-3989-a44b-4d47518c090c/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Movieverse World" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/QCF7X63I
 " title=" Movieverse World"> Movieverse World</a></strong></li>
-<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/02/1a/24/021a24a2-5a18-8535-d633-4c25e29bfe21/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Wyze - Make Your Home Smarter" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/IeJVdh0Q
+<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c4/0a/5d/c40a5d62-9a1d-3d64-94a2-d63ee3b73a3b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Wyze - Make Your Home Smarter" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/IeJVdh0Q
 " title=" Wyze - Make Your Home Smarter"> Wyze - Make Your Home Smarter</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/08/85/92/08859239-b602-049e-bc07-f49940b35dbc/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Cell to Singularity: Evolution" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/RD9jGH9S
 " title=" Cell to Singularity: Evolution"> Cell to Singularity: Evolution</a></strong></li>
@@ -873,7 +877,7 @@
 " title=" iComics"> iComics</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/2d/d3/66/2dd36662-ab21-9706-4e8e-99967fb7b436/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Captis, Social for Gamers" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/hKyeY8Up
 " title=" Captis, Social for Gamers"> Captis, Social for Gamers</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/f1/e0/a5/f1e0a5d0-4da7-0ad6-66b1-1ac31e710752/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Outdoor Aficionados" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/hto9bels
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/07/15/08/0715080f-3ab2-6a3f-8505-bd3f5dd42e4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Outdoor Aficionados" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/hto9bels
 " title=" Outdoor Aficionados"> Outdoor Aficionados</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/bc/15/77/bc157705-d90a-c3f5-8b8f-209bb58393ee/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Idle Island Builder" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/mtzfb7Qu
 " title=" Idle Island Builder"> Idle Island Builder</a></strong></li>
@@ -1051,8 +1055,8 @@
 " title=" Toodledo App"> Toodledo App</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/c8/4d/32/c84d3257-91d7-7fbe-3fb4-7d55f0fee672/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Surfboard for Tildes" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/cEYjfIZi
 " title=" Surfboard for Tildes"> Surfboard for Tildes</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/16/fe/2c16fe4f-cc3e-0b24-aff2-af3be5b09574/AppIcon-Production-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Revolut - Mobile Finance" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/oqrinjQB
-" title=" Revolut - Mobile Finance"> Revolut - Mobile Finance</a></strong></li>
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/16/fe/2c16fe4f-cc3e-0b24-aff2-af3be5b09574/AppIcon-Production-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Revolut: Send, spend and save" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/oqrinjQB
+" title=" Revolut: Send, spend and save"> Revolut: Send, spend and save</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/8a/3f/65/8a3f6586-710c-cf61-94ac-bbd0ae91464f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" crumbs social" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/8dVzkjxd
 " title=" crumbs social"> crumbs social</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/a7/f7/9c/a7f79c9f-1db3-f4d2-fe7e-92c12127a2fd/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/152x152bb-80.png" alt=" Time’s Up! — Visual Timer" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/wLaAUd6G
@@ -1065,7 +1069,7 @@
 " title=" Seafi"> Seafi</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/ad/42/20/ad42202b-4e43-7dbf-072f-1f94ba8e2b19/AppIcon-TF-1x_U007ephone-0-sRGB-85-220.png/152x152bb-80.png" alt=" Matrixport" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/FdupjyhJ
 " title=" Matrixport"> Matrixport</a></strong></li>
-<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/bd/69/6ebd6940-a298-d081-6cb9-c82d0d2d6845/AppIcon-0-0-1x_U007epad-0-85-220.png/152x152bb-80.png" alt=" Fussion" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/mgKIQ9hU
+<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/56/3c/a5/563ca5f5-90e3-d68d-de71-225d5fb088a9/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Fussion" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/mgKIQ9hU
 " title=" Fussion"> Fussion</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/cb/d5/86/cbd5865b-04ff-dc4f-2518-8e53656aaf07/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-P3-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" MPL: Rummy, Poker, Money Games" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/j6Pz6p3E
 " title=" MPL: Rummy, Poker, Money Games"> MPL: Rummy, Poker, Money Games</a></strong></li>
@@ -1075,11 +1079,11 @@
 " title=" Recipe-Roulette"> Recipe-Roulette</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/32/b8/b0/32b8b0d6-abe4-b242-bde8-0e84f93d30b4/appicon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Apollo Weiterbildungen" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/crO6xJ3t
 " title=" Apollo Weiterbildungen"> Apollo Weiterbildungen</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/3e/36/9a/3e369a41-a7d1-3dfd-ae83-9b08a3e8bbc9/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" SubManager" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/lBTiWB9d
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/35/39/b4/3539b49a-0a38-e943-baec-b215608141a4/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" SubManager" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/lBTiWB9d
 " title=" SubManager"> SubManager</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/d8/85/15/d88515e1-6c20-b2f5-8208-3f428ef4d0d6/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Modular Wallet" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/Zbf6wZaP
 " title=" Modular Wallet"> Modular Wallet</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/c9/f7/34/c9f734a4-395d-55f3-edd1-a0068f36884e/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" WorldChat - Chat for the World" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/JbcYsfUF
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/85/5a/e4/855ae4dd-a3c3-ce89-1aa1-66fe8ce41550/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" WorldChat - Chat for the World" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/JbcYsfUF
 " title=" WorldChat - Chat for the World"> WorldChat - Chat for the World</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/a7/0e/3e/a70e3e94-7f11-105d-5fb3-3598429984b3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Moonside" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/gt0c6flR
 " title=" Moonside"> Moonside</a></strong></li>
@@ -1093,7 +1097,7 @@
 " title=" Omnivore: Read-it-later"> Omnivore: Read-it-later</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/a5/44/93/a5449341-acfc-d243-47a3-230c35fef0e1/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Aqara Home" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/0lpWISq9
 " title=" Aqara Home"> Aqara Home</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/3a/ea/41/3aea41d6-dbbf-6511-3efc-e2b1c0eefef2/appicon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Money Fox" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/3RO75JDs
+<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/84/9b/f4/849bf40d-e0f8-79c4-0658-fccfd7bd8e52/appicon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Money Fox" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/3RO75JDs
 " title=" Money Fox"> Money Fox</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/6f/ba/50/6fba5091-c4b2-5cf3-73de-aaafbfe835a4/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" RecipeChef: Recipe Manager" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/j5urtlwj
 " title=" RecipeChef: Recipe Manager"> RecipeChef: Recipe Manager</a></strong></li>
@@ -1101,7 +1105,7 @@
 " title=" Airbuds Widget"> Airbuds Widget</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/71/3b/22/713b22ed-c97d-cd2f-2406-fbd0acb2f4fb/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" BISTRO BUDDY" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/QhN53K49
 " title=" BISTRO BUDDY"> BISTRO BUDDY</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/ee/11/14/ee1114af-391c-dc8b-2fb6-ca8e5fa24935/Blue-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Standard Notes" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/H61MmmCA
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/7a/ef/4b/7aef4ba5-42db-a278-a4c1-ae613c8203d2/Blue-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Standard Notes" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/H61MmmCA
 " title=" Standard Notes"> Standard Notes</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e2/be/0d/e2be0de2-8cfc-38c1-e296-1641be5a90f4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" iToolsBTV3" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/yiiDluyA
 " title=" iToolsBTV3"> iToolsBTV3</a></strong></li>
@@ -1125,7 +1129,7 @@
 " title=" XTEND | mobileAR"> XTEND | mobileAR</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/62/f1/88/62f1881e-99ab-5b3d-c3c0-a59874782cb7/AppIcon-0-1x_U007emarketing-5-0-85-220.png/152x152bb-80.png" alt=" WaiterOne" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/RzByKIma
 " title=" WaiterOne"> WaiterOne</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/0b/c9/7a/0bc97aad-4e34-01fa-8cc1-b32a548c3bba/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Code App" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/EgZ8sE2P
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/0b/a9/7a/0ba97a1a-17c9-b83a-bdee-2262be943f56/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Code App" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/EgZ8sE2P
 " title=" Code App"> Code App</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/76/9c/97/769c9746-9a97-36f5-bfb8-59974ba11a06/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" KudoCook" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/DmaZFDlw
 " title=" KudoCook"> KudoCook</a></strong></li>
@@ -1167,7 +1171,7 @@
 " title=" ToDooMa"> ToDooMa</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/26/e9/4e/26e94e01-f577-b99c-1782-64ae9f77e15f/AppIcon-0-1x_U007epad-85-220.jpeg/152x152bb-80.png" alt=" GP | Ghent Photography" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/EyTo5acT
 " title=" GP | Ghent Photography"> GP | Ghent Photography</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/4e/0f/a3/4e0fa303-6d0a-60f6-e282-7fcffe6c072a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Damus" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/CLwjLxWl
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/1d/a1/08/1da1086a-5be1-4bca-63cb-6f89f9e41c93/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Damus" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/CLwjLxWl
 " title=" Damus"> Damus</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/00/6c/fd/006cfdf2-84ed-1ef9-1c50-6bdacce3f421/AppIcon-1x_U007emarketing-0-6-0-85-220.png/152x152bb-80.png" alt=" Fushaar+" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/diUxUx2w
 " title=" Fushaar+"> Fushaar+</a></strong></li>
@@ -1193,7 +1197,7 @@
 " title=" IELTS daily"> IELTS daily</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/40/a5/d4/40a5d4a4-dafb-c29d-dfb6-b758112c7ba4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Move Or Not (Early Access)" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/zZtTZ3nD
 " title=" Move Or Not (Early Access)"> Move Or Not (Early Access)</a></strong></li>
-<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/00/92/71/0092715d-6d42-ea00-5b87-361a8973df07/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Noor - chat for teams" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/GC3X6YEf
+<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2b/b9/db/2bb9db73-23ac-2ca9-c85f-bd7e93244775/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Noor - chat for teams" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/GC3X6YEf
 " title=" Noor - chat for teams"> Noor - chat for teams</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/08/01/cc/0801cc0e-2ab7-6cd5-d9cd-a2a5bf6dcde7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" SimpleTix Organizer" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/zyByZSX8
 " title=" SimpleTix Organizer"> SimpleTix Organizer</a></strong></li>
@@ -1217,7 +1221,7 @@
 " title=" Matriks Mobil IQ"> Matriks Mobil IQ</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/3b/7f/bb/3b7fbb04-8586-fa27-687a-fc00494e8cbf/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Share My Stack" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/JhfYtBW0
 " title=" Share My Stack"> Share My Stack</a></strong></li>
-<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/f3/07/54/f3075402-4e60-c2f0-880f-149ec741d0fd/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Cronica" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/T8kwk6Gb
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/53/2c/9b/532c9bd7-5880-0b26-2607-a022e5102fd4/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Cronica" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/T8kwk6Gb
 " title=" Cronica"> Cronica</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f5/03/9d/f5039d49-49bb-dadb-b9b7-dc40a779f009/AppIcon-prod-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" TV 2 Sport" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/vEv7PL4F
 " title=" TV 2 Sport"> TV 2 Sport</a></strong></li>
@@ -1231,6 +1235,10 @@
 " title=" TextAloud - Text To Speech"> TextAloud - Text To Speech</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/81/d8/54/81d8542f-eb71-ab9a-662a-42d9d364705e/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" 腾讯视频-长相思全网独播" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/Hoqht2ZU
 " title=" 腾讯视频-长相思全网独播"> 腾讯视频-长相思全网独播</a></strong></li>
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/c1/c7/52/c1c752a2-ec37-669e-04f3-e2c06f1d7170/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Via Browser" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/z6cAoQs1
+" title=" Via Browser"> Via Browser</a></strong></li>
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/65/f5/5e/65f55e82-2d37-3196-b836-3576706e2b21/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/152x152bb-80.png" alt=" Sbanken" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/qUPHgHgI
+" title=" Sbanken"> Sbanken</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/a8/76/2a/a8762a34-bbbe-a2c4-0fa0-e1059a599921/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Soccersuck+" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/lSWrY3p9
 " title=" Soccersuck+"> Soccersuck+</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/f9/53/e2f9533d-5181-7add-323c-9f9c9da6a2e7/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Smart Cooler Installation" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/IP4gN4tY
@@ -1247,9 +1255,9 @@
 " title=" Linkleaner URL Params Cleaner"> Linkleaner URL Params Cleaner</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/54/4b/61/544b61bf-204f-00d6-9693-4422f33f24d7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Vulcan’s Creed" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/ITu3A8IX
 " title=" Vulcan’s Creed"> Vulcan’s Creed</a></strong></li>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/73/fe/93/73fe93a4-2305-3cb9-a1d6-da4d051cc652/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-85-220.png/152x152bb-80.png" alt=" Google Chrome" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/LPQmtkUs
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/b9/53/71/b9537150-286f-32ac-0bd6-019f5f07b9ed/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-85-220.png/152x152bb-80.png" alt=" Google Chrome" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/LPQmtkUs
 " title=" Google Chrome"> Google Chrome</a></strong></li>
-<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/a5/ea/52/a5ea524f-2ffb-3810-43a2-b2da452ad78d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Photo Safe - private photos" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/kLEbv33I
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/f3/39/4e/f3394edd-c822-2e35-dbf8-b2e439342dfa/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Photo Safe - private photos" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/kLEbv33I
 " title=" Photo Safe - private photos"> Photo Safe - private photos</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/26/5c/ae/265caef9-43d3-572d-25a0-12c1d405938e/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Diane" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/zSpWn6S0
 " title=" Diane"> Diane</a></strong></li>
@@ -1269,7 +1277,7 @@
 " title=" CRMEBJAVA商城"> CRMEBJAVA商城</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/0a/d6/a7/0ad6a74d-c53b-5a01-d72d-90715cba45a0/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" hotukdeals - Deals & Discounts" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/7atk1rqA
 " title=" hotukdeals - Deals & Discounts"> hotukdeals - Deals & Discounts</a></strong></li>
-<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/aa/e5/b6/aae5b67c-ed39-b489-b45e-f5207ca2e58b/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Personal AI" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/R53wIn4X
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/1b/68/75/1b6875ef-9b9d-807f-4df3-16695744d035/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Personal AI" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/R53wIn4X
 " title=" Personal AI"> Personal AI</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/c6/21/6b/c6216bee-8037-79b1-90fd-ef0669cb670e/AppIcon-0-1x_U007epad-0-0-0-0-85-220.png/152x152bb-80.png" alt=" Weight Loss Buddy" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/k81r1gLe
 " title=" Weight Loss Buddy"> Weight Loss Buddy</a></strong></li>
@@ -1287,7 +1295,7 @@
 " title=" Meta Nebulas"> Meta Nebulas</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/66/2f/e1/662fe1a0-be9b-1778-e842-c47d81f03f68/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" KyPass - KeePass in Sync" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/wlZmOo9t
 " title=" KyPass - KeePass in Sync"> KyPass - KeePass in Sync</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/5d/d8/c6/5dd8c60a-1512-80b0-0e9b-b5f620f34476/AppIcon-free-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" SuperCycle Bike Computer" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/zFer65Bt
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/ab/5a/a9ab5a04-c094-7a46-724b-9343ce3f7831/AppIcon-free-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" SuperCycle Bike Computer" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/zFer65Bt
 " title=" SuperCycle Bike Computer"> SuperCycle Bike Computer</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/88/bb/2c88bbfa-aef0-e632-9f26-f9d284d7bb09/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" BTSE: Buy & Sell Crypto" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/b91HVb3Q
 " title=" BTSE: Buy & Sell Crypto"> BTSE: Buy & Sell Crypto</a></strong></li>
@@ -1295,7 +1303,7 @@
 " title=" Pinterest"> Pinterest</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/f8/0d/56/f80d564d-d3c1-36ed-d66e-c2ef483e2fa8/AppIcon-85-220-4-2x.png/152x152bb-80.png" alt=" PomoDone Tray" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/F0dbWbkV
 " title=" PomoDone Tray"> PomoDone Tray</a></strong></li>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/3a/bc/44/3abc44b3-0392-bceb-c225-609192fdf212/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" BitPet - AR Virtual Pets" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/xurnOPBO
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/eb/62/e7/eb62e737-a556-41a7-902e-ec906b6cb304/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" BitPet - AR Virtual Pets" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/xurnOPBO
 " title=" BitPet - AR Virtual Pets"> BitPet - AR Virtual Pets</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/01/54/6c/01546c42-2e9d-d7e9-ab6a-a6f1d744c03f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" beboConnect" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/wdeQmls3
 " title=" beboConnect"> beboConnect</a></strong></li>
@@ -1497,6 +1505,8 @@
 " title=" Jira Cloud by Atlassian"> Jira Cloud by Atlassian</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6c/fa/24/6cfa24e5-de34-954c-74ec-da222ec0f142/AppIcon-0-1x_U007epad-0-85-220.png/152x152bb-80.png" alt=" Mix — Expand your mind" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/KHxmUejK
 " title=" Mix — Expand your mind"> Mix — Expand your mind</a></strong></li>
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/2a/39/38/2a393813-c563-ab70-4009-2b60b219835d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" 酷安 - 发现科技新生活" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/mDDiYCzI
+" title=" 酷安 - 发现科技新生活"> 酷安 - 发现科技新生活</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/f9/6d/11/f96d117c-df7d-4e69-67a0-80bf5ab34bf2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Kubi Way" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/ba1hc87v
 " title=" Kubi Way"> Kubi Way</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/2f/95/e1/2f95e1a3-ef37-f68d-8edb-084581fd47e0/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Majlis Messenger" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/NAu2FIjx
@@ -1615,13 +1625,15 @@
 " title=" Crypto Geeks"> Crypto Geeks</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/5f/2d/62/5f2d62dc-d744-27ad-adc9-646dcbaf8455/AppIcon-0-0-1x_U007epad-0-0-85-220.png/152x152bb-80.png" alt=" tado°" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/vcxVYb7M
 " title=" tado°"> tado°</a></strong></li>
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/34/c4/5a/34c45ac6-7a8c-81c3-5421-f7d3a6e7fd81/AppIcon-0-0-1x_U007epad-0-0-0-85-220.png/152x152bb-80.png" alt=" TV Remote - Universal Remote" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/sNxTcwgA
+" title=" TV Remote - Universal Remote"> TV Remote - Universal Remote</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/ed/07/ff/ed07ff42-577c-89a9-2b6b-4f16cdb49a1f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" VP Valorant Strategy & Lineups" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/wJVWgI5Q
 " title=" VP Valorant Strategy & Lineups"> VP Valorant Strategy & Lineups</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/af/74/22/af742222-6868-472b-2c36-bda178af0eb1/AppIcon-0-0-1x_U007epad-0-85-220.png/152x152bb-80.png" alt=" BinDay" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/fHPrJuZ2
 " title=" BinDay"> BinDay</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/13/41/d3/1341d311-f901-ea1e-5a95-b957b1c5f55c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Verus Wallet" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/ZS43lYcw
 " title=" Verus Wallet"> Verus Wallet</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/70/84/a7/7084a7be-5fde-ac4d-b671-b61799433c39/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Razer Audio" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/E4ADmQFT
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/eb/31/5c/eb315c79-0c41-bcf8-c347-83db88373519/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Razer Audio" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/E4ADmQFT
 " title=" Razer Audio"> Razer Audio</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/d1/5b/de/d15bde59-ba5f-02d6-3d22-f4490dc10a67/AppIcon-production-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" M-Connect" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/uFUXooCX
 " title=" M-Connect"> M-Connect</a></strong></li>
@@ -1653,8 +1665,6 @@
 " title=" Tasker App"> Tasker App</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/8b/38/3e/8b383e38-14ca-ff7a-27f3-215f1608e5ee/AllRegion-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/152x152bb-80.png" alt=" Sygic GPS Navigation & Maps" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/nCaOJH8P
 " title=" Sygic GPS Navigation & Maps"> Sygic GPS Navigation & Maps</a></strong></li>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/34/ff/10/34ff10be-a03b-27f2-d37e-e5d721e1b3ad/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Ace It" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/yNQncZng
-" title=" Ace It"> Ace It</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/fd/4c/b0/fd4cb01e-7353-c96c-43b4-4f03d555d85a/AppIcon-1x_U007epad-P3-85-220.png/152x152bb-80.png" alt=" Snap Sum" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/Y3YWtYCi
 " title=" Snap Sum"> Snap Sum</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/0b/35/35/0b3535e3-51a0-fead-3375-2dc8ef55a9ee/AppIcon-macOS-85-220-0-4-2x.png/152x152bb-80.png" alt=" UTM Virtual Machines" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/XQ3tNoNn
@@ -1703,7 +1713,7 @@
 " title=" Salam App: Salah, Quran & more"> Salam App: Salah, Quran & more</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/a1/fb/0e/a1fb0e81-9853-4dad-c3ed-d788ba1d260b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" XANA Metaverse" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/TglRnz6A
 " title=" XANA Metaverse"> XANA Metaverse</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/92/f1/6b/92f16bbc-6675-e7ec-a965-679f45053c16/AppIcon-1x_U007emarketing-0-4-0-85-220.png/152x152bb-80.png" alt=" HelloTalk - Language Learning" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/bmZaTXwo
+<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/71/be/85/71be8575-3859-fc6d-7bde-670e6dcea192/AppIcon-1x_U007emarketing-0-4-0-85-220.png/152x152bb-80.png" alt=" HelloTalk - Language Learning" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/bmZaTXwo
 " title=" HelloTalk - Language Learning"> HelloTalk - Language Learning</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/9e/0d/fe/9e0dfe14-03b6-9b14-f5a0-3a791dc16106/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" umx" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/nL1nt2Xi
 " title=" umx"> umx</a></strong></li>
@@ -1729,8 +1739,6 @@
 " title=" Shinobi Go"> Shinobi Go</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/3e/25/e1/3e25e1a6-918b-a243-e19f-f1dc7d811722/AppIcon-1x_U007epad-0-0-85-220.png/152x152bb-80.png" alt=" supermetalmons" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/1hO6bCMH
 " title=" supermetalmons"> supermetalmons</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/70/60/5b/70605bf5-80ea-f0fc-ac44-1809fdf28029/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Wilderless" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/1Q8T38wi
-" title=" Wilderless"> Wilderless</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/bc/70/69/bc706911-a5c3-4878-4435-2ec37242e28f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Citrix Workspace" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/U7tkotNq
 " title=" Citrix Workspace"> Citrix Workspace</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/f2/ff/63/f2ff6361-914c-22e3-6e79-926dbcb91ded/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Untappd - Discover Beer" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/EbIrz3mA
@@ -1747,7 +1755,7 @@
 " title=" Audiobookshelf App"> Audiobookshelf App</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/8a/86/79/8a867926-06bc-bd0d-7d30-973ed72f5bcc/AppIcon-0-0-1x_U007epad-0-0-85-220.png/152x152bb-80.png" alt=" Rippple for Trakt" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/iz05hhED
 " title=" Rippple for Trakt"> Rippple for Trakt</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/8a/6f/e1/8a6fe1c6-ce26-61c3-7561-f0adda1b5aa9/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" TVS Connect" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/e9MMOw2W
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/04/61/69/046169e5-fae5-0e8c-e7ac-bf397fcbfe87/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" TVS Connect" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/e9MMOw2W
 " title=" TVS Connect"> TVS Connect</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/3a/e9/e7/3ae9e732-ca27-355c-7eac-c6eebc602f4c/bluekeyAppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Type!t" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/loBiN3KR
 " title=" Type!t"> Type!t</a></strong></li>
@@ -1773,7 +1781,7 @@
 " title=" Lili Widget"> Lili Widget</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/de/3f/ac/de3fac6b-462d-54b4-df7d-702485690cc5/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Rease" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/7W7K3pij
 " title=" Rease"> Rease</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/74/84/5b/74845bc8-ec3c-a805-37ba-d938ce12418d/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220-0.png/152x152bb-80.png" alt=" Signal - Private Messenger" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/8FHtd1Jq
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/cc/87/d4/cc87d4fb-6fde-bd8a-9494-22cccb1697e5/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220-0.png/152x152bb-80.png" alt=" Signal - Private Messenger" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/8FHtd1Jq
 " title=" Signal - Private Messenger"> Signal - Private Messenger</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/90/25/c5902598-44ef-0025-687e-384c8fe2a96f/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" OXO Play" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/aVfytX5W
 " title=" OXO Play"> OXO Play</a></strong></li>
@@ -1819,7 +1827,7 @@
 " title=" FTwitter - Simply Tweet"> FTwitter - Simply Tweet</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/68/6b/9a/686b9a6f-e182-bc8f-6793-0b0614b291ed/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Battle Cheto" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/3IjUBAAd
 " title=" Battle Cheto"> Battle Cheto</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/82/59/c7/8259c7d0-a3d4-947f-e644-5a10100b3d93/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" ArcCreate" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/O3KJcYgN
+<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/37/d1/44/37d144f5-c3e3-3f1e-bdfb-1933436612ef/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" ArcCreate" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/O3KJcYgN
 " title=" ArcCreate"> ArcCreate</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/fc/87/bc/fc87bc8d-80d9-84d1-46e3-a94f8fca3a82/70mai_AppIcon-Beta-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" 70mai (North America)" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/ZM3Mg5p8
 " title=" 70mai (North America)"> 70mai (North America)</a></strong></li>
@@ -1927,6 +1935,8 @@
 " title=" Games Console"> Games Console</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/35/7e/47/357e47cf-c3c5-c92c-1a1f-f7ada7ba7eb7/AppIcon-Green-0-1x_U007epad-0-10-0-85-220.png/152x152bb-80.png" alt=" Subjects — student planner" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/BnN6jEaJ
 " title=" Subjects — student planner"> Subjects — student planner</a></strong></li>
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/e0/f8/d4/e0f8d49b-4400-e8c1-12ae-9ad483f86b93/AppIcon-1x_U007epad-0-10-0-85-220.png/152x152bb-80.png" alt=" stats.fm for Spotify Music App" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/ATXJemn4
+" title=" stats.fm for Spotify Music App"> stats.fm for Spotify Music App</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c4/9b/13/c49b13b0-174c-c66c-2289-adb7cd3eb717/DNB_Prod_Release_App_Icon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" DNB Mobile Bank" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/b6NACjPd
 " title=" DNB Mobile Bank"> DNB Mobile Bank</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/cf/17/e2/cf17e274-305b-c050-5de1-da714770b41a/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Rec-HDM" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/BJGMmoQ6
@@ -2013,7 +2023,7 @@
 " title=" PilotBuddy - Cockpit Companion"> PilotBuddy - Cockpit Companion</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/0e/8a/8e/0e8a8e54-c15c-44aa-ca71-2a07e6e5e65f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Enso Looper" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/VWZbP8QL
 " title=" Enso Looper"> Enso Looper</a></strong></li>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/fe/66/97/fe66975e-371f-a573-3af2-bdf68805b1d0/AppIcon-0-1x_U007ephone-0-85-220.png/152x152bb-80.png" alt=" monobank — банк у телефоні" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/iItGnzuZ
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/8b/6a/7b/8b6a7bfc-90fa-764a-7cd5-20ee57821ac1/AppIcon-0-1x_U007ephone-0-85-220.png/152x152bb-80.png" alt=" monobank — банк у телефоні" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/iItGnzuZ
 " title=" monobank — банк у телефоні"> monobank — банк у телефоні</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/23/95/f4/2395f4d5-9bd5-3ddf-1b5e-8b7f0fce4d18/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Repeat One for Apple Music" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/0vbNhisE
 " title=" Repeat One for Apple Music"> Repeat One for Apple Music</a></strong></li>
@@ -2095,7 +2105,7 @@
 " title=" Atoms Learning"> Atoms Learning</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ca/0c/44/ca0c449a-bd4d-2807-8dd1-5ed848f9e498/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Infomaniak ikMail" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/t8dXx60N
 " title=" Infomaniak ikMail"> Infomaniak ikMail</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/6a/6c/61/6a6c619a-f21e-85eb-7b0b-0f2ab654e07d/AppIconBeta-0-1x_U007emarketing-0-5-0-85-220.png/152x152bb-80.png" alt=" TomTom AmiGO GPS Maps, Traffic" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/IOxARzyI
+<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/ef/80/6eef80ff-5024-73b4-b3bc-2f62c3ee3406/AppIconBeta-0-1x_U007emarketing-0-5-0-85-220.png/152x152bb-80.png" alt=" TomTom AmiGO GPS Maps, Traffic" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/IOxARzyI
 " title=" TomTom AmiGO GPS Maps, Traffic"> TomTom AmiGO GPS Maps, Traffic</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/28/0f/3d/280f3d75-ae49-00ec-3ef8-d811bb48590f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Gold Wagon" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/spEKmADj
 " title=" Gold Wagon"> Gold Wagon</a></strong></li>
@@ -2123,7 +2133,7 @@
 " title=" Judo: Design and Build Apps"> Judo: Design and Build Apps</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/31/21/ff/3121ff60-9318-7c56-f6eb-54077a94af7a/AppIcon-0-0-1x_U007epad-0-85-220.png/152x152bb-80.png" alt=" RGBCaptureTools" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/PBZAiZce
 " title=" RGBCaptureTools"> RGBCaptureTools</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/54/e8/43/54e843e6-c66d-610c-c1d9-3388005e1cf6/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Frich" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/TEMBMEy2
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/9e/05/8d/9e058da2-9cfa-3cb9-0924-eb505046e633/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Frich" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/TEMBMEy2
 " title=" Frich"> Frich</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/d2/49/a6/d249a6fc-4765-6c05-90da-e7c61364b233/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" DodoNews" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/1t1OcGF9
 " title=" DodoNews"> DodoNews</a></strong></li>
@@ -2141,7 +2151,7 @@
 " title=" Hoot Social"> Hoot Social</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/5a/44/f4/5a44f4d1-d29e-c4ac-e056-7dc506cd6ca0/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" BandLab – Music Making Studio" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/BwbEj9Xx
 " title=" BandLab – Music Making Studio"> BandLab – Music Making Studio</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/36/e0/05/36e00584-394d-d6da-2f4e-3da17725929c/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Source by TITLES" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/NLDPqJpO
+<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/05/c2/59/05c25977-7f1f-df71-2c02-f63616535a49/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Source by TITLES" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/NLDPqJpO
 " title=" Source by TITLES"> Source by TITLES</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/25/bb/49/25bb499d-6ea5-3556-d38b-c60763236b3f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Rapid Recruitment" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/xaKV2m3x
 " title=" Rapid Recruitment"> Rapid Recruitment</a></strong></li>
@@ -2163,7 +2173,7 @@
 " title=" Enhanced Music Controller"> Enhanced Music Controller</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/b0/34/32/b0343293-302a-11a0-9a82-d5f2c826714e/AppIcon-0-1x_U007epad-0-10-0-85-220.png/152x152bb-80.png" alt=" Ulry" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/eu5rogJB
 " title=" Ulry"> Ulry</a></strong></li>
-<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/80/41/59/80415942-8e44-3221-f621-b87b33150ded/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" RaceFi" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/sVtMKw5W
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/44/ac/d3/44acd3be-2fdb-f52a-eadd-d1ec25d7f2f4/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" RaceFi" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/sVtMKw5W
 " title=" RaceFi"> RaceFi</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/f0/84/8f/f0848fe7-fbfa-1e4c-d7a9-e31678a237c5/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Spectora Next Gen" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/d92gCR0s
 " title=" Spectora Next Gen"> Spectora Next Gen</a></strong></li>
@@ -2261,6 +2271,8 @@
 " title=" Macha Messenger"> Macha Messenger</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/69/da/65/69da654e-b3ca-6793-6332-874865812a06/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" WayAround - Tag and Scan" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/QdBenBfS
 " title=" WayAround - Tag and Scan"> WayAround - Tag and Scan</a></strong></li>
+<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/5c/3e/42/5c3e4270-6984-d5f2-5684-e0105936cd9f/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/152x152bb-80.png" alt=" Clear: Treat Yourself" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/rjDFgcOP
+" title=" Clear: Treat Yourself"> Clear: Treat Yourself</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f9/c2/8e/f9c28e0d-ec22-4e15-212f-aa94ffd810b6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" 3BB Workforce" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/NGBqTMlF
 " title=" 3BB Workforce"> 3BB Workforce</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/d6/ca/35/d6ca357b-f969-fb33-13d6-1ea1f0fcd6ec/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Art Scene: Meet More Friends" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/6QvixAak
@@ -2307,7 +2319,7 @@
 " title=" feeeed: rss reader and more"> feeeed: rss reader and more</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/86/14/3a/86143af4-8efb-803c-00ae-03ed391384e0/Icon-0-1x_U007emarketing-0-6-0-85-220.png/152x152bb-80.png" alt=" Yandex Browser" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/Y4k4ze6V
 " title=" Yandex Browser"> Yandex Browser</a></strong></li>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/0c/8f/24/0c8f24b4-d8c2-f66b-5b10-acc9eb18e99f/AppIcon-0-1x_U007ephone-85-220.png/152x152bb-80.png" alt=" Castor: Movie Database" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/Q570OQWk
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/0f/0f/a2/0f0fa231-c2fe-62f1-e309-69ee88d3b64f/AppIcon-0-1x_U007ephone-85-220.png/152x152bb-80.png" alt=" Castor: Movie Database" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/Q570OQWk
 " title=" Castor: Movie Database"> Castor: Movie Database</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/4b/25/f3/4b25f336-fd08-f193-7088-4a03b7991182/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Mentle: AI Therapy Companion" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/77sZKvuE
 " title=" Mentle: AI Therapy Companion"> Mentle: AI Therapy Companion</a></strong></li>
@@ -2339,6 +2351,8 @@
 " title=" Rebase App"> Rebase App</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/81/54/61/8154615a-f72a-bc09-7cb1-d5a203bc3657/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Ruuvi Station" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/loHFrEV1
 " title=" Ruuvi Station"> Ruuvi Station</a></strong></li>
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/39/4d/6d/394d6dd2-4008-f091-fa32-0b6dc9782837/AppIcon-0-0-1x_U007epad-0-0-0-sRGB-85-220.png/152x152bb-80.png" alt=" HiCoffee - Caffeine Tracker" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/yTaowxYa
+" title=" HiCoffee - Caffeine Tracker"> HiCoffee - Caffeine Tracker</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/e3/3b/d1/e33bd137-0e2d-e393-e070-e4c203673d80/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" NS MIDI Player" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/zqAHFnuF
 " title=" NS MIDI Player"> NS MIDI Player</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/0d/c2/81/0dc2811a-1959-edca-1a23-d6a3194ea64a/LightModeAppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Nebula – Videos and Podcasts" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/p2hAgouU
@@ -2351,7 +2365,7 @@
 " title=" Habit Tracker: Peat"> Habit Tracker: Peat</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/ee/51/a2/ee51a2aa-e1ca-d09c-5672-317b28ca488e/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" MLC Chat" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/57zd7oxa
 " title=" MLC Chat"> MLC Chat</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/1a/c2/78/1ac27860-d51b-176f-c98b-bbf00e8ed471/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Nextdoor: Neighborhood Network" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/hWa4fUQe
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/12/6b/88/126b882e-1d4b-ecf1-cbc5-ea7af7cc38df/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Nextdoor: Neighborhood Network" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/hWa4fUQe
 " title=" Nextdoor: Neighborhood Network"> Nextdoor: Neighborhood Network</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/4b/dc/72/4bdc72d8-8ae2-1a2f-60c0-c7219aa1d44e/AppIcon-1x_U007emarketing-0-7-0-85-220.jpeg/152x152bb-80.png" alt=" FitMind: Mental Fitness" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/G6qjtzj2
 " title=" FitMind: Mental Fitness"> FitMind: Mental Fitness</a></strong></li>
@@ -2379,8 +2393,6 @@
 " title=" Fiction - AI Entertainment"> Fiction - AI Entertainment</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/7f/6d/79/7f6d79ef-5364-ed09-09c8-4c44d4bb8c6d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Breez: Lightning Client & POS" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/wPju2Du7
 " title=" Breez: Lightning Client & POS"> Breez: Lightning Client & POS</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/36/c9/13/36c91303-70be-fd0a-6709-c48f8c63d7d4/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Geovox" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/jVYxRq2Y
-" title=" Geovox"> Geovox</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/90/1a/b9/901ab94e-e97b-646d-5745-76d2398aafd3/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Lungy: Breathing Exercises" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/0sqKZKXd
 " title=" Lungy: Breathing Exercises"> Lungy: Breathing Exercises</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/69/bc/7d/69bc7d93-541f-1680-e1ce-d32d41fb383e/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" My Asset" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/tTE5qwje
@@ -2397,8 +2409,6 @@
 " title=" OneBit Adventure"> OneBit Adventure</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/c2/7d/2a/c27d2ae1-8a00-cd29-8045-5c791dd742b8/AppIcon-0-1x_U007emarketing-0-6-0-85-220.png/152x152bb-80.png" alt=" Das E-Rezept" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/rL8GdXdD
 " title=" Das E-Rezept"> Das E-Rezept</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/14/4d/e2144df6-5033-52fa-4187-7d2155511fb0/AppIcon-85-220-4-2x.png/152x152bb-80.png" alt=" Git Merge Tool: Gitonium" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/gcAv8pj4
-" title=" Git Merge Tool: Gitonium"> Git Merge Tool: Gitonium</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/5b/f5/8a/5bf58ab5-5696-3249-ec26-9c24c9560f88/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Health Auto Export - JSON+CSV" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/g5FcLFJQ
 " title=" Health Auto Export - JSON+CSV"> Health Auto Export - JSON+CSV</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/60/58/57/605857a4-f533-8b07-fcbd-3822272577d5/AppIcon-mini-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" a-Shell mini" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/REdHww5C
@@ -2453,12 +2463,12 @@
 " title=" Cuby Smart"> Cuby Smart</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/5f/4a/10/5f4a1043-6059-9c57-7ffc-4de04145759b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" OpenVPN Connect – OpenVPN App" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/sqThrafK
 " title=" OpenVPN Connect – OpenVPN App"> OpenVPN Connect – OpenVPN App</a></strong></li>
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/78/da/fa/78dafab1-18bc-b2cf-be6a-a504a5633754/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" GitHub" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/NLskzwi5
+" title=" GitHub"> GitHub</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/a0/ec/bf/a0ecbf0c-736e-52cf-f33b-245a4bdaed87/AppIcon-3-0-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Owaves: Wellness Day Planner" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/ashWLQMS
 " title=" Owaves: Wellness Day Planner"> Owaves: Wellness Day Planner</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/e9/75/d6e9758b-aa28-d9f2-7c44-bf3058360409/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Service Hero" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/twgOWPvp
 " title=" Service Hero"> Service Hero</a></strong></li>
-<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/f5/2c/b5/f52cb520-7511-4e57-4984-59ba8297ae4a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/152x152bb-80.png" alt=" Sequel • Media Tracker" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/oMMIKFbd
-" title=" Sequel • Media Tracker"> Sequel • Media Tracker</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/53/e7/94/53e7940d-e073-0a8c-8b6d-c75babf1b00a/AppIcon-1x_U007epad-0-0-0-0-85-220.png/152x152bb-80.png" alt=" Ride Wait Times: Know The Wait" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/yQNmMRwB
 " title=" Ride Wait Times: Know The Wait"> Ride Wait Times: Know The Wait</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/0f/43/2f/0f432f6f-56e3-7f4e-9826-fe8f7e5d15ec/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Snapday-Share One Photo A Day" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/fFWccksN
@@ -2507,7 +2517,7 @@
 " title=" Svipe ID"> Svipe ID</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/f1/d6/92/f1d69245-803d-b0cc-d632-e60df8663b57/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220-0.png/152x152bb-80.png" alt=" WooCommerce" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/OG3fWsDc
 " title=" WooCommerce"> WooCommerce</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/1e/2a/1e/1e2a1e04-25e2-60fa-f787-5065541fb862/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Maringo" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/bkwfZ0u1
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/63/92/74/639274a0-9e53-bafd-161e-31bad0b0e6bb/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Maringo" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/bkwfZ0u1
 " title=" Maringo"> Maringo</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/98/02/bf/9802bf2e-c01b-120e-8dc7-a1e923436b40/AppIcon5-1x_U007emarketing-0-7-0-sRGB-85-220.png/152x152bb-80.png" alt=" Finiliar" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/oFWpI2gy
 " title=" Finiliar"> Finiliar</a></strong></li>
@@ -2541,8 +2551,6 @@
 " title=" Kayıp Hayvanlar"> Kayıp Hayvanlar</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/00/64/ec/0064ece8-718d-f7b1-5159-5eccbdf73bb9/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" HomeHabit" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/KbpFHzx0
 " title=" HomeHabit"> HomeHabit</a></strong></li>
-<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/6c/69/b1/6c69b12f-69df-5f05-a7fd-42f1bc4ce271/AppIcon-0-0-1x_U007emarketing-0-0-0-2-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Turf" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/JICNSh2O
-" title=" Turf"> Turf</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/3a/a3/51/3aa3514f-f9a3-887a-6aa9-4c2d183d9b8e/AppIcon-0-85-220-0-4-2x-sRGB.png/152x152bb-80.png" alt=" Dropover - Easier Drag & Drop" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/vI2iTOSj
 " title=" Dropover - Easier Drag & Drop"> Dropover - Easier Drag & Drop</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/5b/8e/67/5b8e674c-f062-9569-0e87-d5368f3e2331/AppIcon-1x_U007ephone-85-220.png/152x152bb-80.png" alt=" CUBE GROOVE" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/x1SpkF4C
@@ -2559,7 +2567,7 @@
 " title=" Inite - make your ideas count"> Inite - make your ideas count</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/86/ba/34/86ba3431-2c0d-ca52-6041-f9de14856826/AppIcon-0-0-1x_U007epad-0-85-220.png/152x152bb-80.png" alt=" 360hideMe" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/OUXp9o9h
 " title=" 360hideMe"> 360hideMe</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/9e/0a/e29e0a4d-7cb0-5a40-2f33-1c43ac5538bd/AppIcon-1x_U007emarketing-0-5-0-85-220.png/152x152bb-80.png" alt=" Dolby Personalization Beta" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/7lxusSow
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/fb/02/f8/fb02f811-ce97-1f33-9f2c-2966bac078b2/AppIcon-1x_U007emarketing-0-5-0-85-220.png/152x152bb-80.png" alt=" Dolby Personalization Beta" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/7lxusSow
 " title=" Dolby Personalization Beta"> Dolby Personalization Beta</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/96/53/d9/9653d950-050a-e0b5-f58c-78e88869cbaa/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Sylk Mobile" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/1IdtulL4
 " title=" Sylk Mobile"> Sylk Mobile</a></strong></li>
@@ -2623,7 +2631,7 @@
 " title=" Wombat - Home of NFT Gaming"> Wombat - Home of NFT Gaming</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/7a/2d/f1/7a2df10c-fede-6471-065a-6474a3dac0dd/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Wallet 3" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/5acvlgyK
 " title=" Wallet 3"> Wallet 3</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/3a/3d/a1/3a3da15c-7f88-2df4-bbca-4792e6b2cc7e/AppIcon-0-1x_U007epad-0-85-220.png/152x152bb-80.png" alt=" Project Violet" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/oL6IvUcc
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/7c/65/7d7c65be-58a2-d5ef-6ba4-3708d599b607/AppIcon-0-1x_U007epad-0-85-220.png/152x152bb-80.png" alt=" Project Violet" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/oL6IvUcc
 " title=" Project Violet"> Project Violet</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/54/76/3a/54763a51-f9e4-b740-e93a-3edf6e43c760/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Fleх" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/2g7cQfvC
 " title=" Fleх"> Fleх</a></strong></li>
@@ -2635,7 +2643,7 @@
 " title=" tawlefa"> tawlefa</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/43/a8/51/43a85197-4499-aa50-9997-8753c8cf58bf/AppIcon-0-1x_U007emarketing-0-0-0-5-0-0-85-220.png/152x152bb-80.png" alt=" Peeree" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/nEontnke
 " title=" Peeree"> Peeree</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/6a/6c/61/6a6c619a-f21e-85eb-7b0b-0f2ab654e07d/AppIconBeta-0-1x_U007emarketing-0-5-0-85-220.png/152x152bb-80.png" alt=" TomTom AmiGO GPS Maps, Traffic" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/DbDl1UWW
+<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/ef/80/6eef80ff-5024-73b4-b3bc-2f62c3ee3406/AppIconBeta-0-1x_U007emarketing-0-5-0-85-220.png/152x152bb-80.png" alt=" TomTom AmiGO GPS Maps, Traffic" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/DbDl1UWW
 " title=" TomTom AmiGO GPS Maps, Traffic"> TomTom AmiGO GPS Maps, Traffic</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/41/ac/94/41ac948c-8c88-7380-4047-9aa2b33bf9fe/AppIcon-1x_U007emarketing-0-10-0-0-85-220.png/152x152bb-80.png" alt=" Platform-A" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/rgmIaPN7
 " title=" Platform-A"> Platform-A</a></strong></li>
@@ -2673,7 +2681,7 @@
 " title=" BuWizz"> BuWizz</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/b6/ba/f2/b6baf283-acd6-b6ed-06e5-b3b20685a79a/AppIcon_Beta-1x_U007epad-P3-85-220.png/152x152bb-80.png" alt=" Captionista Beta" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/kcFczUmO
 " title=" Captionista Beta"> Captionista Beta</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/64/83/cd/6483cdc0-3bb2-1743-6138-2b5198408a33/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Twos: Be A Better You" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/LUYlGm6k
+<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/06/42/1d/06421d56-308a-72ff-9020-7d3969143034/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Twos: Be A Better You" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/LUYlGm6k
 " title=" Twos: Be A Better You"> Twos: Be A Better You</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/98/ea/cd/98eacded-fc2a-e42e-d355-1c3994826668/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Big War Little Soldiers: WW2" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/SyDqBMtP
 " title=" Big War Little Soldiers: WW2"> Big War Little Soldiers: WW2</a></strong></li>
@@ -2681,7 +2689,7 @@
 " title=" Microsoft Lists"> Microsoft Lists</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/91/76/bc/9176bc84-5f54-5760-9dc4-f3fa73ce5bb2/AppIcon-0-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Catchup: Stay in Touch" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/S1cUNWi3
 " title=" Catchup: Stay in Touch"> Catchup: Stay in Touch</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/8c/3e/61/8c3e61c9-6120-ee3b-5c04-ecd0e04c9f91/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/152x152bb-80.png" alt=" Fedigardens" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/31AZNhx9
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/5b/ac/b0/5bacb013-ea71-b1f7-6335-9d8b3dc2950c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/152x152bb-80.png" alt=" Fedigardens" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/31AZNhx9
 " title=" Fedigardens"> Fedigardens</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/6d/27/02/6d2702af-63d5-67be-40a2-5e526e2e7e67/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/152x152bb-80.png" alt=" Parcel - Delivery Tracking" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/fMeg6C4A
 " title=" Parcel - Delivery Tracking"> Parcel - Delivery Tracking</a></strong></li>
@@ -2715,6 +2723,8 @@
 " title=" SmartPay DSA Assist"> SmartPay DSA Assist</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/1f/44/78/1f44789c-c287-8a7a-7c93-12e8fb6a92c7/AppIcon-1x_U007emarketing-0-7-0-sRGB-85-220.png/152x152bb-80.png" alt=" ARK" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/WHpxNcrl
 " title=" ARK"> ARK</a></strong></li>
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/11/5f/fc/115ffc60-c78f-381b-19dc-5988d81956b5/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" SPONT POS - Kassa" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/L6Tx1Px1
+" title=" SPONT POS - Kassa"> SPONT POS - Kassa</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/98/bc/d3/98bcd333-f4e9-c151-91f1-4b5d265cd4c4/icon1280x768.lsr/400x240bb-80.png" alt=" Flow VPN - Global Internet" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/LG5VDeoF
 " title=" Flow VPN - Global Internet"> Flow VPN - Global Internet</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/4e/42/09/4e420918-11fa-dbf7-e7f4-99ffd93a5e80/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" 相信-创造有价值的沟通" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/dcHea3eL
@@ -2733,7 +2743,7 @@
 " title=" IRCCloud"> IRCCloud</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/74/cd/a974cd06-1d17-9e03-a328-182cd2c7f3e9/AppIcon-0-0-1x_U007epad-0-85-220.png/152x152bb-80.png" alt=" HINT Control" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/guaoX3zI
 " title=" HINT Control"> HINT Control</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/0e/f6/ce/0ef6ce17-d09e-403b-f9c4-f92c5fa57e50/AppIcon-0-1x_U007epad-0-0-0-0-0-P3-85-220-0.png/152x152bb-80.png" alt=" Paku for PurpleAir" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/mkGhI0p9
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/c1/e8/6f/c1e86fe8-a0f8-4fa8-e82b-da2cf8f6a03a/AppIcon-0-0-1x_U007epad-0-0-0-0-0-P3-85-220.png/152x152bb-80.png" alt=" Paku for PurpleAir" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/mkGhI0p9
 " title=" Paku for PurpleAir"> Paku for PurpleAir</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/aa/61/e1/aa61e11a-44b4-983a-fb62-1cb56177b535/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" 阿摩線上測驗(NEW)" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/nmIHFnYm
 " title=" 阿摩線上測驗(NEW)"> 阿摩線上測驗(NEW)</a></strong></li>
@@ -2749,7 +2759,7 @@
 " title=" Syncro - stay in sync!"> Syncro - stay in sync!</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/d2/32/0a/d2320afe-4b44-35a7-bcd5-02f2b1c8eaf8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" PanTiltZoom" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/ZUtNX7V2
 " title=" PanTiltZoom"> PanTiltZoom</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/8d/b3/1f/8db31fa7-51b7-dee8-2b22-4c4bb40338d5/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Podverse" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/VpxVTOsT
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/34/70/95/34709512-076c-cd23-469f-759ea9cef8fa/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Podverse" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/VpxVTOsT
 " title=" Podverse"> Podverse</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/0b/b1/81/0bb181f1-af87-98eb-44d1-fd744a82910f/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Muverse" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/oaAMHert
 " title=" Muverse"> Muverse</a></strong></li>
@@ -2807,9 +2817,7 @@
 " title=" MoovyTest2"> MoovyTest2</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/c9/c3/98/c9c39886-6074-3352-0837-715154f12893/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" NeoX Super App" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/oMLtqb1z
 " title=" NeoX Super App"> NeoX Super App</a></strong></li>
-<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/02/90/e4/0290e401-65c0-d873-9ab1-e757d5555bca/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-85-220.png/152x152bb-80.png" alt=" Water Tracker: WaterMinder" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/b0gHynRX
-" title=" Water Tracker: WaterMinder"> Water Tracker: WaterMinder</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/35/02/44/35024435-50e2-bd78-bd56-09a9f7e12ec6/AppIcon.beta-1x_U007emarketing-0-0-0-7-0-0-85-220.png/152x152bb-80.png" alt=" Muse Teams" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/r2JeOEbm
+<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/45/ca/7c/45ca7c17-34d1-cbc4-355b-e0f4b79bda48/AppIcon.beta-1x_U007emarketing-0-0-0-7-0-0-85-220.png/152x152bb-80.png" alt=" Muse Teams" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/r2JeOEbm
 " title=" Muse Teams"> Muse Teams</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/f1/73/fa/f173fac9-c8f2-4a3d-ee23-572ee74a3d53/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Habit Tracker" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/VwXGrgLq
 " title=" Habit Tracker"> Habit Tracker</a></strong></li>
@@ -2817,7 +2825,7 @@
 " title=" Onboard Wallet"> Onboard Wallet</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d7/35/07/d7350720-e55a-93a9-e364-c67af915d1cf/AppIcon-0-1x_U007epad-0-85-220.png/152x152bb-80.png" alt=" Unagent" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/zFHXv8JU
 " title=" Unagent"> Unagent</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/96/ae/b7/96aeb75e-be55-0d18-1e47-4d4a865cd0c7/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" SecurePlate" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/eK56TDWF
+<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/27/d4/0c/27d40c5b-2633-a921-aed3-9b4d216895ce/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" SecurePlate" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/eK56TDWF
 " title=" SecurePlate"> SecurePlate</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/19/6a/c8/196ac852-ff16-6afc-38b5-e33144881bb3/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Leboncoin" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/6Bqlhlha
 " title=" Leboncoin"> Leboncoin</a></strong></li>
@@ -2887,7 +2895,7 @@
 " title=" Withings Health Mate"> Withings Health Mate</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/a8/13/5f/a8135fee-d350-ac87-065b-d1955cb503fb/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Rattlegram" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/VQKNeMkC
 " title=" Rattlegram"> Rattlegram</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/43/76/cf/4376cf72-1514-2687-d633-f9d6ce259986/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Ozone Wallet" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/O7ZUzsod
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/71/a8/de/71a8de0d-d4ac-44ae-9db0-700418d01f58/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Ozone Wallet" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/O7ZUzsod
 " title=" Ozone Wallet"> Ozone Wallet</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/ad/e8/01/ade801d5-7ef5-7401-1020-bfb2ff7fcaa9/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Blocknotes" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/1LHlA8uA
 " title=" Blocknotes"> Blocknotes</a></strong></li>
@@ -2927,8 +2935,8 @@
 " title=" Loggy: Vehicle maintenance Log"> Loggy: Vehicle maintenance Log</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/d3/39/ca/d339ca79-35aa-7efe-85d9-b727608ce789/AppIcon-0-1x_U007emarketing-0-5-0-85-220.png/152x152bb-80.png" alt=" dime.algo" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/qCH71rx7
 " title=" dime.algo"> dime.algo</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/44/04/cb/4404cb60-7010-2cdc-2d43-a939ebda5443/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Fuelet" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/JFdmav7t
-" title=" Fuelet"> Fuelet</a></strong></li>
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/44/04/cb/4404cb60-7010-2cdc-2d43-a939ebda5443/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Fuelet - Fuel Wallet" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/JFdmav7t
+" title=" Fuelet - Fuel Wallet"> Fuelet - Fuel Wallet</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/34/b3/4a/34b34a3e-1fee-b8c0-caf9-e4c21c4514f1/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/152x152bb-80.png" alt=" Vimcal: Calendar and Schedule" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/W7evUHfZ
 " title=" Vimcal: Calendar and Schedule"> Vimcal: Calendar and Schedule</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2f/62/9d/2f629db3-f23d-826f-b638-9f78af45ee0d/AppIcon-1x_U007emarketing-0-6-0-85-220.png/152x152bb-80.png" alt=" ThumbsUpUI" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/sWJDPY7V
@@ -2947,8 +2955,6 @@
 " title=" FitnessSyncer"> FitnessSyncer</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/45/b4/02/45b4023f-d2c5-f4fb-2793-f57e25acb870/AppIcons-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" eM Client" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/nzXZuIQs
 " title=" eM Client"> eM Client</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/db/86/5e/db865e91-0e48-e5a8-f819-a89c1373cb2c/AppIcon-0-1x_U007emarketing-0-6-0-85-220.png/152x152bb-80.png" alt=" Microsoft OneDrive" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/LtgPLzrQ
-" title=" Microsoft OneDrive"> Microsoft OneDrive</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/06/42/4d/06424db7-1830-d03f-54ec-1c90a52de94f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" SALT by Releaf" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/zh84rCZU
 " title=" SALT by Releaf"> SALT by Releaf</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/a8/b4/56/a8b456ff-803e-1309-60d8-239ce5bf8393/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" GoRide Drivers" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/yph352IB
@@ -2969,8 +2975,6 @@
 " title=" Blixt Wallet"> Blixt Wallet</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/44/a9/9b/44a99b74-ebc6-99c7-8258-7f3cb103019e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Player for Apple Music: Meows" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/MoKHNkez
 " title=" Player for Apple Music: Meows"> Player for Apple Music: Meows</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/fd/72/dd/fd72ddfd-ff70-1b88-380c-a0d56871ec13/AppIcon-outlook.prod-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Microsoft Outlook" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/AhS6fRDK
-" title=" Microsoft Outlook"> Microsoft Outlook</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/1e/d1/f9/1ed1f99a-7fa3-2277-afa3-346a2b8e00bf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Insta360" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/KfHZnbIq
 " title=" Insta360"> Insta360</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/3a/1e/59/3a1e59d3-42ad-f677-3226-99d204d1fa48/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" EZVIZ" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/SwCUkUip
@@ -3047,7 +3051,7 @@
 " title=" WunderLINQ"> WunderLINQ</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/6b/e2/8a/6be28a7f-e116-e38e-3435-ae824e28f899/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Session - Private Messenger" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/EB9BcELO
 " title=" Session - Private Messenger"> Session - Private Messenger</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/aa/59/7b/aa597b41-c273-e61b-efd5-69a6dc795809/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Truther" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/kdW8XFwc
+<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/cd/09/62/cd096297-dce8-2eb1-7c6c-c406856c9c95/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Truther" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/kdW8XFwc
 " title=" Truther"> Truther</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/6e/9c/43/6e9c4372-2227-343d-cd88-a52102ab94b2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Nostrmo" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/kvGz47De
 " title=" Nostrmo"> Nostrmo</a></strong></li>
@@ -3057,7 +3061,7 @@
 " title=" Intervals Pro: HIIT Timer"> Intervals Pro: HIIT Timer</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/bf/4d/b9/bf4db978-6d30-c573-7633-a14f95b363f0/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Balance: Meditation & Sleep" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/5V7gW8Zc
 " title=" Balance: Meditation & Sleep"> Balance: Meditation & Sleep</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/c0/6c/9d/c06c9d7f-d22c-3378-928b-ebe2694995ee/AppIcon-0-1x_U007emarketing-0-10-0-0-sRGB-GLES2_U002c0-85-220.png/152x152bb-80.png" alt=" CollaNote: Handwritting & PDF" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/AUPFQ7nd
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/5e/38/c9/5e38c952-4eba-081f-c801-b18e5e858a7b/AppIcon-0-1x_U007emarketing-0-10-0-0-sRGB-GLES2_U002c0-85-220.png/152x152bb-80.png" alt=" CollaNote: Handwritting & PDF" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/AUPFQ7nd
 " title=" CollaNote: Handwritting & PDF"> CollaNote: Handwritting & PDF</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/4e/15/70/4e1570c1-706c-e7d1-61ce-13df01c808aa/AppIcon-0-1x_U007epad-85-220.png/152x152bb-80.png" alt=" AiCam AI Smart Security Camera" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/iIMNrXye
 " title=" AiCam AI Smart Security Camera"> AiCam AI Smart Security Camera</a></strong></li>
@@ -3111,8 +3115,6 @@
 " title=" Daymode - Ton inspiration mode"> Daymode - Ton inspiration mode</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/21/f2/5b/21f25b3f-10a7-0024-02eb-0a3fd5774ec5/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" eBlockchain" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/MHF9zwit
 " title=" eBlockchain"> eBlockchain</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/a0/3f/f9/a03ff94c-3c71-0c5c-d685-c928c88e1e3b/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" 搜狗输入法-Emoji Art&Funny Sticker" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/lSZdpEPH
-" title=" 搜狗输入法-Emoji Art&Funny Sticker"> 搜狗输入法-Emoji Art&Funny Sticker</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/94/e2/59/94e25902-ff0d-926c-5a62-20246736c80e/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" In Next Life" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/D50l7OXY
 " title=" In Next Life"> In Next Life</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/3b/60/7a/3b607a17-85a2-87b3-6d3b-692b03d594f8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Bielaruskaja Lacinka" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/pfIj5vHJ
@@ -3127,7 +3129,7 @@
 " title=" Picme - Match. Play. Compare."> Picme - Match. Play. Compare.</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/54/93/63/54936388-75e1-b899-fc6c-9c5637ad069a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Vulcan Runner" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/ABECygmC
 " title=" Vulcan Runner"> Vulcan Runner</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/29/01/33/290133cc-6b32-b85f-24a8-a6d403a31543/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" BreakAway: Indoor Training" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/vGo5fP25
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/7d/3d/5e/7d3d5e5d-8105-36af-8d55-97fe053f3cff/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" BreakAway: Indoor Training" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/vGo5fP25
 " title=" BreakAway: Indoor Training"> BreakAway: Indoor Training</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/ad/4b/02/ad4b029d-e63b-7da9-9d9c-50f4e5644f85/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Celted" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/YeVSTsai
 " title=" Celted"> Celted</a></strong></li>
@@ -3169,8 +3171,6 @@
 " title=" 华夏人生家园规划器"> 华夏人生家园规划器</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/8b/9a/37/8b9a37e1-5f63-a1b3-ad36-0300f28f900f/AppIconTestNet-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Ton Sandbox Wallet" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/wLSfTsyD
 " title=" Ton Sandbox Wallet"> Ton Sandbox Wallet</a></strong></li>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f1/b4/d2/f1b4d200-1a56-6d22-a5c0-b13e5fec0fae/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Passage Identity" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/PA7pg3KU
-" title=" Passage Identity"> Passage Identity</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/3b/d8/9f/3bd89fb2-f4e3-ec4f-df42-3a486966750e/AppIconCompass-1x_U007emarketing-0-6-0-85-220.png/152x152bb-80.png" alt=" Compass Wallet for Sei" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/32cd26eq
 " title=" Compass Wallet for Sei"> Compass Wallet for Sei</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/a0/7a/ba/a07abad2-525c-3de4-3109-19fbb76c1ffb/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/152x152bb-80.png" alt=" Shattered Pixel Dungeon" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/4PWFyask
@@ -3247,7 +3247,7 @@
 " title=" Photo Timer for Blackmagic"> Photo Timer for Blackmagic</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/6a/42/5c/6a425cec-87ef-c736-7edc-305378d794fc/AppIcon_Uni-0-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Learn languages with LENGO" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/YBkLS3cd
 " title=" Learn languages with LENGO"> Learn languages with LENGO</a></strong></li>
-<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/88/e7/73/88e77398-fa1e-8884-ad45-4dc947316234/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Plato Eats" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/SDL4mJxz
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/1b/ef/a9/1befa9dc-9537-ee2b-699d-61348589cef6/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Plato Eats" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/SDL4mJxz
 " title=" Plato Eats"> Plato Eats</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/33/7d/2c/337d2c2f-d237-1f14-fdba-91a7f6a269bf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Line: Sports App" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/45lbtGkJ
 " title=" Line: Sports App"> Line: Sports App</a></strong></li>
@@ -3269,8 +3269,6 @@
 " title=" Manfred for Mastodon"> Manfred for Mastodon</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/ce/b8/af/ceb8af8a-f6b0-1dff-5b20-0c3cf6593960/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" GeoDrops" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/tzFVFfgD
 " title=" GeoDrops"> GeoDrops</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/cc/ed/5c/cced5c60-c637-e2d5-a233-e6a3bf901525/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" MLBB Beta" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/yYjKTTlT
-" title=" MLBB Beta"> MLBB Beta</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/6d/d6/a2/6dd6a2de-85f8-ecd8-fa57-3b8defda4bcf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" CASUAL by Diagon" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/REp8yh7x
 " title=" CASUAL by Diagon"> CASUAL by Diagon</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/a8/53/eca85388-e8ff-ce3f-964c-2554e4e43dc6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Thunder for Lemmy" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/9n8xrqvH
@@ -3335,7 +3333,7 @@
 " title=" Voys"> Voys</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f2/f0/f3/f2f0f367-5ff1-8acb-154b-db10193c924c/AppIcon-1-0-1x_U007emarketing-0-7-0-P3-85-220.png/152x152bb-80.png" alt=" Controller for HomeKit" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/W8RcBWhh
 " title=" Controller for HomeKit"> Controller for HomeKit</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/52/46/61/524661ef-25c0-df43-63a6-a63d4d31d788/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Nifty Smashers" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/3A5LcqyO
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/e7/9b/6d/e79b6d53-0997-b139-d781-4b2ff4977449/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Nifty Smashers" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/3A5LcqyO
 " title=" Nifty Smashers"> Nifty Smashers</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/17/5c/3e/175c3e12-73e0-329e-4639-d32455dc0f5f/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" LIFX" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/TYoQEz4T
 " title=" LIFX"> LIFX</a></strong></li>
@@ -3437,7 +3435,7 @@
 " title=" Paytaca"> Paytaca</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/80/bd/0a/80bd0af7-5382-843c-d594-907f33716c8f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" New Journey" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/UiMuZZzS
 " title=" New Journey"> New Journey</a></strong></li>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/7b/d7/c57bd7cb-e019-2f28-0dbc-0572cd75b958/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Medisafe Medication Management" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/4RXMF7OU
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/38/f9/bb/38f9bb5d-b3ad-3c97-54a3-a3d0eb6bad78/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Medisafe Medication Management" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/4RXMF7OU
 " title=" Medisafe Medication Management"> Medisafe Medication Management</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/30/a8/53/30a8535a-ae84-bfc5-e105-106b5c870548/AppIcon-1x_U007epad-0-85-220-0.png/152x152bb-80.png" alt=" DayBright: Daily Inspiration" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/gzY7ALVK
 " title=" DayBright: Daily Inspiration"> DayBright: Daily Inspiration</a></strong></li>
@@ -3523,6 +3521,8 @@
 " title=" Obsidian - Connected Notes"> Obsidian - Connected Notes</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d6/0e/ab/d60eabc6-a6dd-d490-1143-4cc596dc2f4d/AppIcon-1x_U007epad-0-85-220-0.png/152x152bb-80.png" alt=" 粵拼 - 粵語輸入法廣東話輸入法鍵盤字典發音教學" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/AG1Zkx7G
 " title=" 粵拼 - 粵語輸入法廣東話輸入法鍵盤字典發音教學"> 粵拼 - 粵語輸入法廣東話輸入法鍵盤字典發音教學</a></strong></li>
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/7e/77/a7/7e77a792-9094-2afd-e046-74b7bd5b0b25/iOSIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Native AI Actions" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/LdwfSZvG
+" title=" Native AI Actions"> Native AI Actions</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/7c/99/85/7c9985ff-4ad3-5700-0e9a-95f5eb772eca/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Petzey" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/EpVmXZvd
 " title=" Petzey"> Petzey</a></strong></li>
 <li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/7c/85/11/7c8511b4-5d0e-2bea-1aee-a0f3f96ae979/AppIcon-1x_U007emarketing-0-7-85-220.png/152x152bb-80.png" alt=" Duel Revolution Beta" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/F8yXrZdF
@@ -3571,7 +3571,7 @@
 " title=" Microsoft Whiteboard"> Microsoft Whiteboard</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/3d/63/1b/3d631bbc-ebe7-add8-374a-04202663dfe7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Wonder Wars Game" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/RiNwbL3S
 " title=" Wonder Wars Game"> Wonder Wars Game</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/5f/8c/74/5f8c7475-622b-16de-f9ae-283a19252456/AppIcon-beta-1x_U007emarketing-0-7-0-sRGB-85-220.png/152x152bb-80.png" alt=" Hornet - Queer Social Network" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/fDEMp0pz
+<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/a2/e7/5f/a2e75f7d-3e80-8e0a-3056-a3f2375b7bae/AppIcon-beta-1x_U007emarketing-0-7-0-sRGB-85-220.png/152x152bb-80.png" alt=" Hornet - Queer Social Network" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/fDEMp0pz
 " title=" Hornet - Queer Social Network"> Hornet - Queer Social Network</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/c0/e2/1b/c0e21bd6-3da1-dc0c-ca5f-dc025d42d16b/AppIcon-0-1x_U007epad-85-220.png/152x152bb-80.png" alt=" TimeDeposit: Time tracker" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/2WGIkfbJ
 " title=" TimeDeposit: Time tracker"> TimeDeposit: Time tracker</a></strong></li>
@@ -3679,9 +3679,9 @@
 " title=" Relaxeye: Simple eye exercises"> Relaxeye: Simple eye exercises</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/30/ac/c4/30acc486-7b41-fb6e-7b3d-1f9b32659dee/AppIcon-production-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Aware: Mindfulness & Wellbeing" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/0VdruQ6z
 " title=" Aware: Mindfulness & Wellbeing"> Aware: Mindfulness & Wellbeing</a></strong></li>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6d/37/ef/6d37efad-4cef-a01d-8cd2-7e0d243a9ad1/AppIcon-1x_U007emarketing-0-7-0-GLES2_U002c0-85-220.png/152x152bb-80.png" alt=" iRhino 3D" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/t1a17W2T
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/58/b7/76/58b776b1-c54f-e99b-41c7-bab077e9afd7/AppIcon-1x_U007emarketing-0-7-0-GLES2_U002c0-85-220.png/152x152bb-80.png" alt=" iRhino 3D" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/t1a17W2T
 " title=" iRhino 3D"> iRhino 3D</a></strong></li>
-<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/1c/23/76/1c2376de-9ba3-dbea-6f17-8d9fd2d1b44f/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Foreca Weather & Radar" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/wG99Xsks
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/60/6a/c7/606ac7ae-12c6-3d34-688a-8bae27115ebb/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" Foreca Weather & Radar" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/wG99Xsks
 " title=" Foreca Weather & Radar"> Foreca Weather & Radar</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/6b/7d/49/6b7d49bf-df4b-04bb-54b3-5b59bc3c2503/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Sleep Cycle - Sleep Tracker" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/tCeANbZi
 " title=" Sleep Cycle - Sleep Tracker"> Sleep Cycle - Sleep Tracker</a></strong></li>
@@ -3699,9 +3699,9 @@
 " title=" Uncorked - your wine journey"> Uncorked - your wine journey</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/6f/ea/58/6fea58cd-60ef-b546-8349-627c00f22244/AppIcon-0-0-1x_U007ephone-0-85-220.png/152x152bb-80.png" alt=" Only Chats" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/SMAbVd5N
 " title=" Only Chats"> Only Chats</a></strong></li>
-<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/05/04/d6/0504d672-d91b-2357-1b9a-ef8b8ea8b69a/AppIcon-0-1x_U007emarketing-0-4-0-sRGB-85-220.png/152x152bb-80.png" alt=" Hevy - Workout Tracker Gym Log" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/tAlRPch6
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/df/6c/b9/df6cb9ca-8c29-6688-a4f0-53395ad65e07/AppIcon-0-1x_U007emarketing-0-4-0-sRGB-85-220.png/152x152bb-80.png" alt=" Hevy - Workout Tracker Gym Log" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/tAlRPch6
 " title=" Hevy - Workout Tracker Gym Log"> Hevy - Workout Tracker Gym Log</a></strong></li>
-<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ab/bc/a0/abbca00c-04af-3215-1e83-977e0f3b1261/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Binance: Buy Bitcoin & Crypto" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/vUT5Rdfz
+<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/86/5b/fd/865bfd32-e45e-1866-2bd9-53ba29fc563d/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Binance: Buy Bitcoin & Crypto" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/vUT5Rdfz
 " title=" Binance: Buy Bitcoin & Crypto"> Binance: Buy Bitcoin & Crypto</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/89/7f/16/897f16c8-1174-b685-0f04-f48dd8d4d495/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Devomon Callisto" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/K4YRHSDo
 " title=" Devomon Callisto"> Devomon Callisto</a></strong></li>
@@ -3713,7 +3713,7 @@
 " title=" Verbum Catholic Bible Study"> Verbum Catholic Bible Study</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/71/5b/97/715b97de-bf65-d116-4d13-ada5ab7533c0/AppIcon-0-0-1x_U007epad-0-85-220.png/152x152bb-80.png" alt=" Tally • Quick Counter" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/zbUiqcxg
 " title=" Tally • Quick Counter"> Tally • Quick Counter</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/7e/83/f1/7e83f108-3157-6e2c-fa25-7d9930a6d739/AppIconProd-0-1x_U007emarketing-0-5-0-sRGB-85-220.png/152x152bb-80.png" alt=" Monzo Bank - Mobile Banking" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/2NZLBFyb
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/97/39/22/97392267-43a9-d5d1-d29f-99a3cd2c8eda/AppIconProd-0-1x_U007emarketing-0-5-0-sRGB-85-220.png/152x152bb-80.png" alt=" Monzo Bank - Mobile Banking" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/2NZLBFyb
 " title=" Monzo Bank - Mobile Banking"> Monzo Bank - Mobile Banking</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/6b/f3/01/6bf30198-fe71-5129-9695-f895c072a75b/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" debtMe" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/QH523MIn
 " title=" debtMe"> debtMe</a></strong></li>
@@ -3725,8 +3725,6 @@
 " title=" Recast - Podcast Time Machine"> Recast - Podcast Time Machine</a></strong></li>
 <li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/8d/d7/38/8dd7386d-32bc-b396-5900-20b62057e278/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" CumtLogin" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/lTBgteBv
 " title=" CumtLogin"> CumtLogin</a></strong></li>
-<li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/a9/96/9e/a9969e54-c293-5f68-97e9-663a990f9549/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-GLES2_U002c0-85-220.png/152x152bb-80.png" alt=" Grocery - Smart Shopping List" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/v29eXz9t
-" title=" Grocery - Smart Shopping List"> Grocery - Smart Shopping List</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/7c/32/0c/7c320cb3-344f-c1cc-0ead-a4a7f2cd0681/AppIcon-1x_U007epad-85-220.png/152x152bb-80.png" alt=" Backtick for Tildes.net" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/gNH18NE9
 " title=" Backtick for Tildes.net"> Backtick for Tildes.net</a></strong></li>
 <li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/08/3d/41/083d41ce-88b8-63d4-915b-a7299582d30e/AppIcon-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Imgur: Funny Memes & GIF Maker" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/Qd42y5Pw
@@ -3737,7 +3735,7 @@
 " title=" Gyroflow"> Gyroflow</a></strong></li>
 <li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/09/43/ac/0943ac26-7fd7-8423-23e0-7cbd250cdbf5/AppIcon-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" TAKTracker" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/N8I2JHyj
 " title=" TAKTracker"> TAKTracker</a></strong></li>
-<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/59/c0/e9/59c0e9f2-bc36-1d49-dd90-fee9536075d4/AppIcon-0-1x_U007emarketing-0-7-0-0-P3-85-220.png/152x152bb-80.png" alt=" Crouton: Cooking Companion" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/jwtQpV11
+<li><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c3/db/ca/c3dbcaa2-7f14-dd4b-f39d-0667b60556f2/AppIcon-0-1x_U007emarketing-0-7-0-0-P3-85-220.png/152x152bb-80.png" alt=" Crouton: Cooking Companion" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/jwtQpV11
 " title=" Crouton: Cooking Companion"> Crouton: Cooking Companion</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/9b/f5/3d/9bf53d15-3eba-c563-de17-02d961d9bbfe/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Monsta Tapwar" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/oN9LMstC
 " title=" Monsta Tapwar"> Monsta Tapwar</a></strong></li>
@@ -3779,4 +3777,13 @@
 " title=" KachakachaT"> KachakachaT</a></strong></li>
 <li><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/91/6c/e1/916ce1f3-5a98-deb1-949d-96738be1e005/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/152x152bb-80.png" alt=" Lili Clavier - Polices" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/FdGRrTji
 " title=" Lili Clavier - Polices"> Lili Clavier - Polices</a></strong></li>
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/11/5f/fc/115ffc60-c78f-381b-19dc-5988d81956b5/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/152x152bb-80.png" alt=" SPONT POS - Kassa" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/L6Tx1Px1
+" title=" SPONT POS - Kassa"> SPONT POS - Kassa</a></strong></li>
+<li><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/94/35/2f/94352fce-aa45-31bf-2de5-b3195aff81ae/AppIcon-0-1x_U007ephone-0-10-85-220.jpeg/152x152bb-80.png" alt=" in+hale" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/VDGzYqoK
+" title=" in+hale"> in+hale</a></strong></li>
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/65/57/39/6557394f-ab3a-dd03-0839-377e3242a2fd/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" WOWNOW -Food Delivery Shopping" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/J7eBRagg
+" title=" WOWNOW -Food Delivery Shopping"> WOWNOW -Food Delivery Shopping</a></strong></li>
+<li><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/b9/66/77/b96677f3-d9be-db92-524b-6e57d59dbd5e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/152x152bb-80.png" alt=" Joplin" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/p5iLVzrG
+" title=" Joplin"> Joplin</a></strong></li>
+<li><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/95/d4/46/95d44604-69a4-940a-c878-09d3e1ea4244/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/152x152bb-80.png" alt=" Tailscale" align="center" width="40" height="40" />   <strong><a href="https://testflight.apple.com/join/tLcYLZJV" title=" Tailscale"> Tailscale</a></strong></li>
 </ol>
