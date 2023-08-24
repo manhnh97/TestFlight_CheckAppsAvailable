@@ -27,12 +27,10 @@ if __name__ == "__main__":
         try:
             session = requests.Session()
             for url_testflight in lines:
-                print(f"Checking ({count}): ", url_testflight, end='')
-                # r = requests.get(url_testflight)
                 r = session.get(url_testflight)
+                print(f"Checking ({count}): ", url_testflight, end='')
                 if r.status_code == 200:
                     soup = bs(r.text, 'html.parser')
-                    # titles = soup.find_all('span', attrs={'class', 'beta-status'})
                     div_BetaStatus = soup.find('div' , {'class':'beta-status'})
                     
                     # Get Beta Name
@@ -43,12 +41,12 @@ if __name__ == "__main__":
                     style = soup.find("div", {"class": "app-icon"})["style"]
                     background_image_url = style.split("(")[1].split(")")[0]
                     if match_JoinBeta:
-                        name_testfight = match_JoinBeta.group(1)
+                        name_testfight = match_JoinBeta.group(1).replace('|', '-')
                         matches = re.findall(r'\b[A-Z][A-Za-z]*\b', name_testfight)
                         Testflight_Available.append(f'''| \'{name_testfight[1].upper()}\' | <img src="{background_image_url}" alt="{name_testfight}" align="center" width="40" height="40" /> | **[{name_testfight}]({background_image_url})** |''')
-                    count += 1
                 else:
                     Testflight_Error.append(url_testflight)
+                count += 1
             session.close()
         except AttributeError:
             pass
