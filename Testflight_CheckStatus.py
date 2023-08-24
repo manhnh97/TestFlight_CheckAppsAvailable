@@ -8,15 +8,15 @@ def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testf
     with open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as wfile:
         wfile.write(f"""# Beta Apps is available\t[{nowTime}]\n""")
         wfile.write('| Sort | Image | Description |\n| --- | --- | --- | \n')
-        wfile.write('\n'.join(Testflight_Available))
-        wfile.write(f'| \'ZzZ\' | <img src="https://avatars.githubusercontent.com/u/42213325?v=4" alt="Have a great day" align="center" width="40" height="40" /> | **[Have a great day <3](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)** |')
+        wfile.write('<br />'.join(Testflight_Available))
+        wfile.write(f'''| \'ZzZ\' | <img src="https://avatars.githubusercontent.com/u/42213325?v=4" alt="Have a great day" align="center" width="40" height="40" /> | **[Have a great day <3](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)** |''')
 
     with open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as wfile:
         wfile.write('\n'.join(Testflight_Error))
 
     with open(txtReadme, 'w', encoding='utf-8') as wfile:
-        wfile.write(f"""# CheckStatusTestflight\n## Beta Apps is available\t[{nowTime}]""")
-        wfile.write(f"""**[Beta Apps Are Available!!!~](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)**""")
+        wfile.write(f"""# CheckStatusTestflight\n## Beta Apps is available\t[{nowTime}]\n""")
+        wfile.write(f"""**[Beta Apps Are Available!!!](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)**""")
 
 if __name__ == "__main__":
     txtTestflight_List = "Testflight_List.txt"
@@ -49,7 +49,7 @@ if __name__ == "__main__":
                     if match_JoinBeta:
                         name_testfight = match_JoinBeta.group(1).replace('|', '-')
                         matches = re.findall(r'\b[A-Z][A-Za-z]*\b', name_testfight)
-                        Testflight_Available.append(f'''| \'{name_testfight[1].upper()}\' | <img src="{background_image_url}" alt="{name_testfight}" align="center" width="40" height="40" /> | **[{name_testfight}]({url_testflight})** |''')
+                        Testflight_Available.append(f'''| \'{name_testfight[1].upper()}\' | <img src="{background_image_url}" alt="{name_testfight}" align="center" width="40" height="40" /> | **[{name_testfight}]({url_testflight.strip()})** |''')
                 else:
                     Testflight_Error.append(url_testflight)
                 count += 1
