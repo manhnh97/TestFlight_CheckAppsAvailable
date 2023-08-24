@@ -6,6 +6,7 @@ set "Result_ErrorLinkTestflight=Result_ErrorLinkTestflight.txt"
 set "stringTestflight=Testflight"
 
 set "Result_BetaAppsAvailable=Result_BetaAppsAvailable.md"
+set "Testflight_List=Testflight_List.txt"
 set "Testflight_CheckStatus=Testflight_CheckStatus.py"
 set "README=README.md"
 
@@ -20,7 +21,7 @@ for /f "usebackq delims=" %%a in ("%Result_ErrorLinkTestflight%") do (
 
 if defined found (
     echo Committing changes to Github...
-	git add "%Result_BetaAppsAvailable%" "%Testflight_CheckStatus%" "%README%"
+	git add "%Result_BetaAppsAvailable%" "%Testflight_List%" "%README%"
 	git commit -m "Updated!"
 	git push origin master
 ) else (
