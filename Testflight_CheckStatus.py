@@ -9,7 +9,7 @@ def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testf
         wfile.write(f"""# Beta Apps is available\t[{nowTime}]\n""")
         wfile.write('| Sort | Image | Description |\n| --- | --- | --- | \n')
         wfile.write('\n'.join(Testflight_Available))
-        wfile.write(f'''| \'ZzZ\' | <img src="https://avatars.githubusercontent.com/u/42213325?v=4" alt="Have a great day" align="center" width="40" height="40" /> | **[Have a great day <3](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)** |''')
+        wfile.write(f'''| \'ZzZ\' | <img src="https://avatars.githubusercontent.com/u/42213325?v=4" alt="HaveAgreatDay" align="center" width="40" height="40" /> | **[Have a great day!!!](https://github.com/manhnh97/CheckStatusTestflight/)** |''')
 
     with open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as wfile:
         wfile.write('\n'.join(Testflight_Error))
@@ -17,6 +17,16 @@ def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testf
     with open(txtReadme, 'w', encoding='utf-8') as wfile:
         wfile.write(f"""# CheckStatusTestflight\n## Beta Apps is available\t[{nowTime}]\n""")
         wfile.write(f"""**[Beta Apps Are Available!!!](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)**""")
+
+def RemoveLinkNotFound(txtTestflight_List, txtResult_ErrorLinkTestflight):
+    with open(txtTestflight_List, 'r') as f1, open(txtResult_ErrorLinkTestflight, 'r') as f2:
+        list1 = set(f1.readlines())
+        list2 = set(f2.readlines())
+
+    result = list1 - list2
+
+    with open(txtTestflight_List, 'w') as f:
+        f.writelines(result)
 
 if __name__ == "__main__":
     txtTestflight_List = "Testflight_List.txt"
@@ -59,3 +69,4 @@ if __name__ == "__main__":
         finally:
             Testflight_Available.sort()
             SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testflight_Available, Testflight_Error, txtReadme)
+            RemoveLinkNotFound(txtTestflight_List, txtResult_ErrorLinkTestflight)
