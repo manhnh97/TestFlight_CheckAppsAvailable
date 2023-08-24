@@ -4,8 +4,9 @@ import re
 from datetime import datetime
 
 def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testflight_Available, Testflight_Error, txtReadme):
+    nowTime = datetime.now().strftime("%d/%m/%Y %I:%M %p")
     with open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as wfile:
-        wfile.write(f"""# Beta Apps is available\t[{datetime.now().strftime("%d/%m/%Y %I:%M %p")}]\n""")
+        wfile.write(f"""# Beta Apps is available\t[{nowTime}]\n""")
         wfile.write('| Sort | Image | Description |\n| --- | --- | --- | \n')
         wfile.write('\n'.join(Testflight_Available))
         wfile.write(f'| \'ZzZ\' | <img src="https://avatars.githubusercontent.com/u/42213325?v=4" alt="Have a great day" align="center" width="40" height="40" /> | **[Have a great day <3](https://avatars.githubusercontent.com/u/42213325?v=4)** |')
@@ -14,7 +15,7 @@ def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testf
         wfile.write('\n'.join(Testflight_Error))
 
     with open(txtReadme, 'w', encoding='utf-8') as wfile:
-        wfile.write(f"""# CheckStatusTestflight\n## Beta Apps is available\t[{datetime.now().strftime("%d/%m/%Y %I:%M %p")}]""")
+        wfile.write(f"""# CheckStatusTestflight\n## Beta Apps is available\t[{nowTime}]""")
         wfile.write(f"""**[Beta Apps Are Available!!!~](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)**""")
 
 if __name__ == "__main__":
