@@ -3,21 +3,25 @@ import requests
 import re
 from datetime import datetime
 
-def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testflight_Available, Testflight_Error):
+def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testflight_Available, Testflight_Error, txtReadme):
     with open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as wfile:
-        wfile.write(f"""# CheckStatusTestflight\n## Beta Apps is available\t[{datetime.now().strftime("%d/%m/%Y %I:%M %p")}]\n""")
+        wfile.write(f"""# Beta Apps is available\t[{datetime.now().strftime("%d/%m/%Y %I:%M %p")}]\n""")
         wfile.write('| Sort | Image | Description |\n| --- | --- | --- | \n')
         wfile.write('\n'.join(Testflight_Available))
-        wfile.write(f'| \'ZZZ\' | <img src="https://avatars.githubusercontent.com/u/42213325?v=4" alt="Have a great day" align="center" width="40" height="40" /> | **[Have a great day <3](https://avatars.githubusercontent.com/u/42213325?v=4)** |')
+        wfile.write(f'| \'ZzZ\' | <img src="https://avatars.githubusercontent.com/u/42213325?v=4" alt="Have a great day" align="center" width="40" height="40" /> | **[Have a great day <3](https://avatars.githubusercontent.com/u/42213325?v=4)** |')
 
     with open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as wfile:
         wfile.write('\n'.join(Testflight_Error))
-    #<a href="https://testflight.apple.com/join/zxlMasyx" title="Test">Test</a></p>
+
+    with open(txtReadme, 'w', encoding='utf-8') as wfile:
+        wfile.write(f"""# CheckStatusTestflight\n## Beta Apps is available\t[{datetime.now().strftime("%d/%m/%Y %I:%M %p")}]""")
+        wfile.write(f"""**[Beta Apps Are Available!!!~](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)**""")
 
 if __name__ == "__main__":
     txtTestflight_List = "Testflight_List.txt"
-    txtResult_AvailableTestflight = "README.md"
+    txtResult_AvailableTestflight = "Result_BetaAppsAvailable.md"
     txtResult_ErrorLinkTestflight = "Result_ErrorLinkTestflight.txt"
+    txtReadme = 'README.md'
 
     with open(txtTestflight_List, 'r', encoding='utf-8') as rfile:
         lines = [line for line in rfile]
@@ -53,4 +57,4 @@ if __name__ == "__main__":
             pass
         finally:
             Testflight_Available.sort()
-            SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testflight_Available, Testflight_Error)
+            SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testflight_Available, Testflight_Error, txtReadme)
