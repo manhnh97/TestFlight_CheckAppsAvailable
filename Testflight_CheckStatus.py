@@ -1,4 +1,3 @@
-# import csv
 from bs4 import BeautifulSoup as bs
 import requests
 import re
@@ -7,9 +6,7 @@ from datetime import datetime
 def SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testflight_Available, Testflight_Error):
     with open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as wfile:
         wfile.write(f"""# CheckStatusTestflight\n## Beta Apps is available\t[{datetime.now().strftime("%d/%m/%Y %I:%M %p")}]\n""")
-        wfile.write('<ol>\n')
         wfile.write('\n'.join(Testflight_Available))
-        wfile.write('\n</ol>')
 
     with open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as wfile:
         wfile.write('\n'.join(Testflight_Error))
@@ -47,9 +44,7 @@ if __name__ == "__main__":
                     if match_JoinBeta:
                         name_testfight = match_JoinBeta.group(1)
                         matches = re.findall(r'\b[A-Z][A-Za-z]*\b', name_testfight)
-                        # hashtag_testflight = '#' + ' #'.join(matches)
-                        # Testflight_Available.append(f"[{hashtag_testflight.upper()}]{name_testfight} => {url_testflight}")
-                        Testflight_Available.append(f'''<li><img src="{background_image_url}" alt="{name_testfight}" align="center" width="40" height="40" />   <strong><a href="{url_testflight}" title="{name_testfight}">{name_testfight}</a></strong></li>''')
+                        Testflight_Available.append(f'''{name_testfight[1].upper()}. <img src="{background_image_url}" alt="{name_testfight}" align="center" width="40" height="40" />  <strong><a href="{url_testflight}" title="{name_testfight}">{name_testfight}</a></strong>''')
                     count += 1
                 else:
                     Testflight_Error.append(url_testflight)
@@ -57,4 +52,5 @@ if __name__ == "__main__":
         except AttributeError:
             pass
         finally:
+            Testflight_Available.sort()
             SaveData(txtResult_AvailableTestflight, txtResult_ErrorLinkTestflight, Testflight_Available, Testflight_Error)
