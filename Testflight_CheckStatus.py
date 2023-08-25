@@ -7,9 +7,10 @@ def SaveData(txtResult_AvailableTestflight, Testflight_Available, txtResult_Erro
     nowTime = datetime.now().strftime("%d/%m/%Y %I:%M %p")
     with open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as wfile:
         wfile.write(f"# Beta Apps is available\t[{nowTime}]\n")
-        wfile.write('| Sort | Image | Description |\n| --- | --- | --- | \n')
-        wfile.writelines(Testflight_Available)
-        wfile.write(f'''| 'ZzZ' | <img src="https://avatars.githubusercontent.com/u/42213325?v=4" alt="HaveAgreatDay" align="center" width="40" height="40" /> | **[Have a great day!!!](https://github.com/manhnh97/CheckStatusTestflight/)** |''')
+        wfile.write('| Sort | Image | Description | #HASHTAG |\n| --- | --- | --- | --- | \n')
+        wfile.write('\n'.join(Testflight_Available))
+        
+        wfile.write(f'''| 'ZzZ' | <img src="https://avatars.githubusercontent.com/u/42213325?v=4" alt="HaveAgreatDay" align="center" width="40" height="40" /> | **[Have a great day!!!](https://github.com/manhnh97/CheckStatusTestflight/)** | --- | ''')
 
     with open(txtReadme, 'w', encoding='utf-8') as wfile:
         wfile.write(f"""# CheckStatusTestflight\n## Beta Apps is available\t[{nowTime}]\n""")
@@ -45,9 +46,10 @@ if __name__ == "__main__":
                 background_image_url = style.split("(")[1].split(")")[0]
                 if isBetaAppAvaiable:
                     name_testfight = isBetaAppAvaiable.group(1).replace('|', '-')
+                    hashtag_testflights = re.findall(r"\b\w+\b", name_testfight)
+                    hashtag_testflights = ["#" + hashtag.upper() for hashtag in hashtag_testflights]
                     Testflight_Available.append (
-                        f'''| '{name_testfight[1].upper()}' | <img src="{background_image_url}" alt="{name_testfight}" align="center" width="40" height="40" /> | **[{name_testfight}]({url_testflight.strip()})** |\n'''
-                    )
+                        f'''| '{name_testfight[1].upper()}' | <img src="{background_image_url}" alt="{name_testfight}" align="center" width="40" height="40" /> | **[{name_testfight}]({url_testflight.strip()})** | {hashtag_testflights}<br />{url_testflight}''')
             else:
                 Testflight_Error.append(url_testflight)
     except AttributeError:
