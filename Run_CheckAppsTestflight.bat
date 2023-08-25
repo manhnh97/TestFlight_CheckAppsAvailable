@@ -16,21 +16,22 @@ python "%Testflight_CheckStatus%"
 echo:
 
 findstr %Search_Text% "%Result_ErrorLinkTestflight%" > nul
+
+git pull origin master
 if %errorlevel% equ 0 (
     echo Committing changes to Github...
 	git add "%Result_BetaAppsAvailable%" "%README%"
-	git commit -m "Updated!"
-	git push origin master
     
     echo Remove Website Error...
-    python "%RemoveWebsiteError%"
+	python "%RemoveWebsiteError%"
     git add "%Testflight_List%"
     git commit -m "Updated list beta apps"
     git push origin master
 ) else (
     echo Committing changes to Github...
 	git add "%Result_BetaAppsAvailable%" "%README%"
-	git commit -m "Updated!"
-	git push origin master
 )
+git commit -m "Updated!"
+git push origin master
+
 exit /B
