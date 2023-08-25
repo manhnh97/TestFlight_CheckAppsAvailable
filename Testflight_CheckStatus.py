@@ -3,7 +3,7 @@ import requests
 import re
 from datetime import datetime
 
-def SaveData(txtResult_AvailableTestflight, Testflight_Available):
+def SaveData(txtResult_AvailableTestflight, Testflight_Available, txtResult_ErrorLinkTestflight):
     nowTime = datetime.now().strftime("%d/%m/%Y %I:%M %p")
     with open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as wfile:
         wfile.write(f"# Beta Apps is available\t[{nowTime}]\n")
@@ -15,6 +15,8 @@ def SaveData(txtResult_AvailableTestflight, Testflight_Available):
         wfile.write(f"""# CheckStatusTestflight\n## Beta Apps is available\t[{nowTime}]\n""")
         wfile.write(f"""**[Beta Apps Are Available!!!](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)**""")
 
+    with open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as wfile:
+        wfile.write('\n'.join(Testflight_Error))
 
 if __name__ == "__main__":
     txtTestflight_List = "Testflight_List.txt"
@@ -51,4 +53,4 @@ if __name__ == "__main__":
         pass
     finally:
         Testflight_Available.sort()
-        SaveData(txtResult_AvailableTestflight, Testflight_Available)
+        SaveData(txtResult_AvailableTestflight, Testflight_Available, txtResult_ErrorLinkTestflight)
