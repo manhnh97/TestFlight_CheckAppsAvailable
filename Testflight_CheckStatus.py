@@ -30,8 +30,9 @@ if __name__ == "__main__":
     with open(txtTestflight_List, 'r', encoding='utf-8') as rfile:
         urls = rfile.read().splitlines()
     try:
+        session = requests.Session()
         for count, url_testflight in enumerate(urls, start=1):
-            r = requests.get(url_testflight.strip())
+            r = session.get(url_testflight.strip())
             print(f"Checking ({count}): ", url_testflight)
             if r.status_code == 200:
                 soup = bs(r.text, 'html.parser')
@@ -52,5 +53,6 @@ if __name__ == "__main__":
     except AttributeError:
         pass
     finally:
+        session.close()
         Testflight_Available.sort()
         SaveData(txtResult_AvailableTestflight, Testflight_Available, txtResult_ErrorLinkTestflight)
