@@ -3,6 +3,7 @@ setlocal enabledelayedexpansion
 title Check Apps Beta avaiable on Testflight
 CD /D %~dp0
 
+git pull origin master
 set "Testflight_CheckStatus=Testflight_CheckStatus.py"
 echo Run "%Testflight_CheckStatus%" script...
 python "%Testflight_CheckStatus%"
@@ -25,7 +26,6 @@ set "found=false"
 for /f "usebackq delims=" %%a in ("file.txt") do (
     if "%%a"=="testflight" (
         set "found=true"
-		git pull origin master
         goto :found
     )
 )
