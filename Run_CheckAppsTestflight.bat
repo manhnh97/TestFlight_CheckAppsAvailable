@@ -1,37 +1,55 @@
 @echo off
-title "Run Check Apps Beta avaiable on Testflight"
-
+setlocal enabledelayedexpansion
+title Check Apps Beta avaiable on Testflight
 CD /D %~dp0
-set "Result_ErrorLinkTestflight=Result_ErrorLinkTestflight.txt"
-set "Search_Text=testflight"
 
+set "Testflight_CheckStatus=Testflight_CheckStatus.py"
+echo Run "%Testflight_CheckStatus%" script...
+python "%Testflight_CheckStatus%"
+if %errorlevel% neq 0 (
+    goto :exit
+)
+echo:
+set "Result_ErrorLinkTestflight=Result_ErrorLinkTestflight.txt"
+echo Check if the file "%Result_ErrorLinkTestflight%" exists...
+if not exist "%Result_ErrorLinkTestflight%" (
+    goto :exit
+)
+echo:
+echo Check if the file "%Result_ErrorLinkTestflight%" contains the string "testflight"
 set "Result_BetaAppsAvailable=Result_BetaAppsAvailable.md"
 set "Testflight_List=Testflight_List.txt"
-set "Testflight_CheckStatus=Testflight_CheckStatus.py"
 set "RemoveWebsiteError=RemoveWebsiteError.py"
 set "README=README.md"
-
-echo Running Python script...
-python "%Testflight_CheckStatus%"
-echo:
-
-findstr %Search_Text% "%Result_ErrorLinkTestflight%" > nul
-
-git pull origin master
-if %errorlevel% equ 0 (
-    echo Committing changes to Github...
-	git add "%Result_BetaAppsAvailable%" "%README%"
-    
-    echo Remove Website Error...
-	python "%RemoveWebsiteError%"
-    git add "%Testflight_List%"
-    git commit -m "Updated list beta apps"
-    git push origin master
-) else (
-    echo Committing changes to Github...
-	git add "%Result_BetaAppsAvailable%" "%README%"
+set "found=false"
+for /f "usebackq delims=" %%a in ("file.txt") do (
+    if "%%a"=="testflight" (
+        set "found=true"
+		git pull origin master
+        goto :found
+    )
 )
-git commit -m "Updated!"
-git push origin master
 
-exit /B
+:notfound
+	echo Committing changes to Github...
+	git add "%Result_BetaAppsAvailable%" "%README%"
+goto :commitGITHUB
+
+:found
+	echo Committing changes to Github...
+	git add "%Result_BetaAppsAvailable%" "%README%"
+
+	echo Remove Website Error...
+	python "%RemoveWebsiteError%"
+	git add "%Testflight_List%"
+	git commit -m "Updated list beta apps"
+	git push origin master
+goto :commitGITHUB
+
+:commitGITHUB
+	git commit -m "Updated!"
+	git push origin master
+goto :exit
+	
+:exit
+	exit /B
