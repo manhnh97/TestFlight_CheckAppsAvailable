@@ -4474,7 +4474,6 @@ https://testflight.apple.com/join/oSvw8lQ8
 https://testflight.apple.com/join/yYLEZe4b
 https://testflight.apple.com/join/u5sslO3c
 https://testflight.apple.com/join/7rpXQAbG
-https://testflight.apple.com/join/z5SmaSP2
 https://testflight.apple.com/join/HTZlqzzw
 https://testflight.apple.com/join/xLi0Kfo3
 https://testflight.apple.com/join/QD9U9FCx
@@ -4619,3 +4618,5 @@ https://testflight.apple.com/join/wNgIKzEh
 https://testflight.apple.com/join/xq9M0uWH
 https://testflight.apple.com/join/cxv6llBt
 https://testflight.apple.com/join/ud1FVIMV
+https://testflight.apple.com/join/4Vo9DuHf
+https://testflight.apple.com/join/LIsefxvz
