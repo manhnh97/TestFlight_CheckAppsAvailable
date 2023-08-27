@@ -3,21 +3,55 @@ import requests
 import re
 from datetime import datetime
 
-def SaveData(txtResult_AvailableTestflight, Testflight_Available, txtResult_ErrorLinkTestflight):
-    nowTime = datetime.now().strftime("%d/%m/%Y %I:%M %p")
-    with open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as wfile:
-        wfile.write(f"# Beta Apps is available\t[{nowTime}]\n")
-        wfile.write('| Sort | Image | Description | #HASHTAG |\n| --- | --- | --- | --- | \n')
-        wfile.write('\n'.join(Testflight_Available))
+def CheckStatusCodeBetaApps():
+    with open(txtReadme, 'w', encoding='utf-8') as txtReadme_file:
+        txtReadme_file.write(f"# CheckStatusTestflight\n## Beta Apps is available\t[{nowTime}]\n")
+        txtReadme_file.write(f"**[Beta Apps Are Available!!!](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)**\n")
+
+    with open(txtTestflight_List, 'r', encoding='utf-8') as txtTestflightList_file, open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as txtResult_AvailableTestflight_file, open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as txtResult_ErrorLinkTestflight_file:
+        urls = list(set(txtTestflightList_file.read().splitlines()))
         
-        wfile.write(f'''| 'ZzZ' | <img src="https://avatars.githubusercontent.com/u/42213325?v=4" alt="HaveAgreatDay" align="center" width="40" height="40" /> | **[Have a great day!!!](https://github.com/manhnh97/CheckStatusTestflight/)** | --- | ''')
+        try:
+            session = requests.Session()
+            for count, url_testflight in enumerate(urls, start=1):
+                url_testflight = url_testflight.strip()
+                r = session.get(url_testflight)
+                if r.status_code == 200:
+                    soup = bs(r.text, 'html.parser')
+                    div_BetaStatus = soup.find('div', {'class': 'beta-status'})
 
-    with open(txtReadme, 'w', encoding='utf-8') as wfile:
-        wfile.write(f"""# CheckStatusTestflight\n## Beta Apps is available\t[{nowTime}]\n""")
-        wfile.write(f"""**[Beta Apps Are Available!!!](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)**""")
+                    span_BetaStatus = div_BetaStatus.find('span').text
+                    isBetaAppAvaiable = re.search(r'To join the(.*) beta', span_BetaStatus)
 
-    with open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as wfile:
-        wfile.write('\n'.join(Testflight_Error))
+                    style = soup.find("div", {"class": "app-icon"})["style"]
+                    background_image_url = style.split("(")[1].split(")")[0]
+                    if isBetaAppAvaiable:
+                        name_testfight = isBetaAppAvaiable.group(1).replace('|', '-')
+                        hashtag_testflights = re.findall(r"\b\w+\b", name_testfight)
+                        hashtag_testflights = ["#" + hashtag.upper() for hashtag in hashtag_testflights]
+                        txtResult_AvailableTestflight_file.write(
+                            f"| <img src=\"{background_image_url}\" alt=\"{name_testfight}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name_testfight}]({url_testflight})** | {hashtag_testflights}<br />{url_testflight}\n")
+                else:
+                    txtResult_ErrorLinkTestflight_file.write(f"{url_testflight}\n")
+        except AttributeError:
+            pass
+        finally:
+            session.close()
+
+def ResultBetaAppsAvailable():
+    with open(txtResult_AvailableTestflight, "r", encoding="utf-8") as txtResult_AvailableTestflight_file:
+        contents = txtResult_AvailableTestflight_file.readlines()
+
+    def extract_text_within_brackets(line):
+        match = re.search(r"\[([^]]+)\]", line)
+        return match.group(1) if match else ""
+
+    contents.sort(key=lambda x: extract_text_within_brackets(x))
+
+    with open(txtResult_AvailableTestflight, "w", encoding="utf-8") as txtResult_AvailableTestflight_file:
+        txtResult_AvailableTestflight_file.write(f"# Beta Apps is available\t[{nowTime}]\n")
+        txtResult_AvailableTestflight_file.write('| Image | Name | #HASHTAG |\n| --- | --- | --- | \n')
+        txtResult_AvailableTestflight_file.writelines(contents)
 
 if __name__ == "__main__":
     txtTestflight_List = "Testflight_List.txt"
@@ -25,36 +59,7 @@ if __name__ == "__main__":
     txtResult_ErrorLinkTestflight = "Result_ErrorLinkTestflight.txt"
     txtReadme = 'README.md'
 
-    Testflight_Available = []
-    Testflight_Error = []
+    nowTime = datetime.now().strftime("%d/%m/%Y %I:%M %p")
 
-    with open(txtTestflight_List, 'r', encoding='utf-8') as rfile:
-        urls = rfile.read().splitlines()
-    try:
-        session = requests.Session()
-        for count, url_testflight in enumerate(urls, start=1):
-            r = session.get(url_testflight.strip())
-            print(f"Checking ({count}): ", url_testflight)
-            if r.status_code == 200:
-                soup = bs(r.text, 'html.parser')
-                div_BetaStatus = soup.find('div', {'class': 'beta-status'})
-
-                span_BetaStatus = div_BetaStatus.find('span').text
-                isBetaAppAvaiable = re.search(r'To join the(.*) beta', span_BetaStatus)
-
-                style = soup.find("div", {"class": "app-icon"})["style"]
-                background_image_url = style.split("(")[1].split(")")[0]
-                if isBetaAppAvaiable:
-                    name_testfight = isBetaAppAvaiable.group(1).replace('|', '-')
-                    hashtag_testflights = re.findall(r"\b\w+\b", name_testfight)
-                    hashtag_testflights = ["#" + hashtag.upper() for hashtag in hashtag_testflights]
-                    Testflight_Available.append (
-                        f'''| '{name_testfight[1].upper()}' | <img src="{background_image_url}" alt="{name_testfight}" align="center" width="40" height="40" /> | **[{name_testfight}]({url_testflight.strip()})** | {hashtag_testflights}<br />{url_testflight}''')
-            else:
-                Testflight_Error.append(url_testflight)
-    except AttributeError:
-        pass
-    finally:
-        session.close()
-        Testflight_Available.sort()
-        SaveData(txtResult_AvailableTestflight, Testflight_Available, txtResult_ErrorLinkTestflight)
+    CheckStatusCodeBetaApps()
+    ResultBetaAppsAvailable()
