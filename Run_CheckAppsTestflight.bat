@@ -32,12 +32,12 @@ for /f "usebackq delims=" %%a in ("file.txt") do (
 
 :notfound
 	echo Committing changes to Github...
-	git add "%Result_BetaAppsAvailable%" "%README%"
+	git add "%Result_BetaAppsAvailable%" 
 goto :commitGITHUB
 
 :found
 	echo Committing changes to Github...
-	git add "%Result_BetaAppsAvailable%" "%README%"
+	git add "%Result_BetaAppsAvailable%" 
 
 	echo Remove Website Error...
 	python "%RemoveWebsiteError%"

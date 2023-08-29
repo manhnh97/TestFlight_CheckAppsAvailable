@@ -4,10 +4,6 @@ import re
 from datetime import datetime
 
 def CheckStatusCodeBetaApps():
-    with open(txtReadme, 'w', encoding='utf-8') as txtReadme_file:
-        txtReadme_file.write(f"# CheckStatusTestflight\n## Beta Apps is available\t[{nowTime}]\n")
-        txtReadme_file.write(f"**[Beta Apps Are Available!!!](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)**\n")
-
     with open(txtTestflight_List, 'r', encoding='utf-8') as txtTestflightList_file, open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as txtResult_AvailableTestflight_file, open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as txtResult_ErrorLinkTestflight_file:
         urls = list(set(txtTestflightList_file.read().splitlines()))
         
@@ -28,7 +24,7 @@ def CheckStatusCodeBetaApps():
                     if isBetaAppAvaiable:
                         name_testfight = isBetaAppAvaiable.group(1).replace('|', '-')
                         hashtag_testflights = re.findall(r"\b\w+\b", name_testfight)
-                        hashtag_testflights = ["#" + hashtag.upper() for hashtag in hashtag_testflights]
+                        hashtag_testflights = " ".join(["#" + hashtag.upper() for hashtag in hashtag_testflights])
                         txtResult_AvailableTestflight_file.write(
                             f"| <img src=\"{background_image_url}\" alt=\"{name_testfight}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name_testfight}]({url_testflight})** | {hashtag_testflights}<br />{url_testflight}\n")
                 else:
@@ -57,7 +53,6 @@ if __name__ == "__main__":
     txtTestflight_List = "Testflight_List.txt"
     txtResult_AvailableTestflight = "Result_BetaAppsAvailable.md"
     txtResult_ErrorLinkTestflight = "Result_ErrorLinkTestflight.txt"
-    txtReadme = 'README.md'
 
     nowTime = datetime.now().strftime("%d/%m/%Y %I:%M %p")
 
