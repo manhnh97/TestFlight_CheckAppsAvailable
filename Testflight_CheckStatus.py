@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import re
 from datetime import datetime
+from requests.exceptions import ConnectTimeout
 
 def CheckStatusCodeBetaApps():
     with open(txtTestflight_List, 'r', encoding='utf-8') as txtTestflightList_file, open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as txtResult_AvailableTestflight_file, open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as txtResult_ErrorLinkTestflight_file:
@@ -9,9 +10,15 @@ def CheckStatusCodeBetaApps():
         
         try:
             session = requests.Session()
-            for count, url_testflight in enumerate(urls, start=1):
-                url_testflight = url_testflight.strip()
-                r = session.get(url_testflight)
+            while urls:
+                url_testflight = urls.pop(0).strip()
+                try:
+                    r = session.get(url_testflight, timeout=5)  # Set the timeout value here
+                except ConnectTimeout:
+                    print(f"Timeout: {url_testflight}. Retrying...")
+                    urls.append(url_testflight)
+                    continue
+                
                 if r.status_code == 200:
                     soup = bs(r.text, 'html.parser')
                     div_BetaStatus = soup.find('div', {'class': 'beta-status'})
