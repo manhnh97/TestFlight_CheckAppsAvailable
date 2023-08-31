@@ -1,21 +1,32 @@
 from bs4 import BeautifulSoup as bs
 import requests
 import re
+from requests.exceptions import ConnectTimeout
+from fake_useragent import UserAgent
 from datetime import datetime
+from time import sleep
 
 def CheckStatusCodeBetaApps():
-    with open(txtReadme, 'w', encoding='utf-8') as txtReadme_file:
-        txtReadme_file.write(f"# CheckStatusTestflight\n## Beta Apps is available\t[{nowTime}]\n")
-        txtReadme_file.write(f"**[Beta Apps Are Available!!!](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)**\n")
-
     with open(txtTestflight_List, 'r', encoding='utf-8') as txtTestflightList_file, open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as txtResult_AvailableTestflight_file, open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as txtResult_ErrorLinkTestflight_file:
         urls = list(set(txtTestflightList_file.read().splitlines()))
         
         try:
             session = requests.Session()
-            for count, url_testflight in enumerate(urls, start=1):
-                url_testflight = url_testflight.strip()
-                r = session.get(url_testflight)
+            headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+            while urls:
+                url_testflight = urls.pop(0).strip()
+                try:
+                    r = session.get(url_testflight, headers=headers)  # Set the timeout value here
+                except ConnectTimeout:
+                    urls.append(url_testflight)
+                    headers = {'User-Agent': user_agent.random}
+                    continue
+                
+                if r.status_code == 429:
+                    retry_after = int(r.headers.get('Retry-After', 5))  # Default to 5 seconds
+                    sleep(retry_after)
+                    urls.append(url_testflight)
+                    
                 if r.status_code == 200:
                     soup = bs(r.text, 'html.parser')
                     div_BetaStatus = soup.find('div', {'class': 'beta-status'})
@@ -28,7 +39,7 @@ def CheckStatusCodeBetaApps():
                     if isBetaAppAvaiable:
                         name_testfight = isBetaAppAvaiable.group(1).replace('|', '-')
                         hashtag_testflights = re.findall(r"\b\w+\b", name_testfight)
-                        hashtag_testflights = ["#" + hashtag.upper() for hashtag in hashtag_testflights]
+                        hashtag_testflights = " ".join(["#" + hashtag.upper() for hashtag in hashtag_testflights])
                         txtResult_AvailableTestflight_file.write(
                             f"| <img src=\"{background_image_url}\" alt=\"{name_testfight}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name_testfight}]({url_testflight})** | {hashtag_testflights}<br />{url_testflight}\n")
                 else:
@@ -54,12 +65,12 @@ def ResultBetaAppsAvailable():
         txtResult_AvailableTestflight_file.writelines(contents)
 
 if __name__ == "__main__":
+    nowTime = datetime.now().strftime("%d/%m/%Y %I:%M %p")
     txtTestflight_List = "Testflight_List.txt"
     txtResult_AvailableTestflight = "Result_BetaAppsAvailable.md"
     txtResult_ErrorLinkTestflight = "Result_ErrorLinkTestflight.txt"
-    txtReadme = 'README.md'
-
-    nowTime = datetime.now().strftime("%d/%m/%Y %I:%M %p")
+    
+    user_agent = UserAgent(browsers=['edge', 'chrome'])
 
     CheckStatusCodeBetaApps()
     ResultBetaAppsAvailable()
