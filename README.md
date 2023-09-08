@@ -3,6 +3,7 @@
 | Brands | Names/Links |
 | --- | --- |
 | Github | **[Beta Apps Are Available](https://github.com/manhnh97/CheckStatusTestflight/blob/master/Result_BetaAppsAvailable.md)** |
+| Github | **[Testflight Departures](https://github.com/manhnh97/Testflight_Departures/blob/master/Result_BetaAppsAvailable.md)** |
 | Github | **[Testflight AwesomeTestflight](https://github.com/pluwen/awesome-testflight-link)** |
 | Telegram | **[TestflightR](https://t.me/testflightR)** |
 | Telegram | **[Testflight Releases](https://t.me/TestflightReleases)** |
