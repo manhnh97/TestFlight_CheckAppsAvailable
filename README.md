@@ -33,4 +33,4 @@
 ## Thanks to
 **[Andy Pham](https://www.facebook.com/andypham.thitluoc)** <br/>
 **[Dimitri Romanov](https://t.me/DimiHepburn)** <br />
-**[Robin Bærheim](https://t.me/Findbeta)**
+**[findbeta.no](https://t.me/Findbeta)**
