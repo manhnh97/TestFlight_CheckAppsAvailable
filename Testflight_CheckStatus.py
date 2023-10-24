@@ -40,8 +40,10 @@ def CheckStatusCodeBetaApps():
                         name_testflight = isBetaAppAvaiable.group(1).replace('|', '-')
                         hashtag_testflights = re.findall(r"\b\w+\b", name_testflight)
                         hashtag_testflights = " ".join(["#" + hashtag.upper() for hashtag in hashtag_testflights])
+                        nameSearch = "https://www.google.com/search?q="+name_testflight.replace(" ", "+")
+                        
                         txtResult_AvailableTestflight_file.write(
-                            f"| <img src=\"{background_image_url}\" alt=\"{name_testflight}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name_testflight}]({url_testflight})** | {hashtag_testflights}<br />{url_testflight}\n")
+                            f"| <img src=\"{background_image_url}\" alt=\"{name_testflight}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name_testflight}]({nameSearch})** | {hashtag_testflights}<br />{url_testflight}\n")
                 else:
                     txtResult_ErrorLinkTestflight_file.write(f"{url_testflight}\n")
         except AttributeError:
@@ -69,6 +71,7 @@ if __name__ == "__main__":
     txtTestflight_List = "Testflight_List.txt"
     txtResult_AvailableTestflight = "Result_BetaAppsAvailable.md"
     txtResult_ErrorLinkTestflight = "Result_ErrorLinkTestflight.txt"
+
     
     user_agent = UserAgent(browsers=['edge', 'chrome'])
 
