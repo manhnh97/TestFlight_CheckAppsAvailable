@@ -40,10 +40,10 @@ def CheckStatusCodeBetaApps():
                         name_testflight = isBetaAppAvaiable.group(1).replace('|', '-')
                         hashtag_testflights = re.findall(r"\b\w+\b", name_testflight)
                         hashtag_testflights = " ".join(["#" + hashtag.upper() for hashtag in hashtag_testflights])
-                        nameSearch = "https://www.google.com/search?q="+name_testflight.replace(" ", "+")
+                        nameSearch = "https://www.google.com/search?q="+name_testflight.replace(" ", "+")+"+"+"appstore"
                         
                         txtResult_AvailableTestflight_file.write(
-                            f"| <img src=\"{background_image_url}\" alt=\"{name_testflight}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name_testflight}]({nameSearch} appstore)** | {hashtag_testflights}<br />{url_testflight}\n")
+                            f"| <img src=\"{background_image_url}\" alt=\"{name_testflight}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name_testflight}]({nameSearch})** | {hashtag_testflights}<br />{url_testflight}\n")
                 else:
                     txtResult_ErrorLinkTestflight_file.write(f"{url_testflight}\n")
         except AttributeError:
