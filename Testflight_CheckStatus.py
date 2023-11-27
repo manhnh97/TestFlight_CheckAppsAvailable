@@ -45,7 +45,7 @@ def CheckStatusCodeBetaApps():
                         # txtResult_AvailableTestflight_file.write(
                             # f"| <img src=\"{background_image_url}\" alt=\"{name_testflight}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name_testflight}]({nameSearch})** | {hashtag_testflights}<br />{url_testflight}\n")
                         txtResult_AvailableTestflight_file.write(
-                            f"| <img src=\"{background_image_url}\" align=\"center\" width=\"40\" height=\"40\" /> | {name_testflight} | {hashtag_testflights}<br />{url_testflight}\n")
+                            f"| <img src=\"{background_image_url}\" align=\"center\" width=\"40\" height=\"40\" /> | [{name_testflight} ] | {hashtag_testflights}<br />{url_testflight}\n")
                 else:
                     txtResult_ErrorLinkTestflight_file.write(f"{url_testflight}\n")
         except AttributeError:
