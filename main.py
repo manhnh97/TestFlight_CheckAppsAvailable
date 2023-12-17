@@ -8,10 +8,8 @@ from time import sleep
 import os
 
 def CheckStatusCodeBetaApps():
-    # Directory containing the images
-    folder_path = "images"  # Replace this with your folder path
-
     with open(txtTestflight_List, 'r', encoding='utf-8') as txtTestflightList_file, open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as txtResult_AvailableTestflight_file, open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as txtResult_ErrorLinkTestflight_file:
+        # List unique testflight links
         urls = list(set(txtTestflightList_file.read().splitlines()))
         try:
             headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36;accept-language":"en-GB,en;q=0.9'}
@@ -33,6 +31,7 @@ def CheckStatusCodeBetaApps():
                     list_extracted_name = []
                     list_extracted_background = []
                     list_testflight_code = []
+                    
                     # Find the text between "the" and "beta"
                     text_between_pattern = re.compile(r'To join the\s(.*?)\sbeta', re.IGNORECASE)
                     text_matches = text_between_pattern.findall(response.text)
@@ -48,6 +47,7 @@ def CheckStatusCodeBetaApps():
                             list_extracted_background.append(extracted_background)
                             break
                         list_testflight_code.append(f"{url_testflight.split("/")[-1]}.png")
+                        
                     # Zip the lists together
                     zipped_data = list(zip(list_extracted_name, list_extracted_background, list_testflight_code))
                     # Directory containing the images
@@ -64,9 +64,11 @@ def CheckStatusCodeBetaApps():
                         name = name.replace('|', '-')
                         hashtags = re.findall(r"\b\w+\b", name)
                         hashtag = " ".join(["#" + hashtag.upper() for hashtag in hashtags])
-                        nameSearch = "https://www.google.com/search?q="+name.replace(" ", "+")+"+"+"appstore"
+                        # nameSearch = "https://www.google.com/search?q="+name.replace(" ", "+")+"+"+"appstore"
+                        # txtResult_AvailableTestflight_file.write(
+                            # f"| <img src=\"{folder_path}\\{png_code}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name}]({nameSearch})** | {hashtag}<br />{url_testflight} |\n")
                         txtResult_AvailableTestflight_file.write(
-                            f"| <img src=\"{folder_path}\\{png_code}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name}]({nameSearch})** | {hashtag}<br />{url_testflight} |\n")
+                            f"| <img src=\"{folder_path}\\{png_code}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name}]** | {hashtag}<br />{url_testflight} |\n")
                 else:
                     txtResult_ErrorLinkTestflight_file.write(f"{url_testflight}\n")
         except AttributeError:
@@ -102,11 +104,14 @@ def ErrorLinkTestflight():
         f1.write('\n'.join(updated_lines_f1))
 
 if __name__ == "__main__":
+    # Create images folder if the folder is not exists
     from pathlib import Path
     Path("images").mkdir(parents=True, exist_ok=True)
+    # Directory containing the images
+    folder_path = "images"  # Replace this with your folder path
     
     nowTime = datetime.now().strftime("%d/%m/%Y %I:%M %p")
-    txtTestflight_List = "Testflight_List - Copy.txt"
+    txtTestflight_List = "Testflight_List.txt"
     txtResult_AvailableTestflight = "Result_BetaAppsAvailable.md"
     txtResult_ErrorLinkTestflight = "Result_ErrorLinkTestflight.txt"
     
