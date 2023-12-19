@@ -16,8 +16,7 @@ echo:
 goto :commitGITHUB
 
 :commitGITHUB
-	set "Result_BetaAppsAvailable=Result_BetaAppsAvailable.md"
-	git add "%Result_BetaAppsAvailable%"
+	git add "Result_BetaAppsAvailable.md" "Testflight_List.txt"
 	git commit -m "Updated!"
 	git push origin master
 goto :exit

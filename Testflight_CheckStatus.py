@@ -6,56 +6,53 @@ from fake_useragent import UserAgent
 from datetime import datetime
 from time import sleep
 
-def CheckStatusCodeBetaApps():
-    with open(txtTestflight_List, 'r', encoding='utf-8') as txtTestflightList_file, open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as txtResult_AvailableTestflight_file, open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as txtResult_ErrorLinkTestflight_file:
-        urls = list(set(txtTestflightList_file.read().splitlines()))
+def fetch_beta_apps_info():
+    with open("Testflight_List.txt", 'r', encoding='utf-8') as txt_testflight_list_file,\
+            open("Result_BetaAppsAvailable.md", 'w', encoding='utf-8') as txt_result_available_testflight_file,\
+            open("Result_ErrorLinkTestflight.txt", 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
+        
+        urls = list(set(txt_testflight_list_file.read().splitlines()))
+        user_agent = UserAgent()
         
         try:
             session = requests.Session()
             headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+            
             while urls:
                 url_testflight = urls.pop(0).strip()
+                
                 try:
-                    r = session.get(url_testflight, headers=headers)  # Set the timeout value here
+                    r = session.get(url_testflight, headers=headers)
                 except ConnectTimeout:
                     urls.append(url_testflight)
                     headers = {'User-Agent': user_agent.random}
                     continue
                 
                 if r.status_code == 429:
-                    retry_after = int(r.headers.get('Retry-After', 5))  # Default to 5 seconds
+                    retry_after = int(r.headers.get('Retry-After', 3))
                     sleep(retry_after)
                     urls.append(url_testflight)
                     
                 if r.status_code == 200:
                     soup = bs(r.text, 'html.parser')
-                    div_BetaStatus = soup.find('div', {'class': 'beta-status'})
-
-                    span_BetaStatus = div_BetaStatus.find('span').text
-                    isBetaAppAvaiable = re.search(r'To join the(.*) beta', span_BetaStatus)
-
-                    style = soup.find("div", {"class": "app-icon"})["style"]
-                    background_image_url = style.split("(")[1].split(")")[0]
-                    if isBetaAppAvaiable:
-                        name_testflight = isBetaAppAvaiable.group(1).replace('|', '-')
-                        hashtag_testflights = re.findall(r"\b\w+\b", name_testflight)
-                        hashtag_testflights = " ".join(["#" + hashtag.upper() for hashtag in hashtag_testflights])
-                        # nameSearch = "https://www.google.com/search?q="+name_testflight.replace(" ", "+")+"+"+"appstore"
-                        
-                        # txtResult_AvailableTestflight_file.write(
-                            # f"| <img src=\"{background_image_url}\" alt=\"{name_testflight}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name_testflight}]({nameSearch})** | {hashtag_testflights}<br />{url_testflight}\n")
-                        txtResult_AvailableTestflight_file.write(
-                            f"| <img src=\"{background_image_url}\" align=\"center\" width=\"40\" height=\"40\" /> | [{name_testflight} ] | {hashtag_testflights}<br />{url_testflight}\n")
+                    text_matches = re.findall(r'To join the\s(.*?)\sbeta', soup.get_text(), re.IGNORECASE)
+                    
+                    if text_matches:
+                        name = ''.join(text_matches).replace('|', '-')
+                        hashtags = re.findall(r"\b\w+\b", name)
+                        hashtag = " ".join(["#" + hashtag.upper() for hashtag in hashtags])
+                        txt_result_available_testflight_file.write(f"| **[{name}]** | {hashtag}<br />{url_testflight} |\n")
                 else:
-                    txtResult_ErrorLinkTestflight_file.write(f"{url_testflight}\n")
+                    txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
+        
         except AttributeError:
             pass
         finally:
             session.close()
 
-def ResultBetaAppsAvailable():
-    with open(txtResult_AvailableTestflight, "r", encoding="utf-8") as txtResult_AvailableTestflight_file:
-        contents = txtResult_AvailableTestflight_file.readlines()
+def sort_and_update_results():
+    with open("Result_BetaAppsAvailable.md", "r", encoding="utf-8") as txt_result_available_testflight_file:
+        contents = txt_result_available_testflight_file.readlines()
 
     def extract_text_within_brackets(line):
         match = re.search(r"\[([^]]+)\]", line)
@@ -63,19 +60,23 @@ def ResultBetaAppsAvailable():
 
     contents.sort(key=lambda x: extract_text_within_brackets(x))
 
-    with open(txtResult_AvailableTestflight, "w", encoding="utf-8") as txtResult_AvailableTestflight_file:
-        txtResult_AvailableTestflight_file.write(f"# Beta Apps is available\t[{nowTime}]\n")
-        txtResult_AvailableTestflight_file.write('| Image | Name | #HASHTAG |\n| --- | --- | --- | \n')
-        txtResult_AvailableTestflight_file.writelines(contents)
+    with open("Result_BetaAppsAvailable.md", "w", encoding="utf-8") as txt_result_available_testflight_file:
+        txt_result_available_testflight_file.write(f"# Beta Apps is available\t[{datetime.now().strftime('%d/%m/%Y %I:%M %p')}]\n")
+        txt_result_available_testflight_file.write('| Name | #HASHTAG |\n| --- | --- | \n')
+        txt_result_available_testflight_file.writelines(contents)
+
+def update_testflight_list():
+    with open("Testflight_List.txt", 'r') as f1, open("Result_ErrorLinkTestflight.txt", 'r') as f2:
+        lines_f1 = f1.read().splitlines()
+        lines_f2 = f2.read().splitlines()
+
+    unique_lines_f1 = list(set(lines_f1))
+    updated_lines_f1 = [line for line in unique_lines_f1 if line not in lines_f2]
+
+    with open("Testflight_List.txt", 'w') as f1:
+        f1.write('\n'.join(updated_lines_f1))
 
 if __name__ == "__main__":
-    nowTime = datetime.now().strftime("%d/%m/%Y %I:%M %p")
-    txtTestflight_List = "Testflight_List.txt"
-    txtResult_AvailableTestflight = "Result_BetaAppsAvailable.md"
-    txtResult_ErrorLinkTestflight = "Result_ErrorLinkTestflight.txt"
-
-    
-    user_agent = UserAgent(browsers=['edge', 'chrome'])
-
-    CheckStatusCodeBetaApps()
-    ResultBetaAppsAvailable()
+    fetch_beta_apps_info()
+    sort_and_update_results()
+    update_testflight_list()
