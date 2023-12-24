@@ -61,7 +61,7 @@ def sort_and_update_results():
     contents.sort(key=lambda x: extract_text_within_brackets(x))
 
     with open("Result_BetaAppsAvailable.md", "w", encoding="utf-8") as txt_result_available_testflight_file:
-        txt_result_available_testflight_file.write(f"# Beta Apps is available\t[{datetime.now().strftime('%d/%m/%Y %I:%M %p')}]\n")
+        txt_result_available_testflight_file.write(f"# Beta Apps are available\t[{datetime.now().strftime('%d/%m/%Y %I:%M %p')}]\n")
         txt_result_available_testflight_file.write('| Name | #HASHTAG |\n| --- | --- | \n')
         txt_result_available_testflight_file.writelines(contents)
 
