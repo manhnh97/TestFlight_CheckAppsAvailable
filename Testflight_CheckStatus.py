@@ -6,11 +6,15 @@ from fake_useragent import UserAgent
 from datetime import datetime
 from time import sleep
 
+def camping_any_apps():
+    with open('camp_apps.txt', 'r', encoding='utf-8') as txt_camp_apps:
+        camp_apps = [line.strip() for line in txt_camp_apps.readlines()]
+    return camp_apps
+
 def fetch_beta_apps_info():
     with open("Testflight_List.txt", 'r', encoding='utf-8') as txt_testflight_list_file,\
             open("Result_BetaAppsAvailable.md", 'w', encoding='utf-8') as txt_result_available_testflight_file,\
-            open("Result_ErrorLinkTestflight.txt", 'w', encoding='utf-8') as txt_result_error_link_testflight_file:#,\
-            #open("camp_apps.txt, 'r', encoding='utf-8'") as txt_camp_apps:
+            open("Result_ErrorLinkTestflight.txt", 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
         
         urls = list(set(txt_testflight_list_file.read().splitlines()))
         user_agent = UserAgent()
@@ -42,7 +46,8 @@ def fetch_beta_apps_info():
                         name = ''.join(text_matches).replace('|', '-')
                         hashtags = re.findall(r"\b\w+\b", name)
                         hashtag = " ".join(["#" + hashtag.upper() for hashtag in hashtags])
-                        print(f"- {name} => {url_testflight}")
+                        if name in camping_any_apps():
+                            print(f"- {name} => {url_testflight}")
                         txt_result_available_testflight_file.write(f"| **[{name}]** | {hashtag}<br />{url_testflight} |\n")
                 else:
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
