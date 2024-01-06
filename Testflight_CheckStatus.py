@@ -47,7 +47,7 @@ def fetch_beta_apps_info():
                         hashtags = re.findall(r"\b\w+\b", name)
                         hashtag = " ".join(["#" + hashtag.upper() for hashtag in hashtags])
                         if name in camping_any_apps():
-                            print(f"- {name} => {url_testflight}")
+                            print(f"{hashtag}<br />{url_testflight}")
                         txt_result_available_testflight_file.write(f"| **[{name}]** | {hashtag}<br />{url_testflight} |\n")
                 else:
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
