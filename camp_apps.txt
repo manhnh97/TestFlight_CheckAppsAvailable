@@ -22,7 +22,6 @@ ChatX - AI Chat Client
 Clear Todos
 CodeBrain™ - AI for Swift
 Crafted Pour
-Crouton: Recipe Manager
 Darkroom: Photo & Video Editor
 Discord - Chat, Talk & Hangout
 Dropbox: Cloud & Photo Storage
@@ -99,7 +98,6 @@ SubManager
 Subscrible - Payments Tracker
 Subscriptions - Track Expenses
 Swiftgram
-Swiggy Food & Grocery Delivery
 TIDAL Music: HiFi, Ad-free
 Telegram Messenger
 The Guardian - Live World News
@@ -118,3 +116,10 @@ Wikipedia
 Windscribe VPN
 WordPress – Website Builder
 X
+Microsoft Translator
+LadderVPN
+Astra for Discuit
+Retro 2
+Ever Play - HiFi Music Player
+Vivid AI: Art Generator
+Everand
