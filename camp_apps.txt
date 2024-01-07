@@ -123,3 +123,4 @@ Retro 2
 Ever Play - HiFi Music Player
 Vivid AI: Art Generator
 Everand
+1Password for Safari
