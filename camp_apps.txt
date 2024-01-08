@@ -14,14 +14,13 @@ Beer With Me
 BestTV - Live Stream Player
 Bing: Chat with AI & GPT-4
 Blu - Financial Tracker
+Brave
 Brew Coffee
-Call of Duty: Mobile Beta Test
 Calzy
 CapCut - Video Editor
 Captivate − Video Subtitles
 CardioBot - Heart Rate Tracker
 ChatX - AI Chat Client
-Clear Todos
 CodeBrain™ - AI for Swift
 Crafted Pour
 Darkroom: Photo & Video Editor
@@ -43,7 +42,7 @@ Git Commit & Merge: Gitonium
 GitHub
 Google Chrome
 HackerWeb - Hacker News client
-HiCoffee - Caffeine Tracker
+Hash7
 IMDb: Movies & TV Shows
 Imgur: Funny Memes & GIF Maker
 Incipe: your personal cookbook
@@ -73,6 +72,7 @@ Norton 360: Mobile Security
 Notion - notes, docs, tasks
 Nutrino: Food & Macro Tracker
 OpenVPN Connect – OpenVPN App
+Oxford Dictionary
 PDF Expert – Read, Edit, Sign
 PDF Viewer - Annotation Expert
 Parsnip: Learn to Cook App
@@ -95,6 +95,7 @@ Quizlet: AI-powered Flashcards
 RecipeChef: Recipe Manager
 Recur - Subscription Manager
 ReelTime TV & Movies for Trakt
+Remote Desktop Mobile Beta
 Retro 2
 Rippple for Trakt
 Rise – Bread Baking
@@ -103,6 +104,7 @@ Savor: Recipe Manager
 Skaffer - Track subscriptions
 SkyFire - VPN
 Skype
+Spatialify
 Spotify - Music and Podcasts
 Strava: Run, Bike, Hike
 SubManager
@@ -118,7 +120,7 @@ Threads, an Instagram app
 TikTok
 TikTok -Global Video Community
 Tomaito - Recipe Generator
-Twitch Beta
+Twitch
 Untappd - Discover Beer
 Vivid AI: Art Generator
 Wattpad - Read & Write Stories
@@ -128,3 +130,5 @@ Wikipedia
 Windscribe VPN
 WordPress – Website Builder
 X
+BIGO LIVE Alpha
+Color Pop AI - Coloring Book
