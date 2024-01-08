@@ -3,48 +3,53 @@
 1Password 7 • Password Manager
 1Password for Safari
 1Password: Password Manager
+Access
 AdGuard VPN – Unlimited & Fast
 AdGuard for Safari
 AdGuard — adblock&privacy
 AiChat - LLM
 Aloha Browser: Private VPN
-Ambre: Recipe Organizer
+Aphrodite-Sex Tracker&Calendar
 Astra for Discuit
-Beer With Me
+BIGO LIVE Alpha
 BestTV - Live Stream Player
 Bing: Chat with AI & GPT-4
 Blu - Financial Tracker
+Bookings
 Brave
-Brew Coffee
 Calzy
 CapCut - Video Editor
 Captivate − Video Subtitles
 CardioBot - Heart Rate Tracker
 ChatX - AI Chat Client
 CodeBrain™ - AI for Swift
+Color Pop AI - Coloring Book
 Crafted Pour
 Darkroom: Photo & Video Editor
+Delve
 Discord - Chat, Talk & Hangout
 Dropbox: Cloud & Photo Storage
 Duolingo - Language Lessons
 Egern
 Ever Play - HiFi Music Player
 Everand
+Excel
 ExpressVPN - VPN Fast & Secure
 Facebook
 Feedly - Smart News Reader
 Fig: Food Scanner & Discovery
 Film Noir by Trakt, Just Watch
+Firefox Beta web browser
 FoodNoms - Food Tracker
 FoodShiner: Pantry Companion
 Fork Ranger - sustainable food
+Forms
 Git Commit & Merge: Gitonium
 GitHub
 Google Chrome
 HackerWeb - Hacker News client
 Hash7
 IMDb: Movies & TV Shows
-Imgur: Funny Memes & GIF Maker
 Incipe: your personal cookbook
 Infltr - Infinite Filters
 Instagram
@@ -61,6 +66,7 @@ Mealplanning App
 Memoly - Your Memories
 Messenger
 Microsoft 365 (Office)
+Microsoft Lists
 Microsoft Outlook
 Microsoft Translator
 Minecraft Education
@@ -71,7 +77,12 @@ Musixmatch Lyrics Finder
 Norton 360: Mobile Security
 Notion - notes, docs, tasks
 Nutrino: Food & Macro Tracker
+Office Online
+OneDrive
+OneNote
 OpenVPN Connect – OpenVPN App
+Outlook
+Outlook.com
 Oxford Dictionary
 PDF Expert – Read, Edit, Sign
 PDF Viewer - Annotation Expert
@@ -85,11 +96,16 @@ PicturesqueAI: Art Generator
 Pinterest
 Pixelfed
 PlanMeals
+Planner
 Playback: Watch Together
 Plex: Movies, TV, Music & More
 PodList: Discover Podcasts
 Podcast Republic - Podcast App
 Podverse
+Power BI
+PowerPoint
+Project
+Publisher
 Qobuz: Music & Editorial
 Quizlet: AI-powered Flashcards
 RecipeChef: Recipe Manager
@@ -97,21 +113,23 @@ Recur - Subscription Manager
 ReelTime TV & Movies for Trakt
 Remote Desktop Mobile Beta
 Retro 2
-Rippple for Trakt
 Rise – Bread Baking
 Sake Discovery - OneSip
 Savor: Recipe Manager
+SharePoint
 Skaffer - Track subscriptions
-SkyFire - VPN
 Skype
 Spatialify
 Spotify - Music and Podcasts
 Strava: Run, Bike, Hike
+Stream
 SubManager
 Subscrible - Payments Tracker
 Subscriptions - Track Expenses
+Sway
 Swiftgram
 TIDAL Music: HiFi, Ad-free
+Teams
 Telegram Messenger
 The Guardian - Live World News
 The New York Times
@@ -119,16 +137,18 @@ The Recipe Box
 Threads, an Instagram app
 TikTok
 TikTok -Global Video Community
+To Do
 Tomaito - Recipe Generator
 Twitch
 Untappd - Discover Beer
+Visio
 Vivid AI: Art Generator
 Wattpad - Read & Write Stories
 WeChat
 WhatsApp Business
 Wikipedia
 Windscribe VPN
+Word
 WordPress – Website Builder
 X
-BIGO LIVE Alpha
-Color Pop AI - Coloring Book
+Yammer
