@@ -1,6 +1,7 @@
 1.1.1.1: Faster Internet
 1Blocker - Ad Blocker
 1Password 7 • Password Manager
+1Password for Safari
 1Password: Password Manager
 AdGuard VPN – Unlimited & Fast
 AdGuard for Safari
@@ -8,6 +9,7 @@ AdGuard — adblock&privacy
 AiChat - LLM
 Aloha Browser: Private VPN
 Ambre: Recipe Organizer
+Astra for Discuit
 Beer With Me
 BestTV - Live Stream Player
 Bing: Chat with AI & GPT-4
@@ -27,6 +29,8 @@ Discord - Chat, Talk & Hangout
 Dropbox: Cloud & Photo Storage
 Duolingo - Language Lessons
 Egern
+Ever Play - HiFi Music Player
+Everand
 ExpressVPN - VPN Fast & Secure
 Facebook
 Feedly - Smart News Reader
@@ -37,6 +41,7 @@ FoodShiner: Pantry Companion
 Fork Ranger - sustainable food
 Git Commit & Merge: Gitonium
 GitHub
+Google Chrome
 HackerWeb - Hacker News client
 HiCoffee - Caffeine Tracker
 IMDb: Movies & TV Shows
@@ -49,15 +54,19 @@ Jira Cloud by Atlassian
 Jira Data Center and Server
 Kaspersky: VPN & Antivirus
 KitchenOwl
+LadderVPN
 LegitApp
 LookUp Dictionary: Learn Daily
 Malwarebytes - Mobile Security
 Mealplanning App
 Memoly - Your Memories
 Messenger
+Microsoft 365 (Office)
 Microsoft Outlook
+Microsoft Translator
 Minecraft Education
 Minecraft Preview
+Monkey Junior-English for kids
 Moon FM - The Podcasts App
 Musixmatch Lyrics Finder
 Norton 360: Mobile Security
@@ -86,11 +95,13 @@ Quizlet: AI-powered Flashcards
 RecipeChef: Recipe Manager
 Recur - Subscription Manager
 ReelTime TV & Movies for Trakt
+Retro 2
 Rippple for Trakt
 Rise – Bread Baking
 Sake Discovery - OneSip
 Savor: Recipe Manager
 Skaffer - Track subscriptions
+SkyFire - VPN
 Skype
 Spotify - Music and Podcasts
 Strava: Run, Bike, Hike
@@ -109,6 +120,7 @@ TikTok -Global Video Community
 Tomaito - Recipe Generator
 Twitch Beta
 Untappd - Discover Beer
+Vivid AI: Art Generator
 Wattpad - Read & Write Stories
 WeChat
 WhatsApp Business
@@ -116,11 +128,3 @@ Wikipedia
 Windscribe VPN
 WordPress – Website Builder
 X
-Microsoft Translator
-LadderVPN
-Astra for Discuit
-Retro 2
-Ever Play - HiFi Music Player
-Vivid AI: Art Generator
-Everand
-1Password for Safari
