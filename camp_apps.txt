@@ -3,7 +3,6 @@
 1Password 7 • Password Manager
 1Password for Safari
 1Password: Password Manager
-Access
 AdGuard VPN – Unlimited & Fast
 AdGuard for Safari
 AdGuard — adblock&privacy
@@ -12,8 +11,8 @@ Aloha Browser: Private VPN
 Aphrodite-Sex Tracker&Calendar
 Astra for Discuit
 BIGO LIVE Alpha
-BestTV - Live Stream Player
 Bing: Chat with AI & GPT-4
+BingX
 Blu - Financial Tracker
 Bookings
 Brave
@@ -26,14 +25,13 @@ CodeBrain™ - AI for Swift
 Color Pop AI - Coloring Book
 Crafted Pour
 Darkroom: Photo & Video Editor
-Delve
+Deep Dictionary
 Discord - Chat, Talk & Hangout
 Dropbox: Cloud & Photo Storage
 Duolingo - Language Lessons
 Egern
 Ever Play - HiFi Music Player
 Everand
-Excel
 ExpressVPN - VPN Fast & Secure
 Facebook
 Feedly - Smart News Reader
@@ -43,7 +41,6 @@ Firefox Beta web browser
 FoodNoms - Food Tracker
 FoodShiner: Pantry Companion
 Fork Ranger - sustainable food
-Forms
 Git Commit & Merge: Gitonium
 GitHub
 Google Chrome
@@ -57,8 +54,8 @@ IntelliGen AI Code Generator
 Jira Cloud by Atlassian
 Jira Data Center and Server
 Kaspersky: VPN & Antivirus
+Keeper Password Manager
 KitchenOwl
-LadderVPN
 LegitApp
 LookUp Dictionary: Learn Daily
 Malwarebytes - Mobile Security
@@ -66,23 +63,35 @@ Mealplanning App
 Memoly - Your Memories
 Messenger
 Microsoft 365 (Office)
+Microsoft Excel
 Microsoft Lists
+Microsoft Loop
+Microsoft Loop - Preview
+Microsoft OneDrive
+Microsoft OneNote
 Microsoft Outlook
+Microsoft Planner
+Microsoft PowerPoint
+Microsoft Project
+Microsoft Publisher
+Microsoft Start
+Microsoft Teams
 Microsoft Translator
+Microsoft Visio
+Microsoft Word
 Minecraft Education
 Minecraft Preview
-Monkey Junior-English for kids
-Moon FM - The Podcasts App
+Mint: Budget & Expense Manager
+Money Lover: Expense Manager
 Musixmatch Lyrics Finder
 Norton 360: Mobile Security
 Notion - notes, docs, tasks
 Nutrino: Food & Macro Tracker
+Obsidian - Connected Notes
 Office Online
-OneDrive
-OneNote
 OpenVPN Connect – OpenVPN App
-Outlook
-Outlook.com
+Opera Browser with VPN and AI
+Opera GX
 Oxford Dictionary
 PDF Expert – Read, Edit, Sign
 PDF Viewer - Annotation Expert
@@ -95,17 +104,14 @@ Picsart AI Photo Video Editor
 PicturesqueAI: Art Generator
 Pinterest
 Pixelfed
-PlanMeals
-Planner
 Playback: Watch Together
 Plex: Movies, TV, Music & More
 PodList: Discover Podcasts
 Podcast Republic - Podcast App
 Podverse
+Power Apps
+Power Automate
 Power BI
-PowerPoint
-Project
-Publisher
 Qobuz: Music & Editorial
 Quizlet: AI-powered Flashcards
 RecipeChef: Recipe Manager
@@ -120,16 +126,18 @@ SharePoint
 Skaffer - Track subscriptions
 Skype
 Spatialify
+SpeakEasy - AI Text to Speech
+Speech Central AI Voice Reader
 Spotify - Music and Podcasts
 Strava: Run, Bike, Hike
 Stream
 SubManager
 Subscrible - Payments Tracker
 Subscriptions - Track Expenses
+SuperNews
 Sway
 Swiftgram
 TIDAL Music: HiFi, Ad-free
-Teams
 Telegram Messenger
 The Guardian - Live World News
 The New York Times
@@ -137,18 +145,22 @@ The Recipe Box
 Threads, an Instagram app
 TikTok
 TikTok -Global Video Community
-To Do
+Toggl Track: Hours & Time Log
 Tomaito - Recipe Generator
 Twitch
+Twitch Beta
 Untappd - Discover Beer
-Visio
+VLC media player
+VPN Keepеr
 Vivid AI: Art Generator
 Wattpad - Read & Write Stories
 WeChat
 WhatsApp Business
+WhatsApp Messenger
 Wikipedia
+Windows App Mobile Preview
 Windscribe VPN
-Word
 WordPress – Website Builder
 X
+XGPT: AI Crypto Assistant
 Yammer
