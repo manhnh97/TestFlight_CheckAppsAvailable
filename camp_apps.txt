@@ -11,11 +11,13 @@ Aloha Browser: Private VPN
 Aphrodite-Sex Tracker&Calendar
 Astra for Discuit
 BIGO LIVE Alpha
+Balance: Meditation & Sleep
 Bing: Chat with AI & GPT-4
 BingX
 Blu - Financial Tracker
 Bookings
 Brave
+Burner: Second Phone Number
 Calzy
 CapCut - Video Editor
 Captivate − Video Subtitles
@@ -37,13 +39,16 @@ Facebook
 Feedly - Smart News Reader
 Fig: Food Scanner & Discovery
 Film Noir by Trakt, Just Watch
+Filos: Screen Time Control
 Firefox Beta web browser
 FoodNoms - Food Tracker
 FoodShiner: Pantry Companion
 Fork Ranger - sustainable food
+Giftr - GIF Maker
 Git Commit & Merge: Gitonium
 GitHub
 Google Chrome
+Habitify: Habit Tracker & Goal
 HackerWeb - Hacker News client
 Hash7
 IMDb: Movies & TV Shows
@@ -53,7 +58,6 @@ Instagram
 IntelliGen AI Code Generator
 Jira Cloud by Atlassian
 Jira Data Center and Server
-Kaspersky: VPN & Antivirus
 Keeper Password Manager
 KitchenOwl
 LegitApp
@@ -81,8 +85,8 @@ Microsoft Visio
 Microsoft Word
 Minecraft Education
 Minecraft Preview
-Mint: Budget & Expense Manager
 Money Lover: Expense Manager
+Monkey Junior-English for kids
 Musixmatch Lyrics Finder
 Norton 360: Mobile Security
 Notion - notes, docs, tasks
@@ -106,12 +110,14 @@ Pinterest
 Pixelfed
 Playback: Watch Together
 Plex: Movies, TV, Music & More
+Plex: Watch Live TV and Movies
 PodList: Discover Podcasts
 Podcast Republic - Podcast App
 Podverse
 Power Apps
 Power Automate
 Power BI
+Proton VPN: Fast & Secure
 Qobuz: Music & Editorial
 Quizlet: AI-powered Flashcards
 RecipeChef: Recipe Manager
@@ -131,6 +137,7 @@ Speech Central AI Voice Reader
 Spotify - Music and Podcasts
 Strava: Run, Bike, Hike
 Stream
+Strides: Goal & Habit Tracker
 SubManager
 Subscrible - Payments Tracker
 Subscriptions - Track Expenses
@@ -139,6 +146,7 @@ Sway
 Swiftgram
 TIDAL Music: HiFi, Ad-free
 Telegram Messenger
+Telelingo
 The Guardian - Live World News
 The New York Times
 The Recipe Box
