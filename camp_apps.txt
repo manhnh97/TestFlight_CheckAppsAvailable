@@ -132,7 +132,6 @@ SharePoint
 Skaffer - Track subscriptions
 Skype
 Spatialify
-SpeakEasy - AI Text to Speech
 Speech Central AI Voice Reader
 Spotify - Music and Podcasts
 Strava: Run, Bike, Hike
@@ -159,7 +158,6 @@ Twitch
 Twitch Beta
 Untappd - Discover Beer
 VLC media player
-VPN Keepеr
 Vivid AI: Art Generator
 Wattpad - Read & Write Stories
 WeChat
