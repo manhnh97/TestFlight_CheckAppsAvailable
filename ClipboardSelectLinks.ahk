@@ -23,9 +23,12 @@ F8::
 
     ; Use RegExMatch to extract the matched pattern from the input
     if (RegExMatch(input, pattern, match)) {
-		Clipboard := match
+		; Use RegExReplace to remove square brackets and extract the data
+		pattern1 := "<br />"
+        extracted_text := RegExReplace(match, pattern1, "`n")
+			Clipboard := extracted_text
     }
-
+	
     if WinExist("ahk_exe Telegram.exe")
     {
         WinActivate ; Use the window found by WinExist.
@@ -63,7 +66,7 @@ F7::
         pattern := "\[([^[\]]+)\]"
         
         ; Use RegExReplace to remove square brackets and extract the data
-        extracted_text := RegExReplace(Name, pattern, "$1")
+        extracted_text := RegExReplace(Name, pattern, name)
         
         ; Add " appstore" to the extracted text
         Clipboard := extracted_text . " appstore"
