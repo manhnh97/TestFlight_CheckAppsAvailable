@@ -1,10 +1,11 @@
+from winsound import Beep
+from time import sleep
 from bs4 import BeautifulSoup as bs
 import requests
 import re
 from requests.exceptions import ConnectTimeout
 from fake_useragent import UserAgent
 from datetime import datetime
-from time import sleep
 
 def camping_any_apps():
     with open('camp_apps.txt', 'r', encoding='utf-8') as txt_camp_apps:
@@ -47,6 +48,7 @@ def fetch_beta_apps_info():
                         hashtags = re.findall(r"\b\w+\b", name)
                         hashtag = " ".join(["#" + hashtag.upper() for hashtag in hashtags])
                         if name in camping_any_apps():
+                            Beep(2000, 100)
                             print(f"{hashtag}<br />{url_testflight}")
                         txt_result_available_testflight_file.write(f"| **[{name}]** | {hashtag}<br />{url_testflight} |\n")
                 else:
