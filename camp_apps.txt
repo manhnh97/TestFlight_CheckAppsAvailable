@@ -10,6 +10,7 @@ AiChat - LLM
 Aloha Browser: Private VPN
 Aphrodite-Sex Tracker&Calendar
 Astra for Discuit
+Big Mail
 Bing: Chat with AI & GPT-4
 BingX
 Burner: Second Phone Number
@@ -105,7 +106,6 @@ Playback: Watch Together
 Plex: Movies, TV, Music & More
 Plex: Watch Live TV and Movies
 PodList: Discover Podcasts
-Podcast Republic - Podcast App
 Podverse
 Police Scanner Radio & Fire
 Police Scanner Radio & FireFire
@@ -164,5 +164,4 @@ Windscribe VPN
 WordPress – Website Builder
 X
 XGPT: AI Crypto Assistant
-Big Mail
 stoic. journal & mental health
