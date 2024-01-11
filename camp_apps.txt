@@ -10,21 +10,17 @@ AiChat - LLM
 Aloha Browser: Private VPN
 Aphrodite-Sex Tracker&Calendar
 Astra for Discuit
-BIGO LIVE Alpha
-Balance: Meditation & Sleep
 Bing: Chat with AI & GPT-4
 BingX
-Blu - Financial Tracker
-Bookings
-Brave
 Burner: Second Phone Number
+CNN: Breaking US & World News
 Calzy
 CapCut - Video Editor
 Captivate − Video Subtitles
-CardioBot - Heart Rate Tracker
+CardioBot: Heart Rate Monitor
 ChatX - AI Chat Client
-CodeBrain™ - AI for Swift
 Color Pop AI - Coloring Book
+Corp.
 Crafted Pour
 Darkroom: Photo & Video Editor
 Deep Dictionary
@@ -34,8 +30,6 @@ Duolingo - Language Lessons
 Egern
 Ever Play - HiFi Music Player
 Everand
-ExpressVPN - VPN Fast & Secure
-Facebook
 Feedly - Smart News Reader
 Fig: Food Scanner & Discovery
 Film Noir by Trakt, Just Watch
@@ -44,27 +38,25 @@ Firefox Beta web browser
 FoodNoms - Food Tracker
 FoodShiner: Pantry Companion
 Fork Ranger - sustainable food
+Fox News: US & World Headlines
 Giftr - GIF Maker
 Git Commit & Merge: Gitonium
 GitHub
 Google Chrome
 Habitify: Habit Tracker & Goal
 HackerWeb - Hacker News client
-Hash7
 IMDb: Movies & TV Shows
 Incipe: your personal cookbook
 Infltr - Infinite Filters
 Instagram
 IntelliGen AI Code Generator
-Jira Cloud by Atlassian
-Jira Data Center and Server
 Keeper Password Manager
 KitchenOwl
 LegitApp
 LookUp Dictionary: Learn Daily
 Malwarebytes - Mobile Security
 Mealplanning App
-Memoly - Your Memories
+Medium: Read & Write Stories
 Messenger
 Microsoft 365 (Office)
 Microsoft Excel
@@ -88,6 +80,7 @@ Minecraft Preview
 Money Lover: Expense Manager
 Monkey Junior-English for kids
 Musixmatch Lyrics Finder
+NYT Audio
 Norton 360: Mobile Security
 Notion - notes, docs, tasks
 Nutrino: Food & Macro Tracker
@@ -114,6 +107,9 @@ Plex: Watch Live TV and Movies
 PodList: Discover Podcasts
 Podcast Republic - Podcast App
 Podverse
+Police Scanner Radio & Fire
+Police Scanner Radio & FireFire
+Police Scanner, Fire Radio
 Power Apps
 Power Automate
 Power BI
@@ -122,6 +118,7 @@ Qobuz: Music & Editorial
 Quizlet: AI-powered Flashcards
 RecipeChef: Recipe Manager
 Recur - Subscription Manager
+Reddit
 ReelTime TV & Movies for Trakt
 Remote Desktop Mobile Beta
 Retro 2
@@ -140,22 +137,20 @@ Strides: Goal & Habit Tracker
 SubManager
 Subscrible - Payments Tracker
 Subscriptions - Track Expenses
+Substack
 SuperNews
-Sway
 Swiftgram
 TIDAL Music: HiFi, Ad-free
 Telegram Messenger
 Telelingo
+The Economist
 The Guardian - Live World News
 The New York Times
 The Recipe Box
 Threads, an Instagram app
 TikTok
 TikTok -Global Video Community
-Toggl Track: Hours & Time Log
 Tomaito - Recipe Generator
-Twitch
-Twitch Beta
 Untappd - Discover Beer
 VLC media player
 Vivid AI: Art Generator
@@ -169,4 +164,3 @@ Windscribe VPN
 WordPress – Website Builder
 X
 XGPT: AI Crypto Assistant
-Yammer
