@@ -2,7 +2,7 @@ F3:: Reload
 
 F8::
 	Click, 3
-	Sleep, 50
+	Sleep, 150
     ; Save the currently selected text to a variable
     Clipboard := ""  ; Clear the clipboard
     SendInput, ^c    ; Simulate Ctrl + C to copy selected text
@@ -41,7 +41,7 @@ F8::
 
 F6::
     Click, 3
-	Sleep, 50
+	Sleep, 150
     ; Save the currently selected text to a variable
     Clipboard := ""  ; Clear the clipboard
     SendInput, ^c    ; Simulate Ctrl + C to copy selected text
@@ -80,7 +80,7 @@ F6::
 
 F7::
     Click, 3
-	Sleep, 50
+	Sleep, 150
     ; Save the currently selected text to a variable
     Clipboard := ""  ; Clear the clipboard
     SendInput, ^c    ; Simulate Ctrl + C to copy selected text

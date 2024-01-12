@@ -7,6 +7,8 @@ git pull origin master
 if %errorlevel% neq 0 (
     echo Restoring code to the previous state...
     git restore "Result_BetaAppsAvailable.md" "Testflight_List.txt"
+	
+	goto :exit
 )
 set "Testflight_CheckStatus=main.py"
 echo Run "%Testflight_CheckStatus%" script...
