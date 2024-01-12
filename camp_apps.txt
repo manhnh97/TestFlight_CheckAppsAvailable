@@ -3,6 +3,7 @@
 1Password 7 • Password Manager
 1Password for Safari
 1Password: Password Manager
+AI Photo Enhancer by Pictura
 AdGuard VPN – Unlimited & Fast
 AdGuard for Safari
 AdGuard — adblock&privacy
@@ -10,12 +11,14 @@ AiChat - LLM
 Aloha Browser: Private VPN
 Aphrodite-Sex Tracker&Calendar
 Astra for Discuit
+BeCasso: Photo to Painting
 Big Mail
 Bing: Chat with AI & GPT-4
 BingX
 Burner: Second Phone Number
 CNN: Breaking US & World News
 Calzy
+Camarts Photography
 CapCut - Video Editor
 Captivate − Video Subtitles
 CardioBot: Heart Rate Monitor
@@ -36,13 +39,17 @@ Fig: Food Scanner & Discovery
 Film Noir by Trakt, Just Watch
 Filos: Screen Time Control
 Firefox Beta web browser
+Folksable: Photo Habit Tracker
 FoodNoms - Food Tracker
 FoodShiner: Pantry Companion
 Fork Ranger - sustainable food
 Fox News: US & World Headlines
+GP | Ghent Photography
+Gemini Photos: Gallery Cleaner
 Giftr - GIF Maker
 Git Commit & Merge: Gitonium
 GitHub
+Gleem – AI Photo Generator
 Google Chrome
 Habitify: Habit Tracker & Goal
 HackerWeb - Hacker News client
@@ -87,6 +94,7 @@ Notion - notes, docs, tasks
 Nutrino: Food & Macro Tracker
 Obsidian - Connected Notes
 Office Online
+Ollie: AI Photo Organizer App
 OpenVPN Connect – OpenVPN App
 Opera Browser with VPN and AI
 Opera GX
@@ -94,9 +102,12 @@ Oxford Dictionary
 PDF Expert – Read, Edit, Sign
 PDF Viewer - Annotation Expert
 Parsnip: Learn to Cook App
+PeekLut: Photo Video Editor
 Peel - Video Restaurant Feed
 Pestle: Recipe Organizer
+Photo Organizer - Visuel
 PhotoRoom: AI Photo Editor
+Photogrammetry
 Pico AI Copilot
 Picsart AI Photo Video Editor
 PicturesqueAI: Art Generator
@@ -121,6 +132,7 @@ Recur - Subscription Manager
 Reddit
 ReelTime TV & Movies for Trakt
 Remote Desktop Mobile Beta
+Retro - Social Photo Journal
 Retro 2
 Rise – Bread Baking
 Sake Discovery - OneSip
@@ -165,3 +177,4 @@ WordPress – Website Builder
 X
 XGPT: AI Crypto Assistant
 stoic. journal & mental health
+Cypher – AI Personas
