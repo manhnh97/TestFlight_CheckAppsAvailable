@@ -8,7 +8,7 @@ if %errorlevel% neq 0 (
     echo Restoring code to the previous state...
     git restore "Result_BetaAppsAvailable.md" "Testflight_List.txt"
 )
-set "Testflight_CheckStatus=Testflight_CheckStatus.py"
+set "Testflight_CheckStatus=main.py"
 echo Run "%Testflight_CheckStatus%" script...
 python "%Testflight_CheckStatus%"
 
