@@ -25,7 +25,7 @@ F8::
     if (RegExMatch(input, pattern, match)) {
 		; Use RegExReplace to remove square brackets and extract the data
 		pattern1 := "<br />"
-        extracted_text := RegExReplace(match, pattern1, "`n")
+        extracted_text := RegExReplace(match, pattern1, "`n`n")
 			Clipboard := extracted_text
     }
 	
@@ -35,7 +35,7 @@ F8::
         Sleep, 100
         Send, ^v
         Sleep, 100
-        Send, {ENTER}
+        ;Send, {ENTER}
     }
     Return
 

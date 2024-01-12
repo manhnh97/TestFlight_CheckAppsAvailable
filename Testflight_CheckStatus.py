@@ -6,10 +6,18 @@ import re
 from requests.exceptions import ConnectTimeout
 from fake_useragent import UserAgent
 from datetime import datetime
+from os import path
 
 def camping_any_apps():
-    with open('camp_apps.txt', 'r', encoding='utf-8') as txt_camp_apps:
-        camp_apps = [line.strip() for line in txt_camp_apps.readlines()]
+    # Open the file in read mode to check if it exists
+    try:
+        with open('camp_apps.txt', 'r', encoding='utf-8') as txt_camp_apps:
+            camp_apps = [line.strip() for line in txt_camp_apps.readlines()]
+    except FileNotFoundError:
+        # If the file does not exist, create it
+        with open('camp_apps.txt', 'w', encoding='utf-8') as txt_camp_apps:
+            camp_apps = []
+
     return camp_apps
 
 def fetch_beta_apps_info():
