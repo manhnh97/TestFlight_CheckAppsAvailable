@@ -35,7 +35,7 @@ F8::
         Sleep, 100
         Send, ^v
         Sleep, 100
-        ;Send, {ENTER}
+        Send, {ENTER}
     }
     Return
 
@@ -58,22 +58,23 @@ F7::
     input := Clipboard
 
     ; Define a regular expression pattern to capture text within square brackets and remove the brackets
-    patternGetName := "\[([^[\]]+)\]"
-
+    patternGetName := "\*\*(.*)\*\*"
+	
     ; Use RegExMatch to extract the matched pattern from the input
     if (RegExMatch(input, patternGetName, Name)) {
-        ; Define a regular expression pattern to capture text within square brackets and remove the brackets
-        pattern := "\[([^[\]]+)\]"
+		; Define a regular expression pattern to capture text within square brackets and remove the brackets
+        pattern := "\*"
         
         ; Use RegExReplace to remove square brackets and extract the data
-        extracted_text := RegExReplace(Name, pattern, name)
-        
+        extracted_text := RegExReplace(Name, pattern)
         ; Add " appstore" to the extracted text
         Clipboard := extracted_text . " appstore"
     }
 	
-	Send, ^{t}^{v}
+	Send, ^{t}
 	Sleep, 100
+	Send, ^{v}
+	Sleep, 50
 	Send, {ENTER}
     return
 

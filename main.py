@@ -1,82 +1,75 @@
-from bs4 import BeautifulSoup
+from winsound import Beep
+from time import sleep
+from bs4 import BeautifulSoup as bs
 import requests
 import re
 from requests.exceptions import ConnectTimeout
 from fake_useragent import UserAgent
 from datetime import datetime
-from time import sleep
-import os
+from os import path
 
-def CheckStatusCodeBetaApps():
-    with open(txtTestflight_List, 'r', encoding='utf-8') as txtTestflightList_file, open(txtResult_AvailableTestflight, 'w', encoding='utf-8') as txtResult_AvailableTestflight_file, open(txtResult_ErrorLinkTestflight, 'w', encoding='utf-8') as txtResult_ErrorLinkTestflight_file:
-        # List unique testflight links
-        urls = list(set(txtTestflightList_file.read().splitlines()))
+def camping_any_apps():
+    # Open the file in read mode to check if it exists
+    try:
+        with open('camp_apps.txt', 'r', encoding='utf-8') as txt_camp_apps:
+            camp_apps = [line.strip() for line in txt_camp_apps.readlines()]
+    except FileNotFoundError:
+        # If the file does not exist, create it
+        with open('camp_apps.txt', 'w', encoding='utf-8') as txt_camp_apps:
+            camp_apps = []
+
+    return camp_apps
+
+def fetch_beta_apps_info():
+    with open("Testflight_List.txt", 'r', encoding='utf-8') as txt_testflight_list_file,\
+            open("Result_BetaAppsAvailable.md", 'w', encoding='utf-8') as txt_result_available_testflight_file,\
+            open("Result_ErrorLinkTestflight.txt", 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
+        
+        urls = list(set(txt_testflight_list_file.read().splitlines()))
+        user_agent = UserAgent()
+        
         try:
-            headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36;accept-language":"en-GB,en;q=0.9'}
+            session = requests.Session()
+            headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+            
             while urls:
                 url_testflight = urls.pop(0).strip()
+                
                 try:
-                    response = requests.get(url_testflight, headers=headers)  # Set the timeout value here
+                    r = session.get(url_testflight, headers=headers)
                 except ConnectTimeout:
                     urls.append(url_testflight)
                     headers = {'User-Agent': user_agent.random}
                     continue
                 
-                if response.status_code == 429:
-                    retry_after = int(response.headers.get('Retry-After', 3))  # Default to 5 seconds
+                if r.status_code == 429:
+                    retry_after = int(r.headers.get('Retry-After', 3))
                     sleep(retry_after)
                     urls.append(url_testflight)
                     
-                if response.status_code == 200:                    
-                    list_extracted_name = []
-                    list_extracted_background = []
-                    list_testflight_code = []
+                if r.status_code == 200:
+                    soup = bs(r.text, 'html.parser')
+                    text_matches = re.findall(r'To join the\s(.*?)\sbeta', soup.get_text(), re.IGNORECASE)
                     
-                    # Find the text between "the" and "beta"
-                    text_between_pattern = re.compile(r'To join the\s(.*?)\sbeta', re.IGNORECASE)
-                    text_matches = text_between_pattern.findall(response.text)
-
-                    # Find elements containing the URL (assuming it's an image)
-                    url_pattern = re.compile(r'https?://\S+\.png')
-                    url_match = url_pattern.findall(response.text)
                     if text_matches:
-                        for extracted_name in text_matches:
-                            list_extracted_name.append(extracted_name)
-                            break
-                        for extracted_background in url_match:
-                            list_extracted_background.append(extracted_background)
-                            break
-                        list_testflight_code.append(f"{url_testflight.split("/")[-1]}.png")
-                        
-                    # Zip the lists together
-                    zipped_data = list(zip(list_extracted_name, list_extracted_background, list_testflight_code))
-                    # Directory containing the images
-                    png_files = [file for file in os.listdir(folder_path) if file.endswith(".png")]
-                    
-                    for name, background, png_code in zipped_data:
-                        # print(f"- Background: {background}\n- Name: {name}\n- Link: {url_testflight}\n- Code: {png_code} \n==================")
-                        if png_code not in png_files:
-                            url_background = requests.get(background)
-                            # Assuming 'item' is a URL, you can use requests to download it
-                            with open(os.path.join(folder_path, png_code), 'wb') as file:
-                                file.write(url_background.content)
-                                
-                        name = name.replace('|', '-')
+                        name = ''.join(text_matches).replace('|', '-')
                         hashtags = re.findall(r"\b\w+\b", name)
                         hashtag = " ".join(["#" + hashtag.upper() for hashtag in hashtags])
-                        # nameSearch = "https://www.google.com/search?q="+name.replace(" ", "+")+"+"+"appstore"
-                        # txtResult_AvailableTestflight_file.write(
-                            # f"| <img src=\"{folder_path}\\{png_code}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name}]({nameSearch})** | {hashtag}<br />{url_testflight} |\n")
-                        txtResult_AvailableTestflight_file.write(
-                            f"| <img src=\"{folder_path}\\{png_code}\" align=\"center\" width=\"40\" height=\"40\" /> | **[{name}]** | {hashtag}<br />{url_testflight} |\n")
+                        if name in camping_any_apps():
+                            Beep(2000, 100)
+                            print(f"{hashtag}<br />{url_testflight}")
+                        txt_result_available_testflight_file.write(f"| **{name.strip()}** | {hashtag}<br />{url_testflight} |\n")
                 else:
-                    txtResult_ErrorLinkTestflight_file.write(f"{url_testflight}\n")
+                    txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
+        
         except AttributeError:
             pass
+        finally:
+            session.close()
 
-def ResultBetaAppsAvailable():
-    with open(txtResult_AvailableTestflight, "r", encoding="utf-8") as txtResult_AvailableTestflight_file:
-        contents = txtResult_AvailableTestflight_file.readlines()
+def sort_and_update_results():
+    with open("Result_BetaAppsAvailable.md", "r", encoding="utf-8") as txt_result_available_testflight_file:
+        contents = txt_result_available_testflight_file.readlines()
 
     def extract_text_within_brackets(line):
         match = re.search(r"\[([^]]+)\]", line)
@@ -84,39 +77,23 @@ def ResultBetaAppsAvailable():
 
     contents.sort(key=lambda x: extract_text_within_brackets(x))
 
-    with open(txtResult_AvailableTestflight, "w", encoding="utf-8") as txtResult_AvailableTestflight_file:
-        txtResult_AvailableTestflight_file.write(f"# Beta Apps is available\t[{nowTime}]\n")
-        txtResult_AvailableTestflight_file.write('| Image | Name | #HASHTAG |\n| --- | --- | --- | \n')
-        txtResult_AvailableTestflight_file.writelines(contents)
+    with open("Result_BetaAppsAvailable.md", "w", encoding="utf-8") as txt_result_available_testflight_file:
+        txt_result_available_testflight_file.write(f"# Beta Apps are available\t[{datetime.now().strftime('%d/%m/%Y %I:%M %p')}]\n")
+        txt_result_available_testflight_file.write('| Name | #HASHTAG |\n| --- | --- | \n')
+        txt_result_available_testflight_file.writelines(contents)
 
-def ErrorLinkTestflight():
-    with open(txtTestflight_List, 'r') as f1, open(txtResult_ErrorLinkTestflight, 'r') as f2:
+def update_testflight_list():
+    with open("Testflight_List.txt", 'r') as f1, open("Result_ErrorLinkTestflight.txt", 'r') as f2:
         lines_f1 = f1.read().splitlines()
         lines_f2 = f2.read().splitlines()
 
-    # Remove duplicate lines from Testflight_list.txt
     unique_lines_f1 = list(set(lines_f1))
-
-    # Remove lines from Testflight_list.txt that match the content of Result_ErrorLinkTestflight.txt
     updated_lines_f1 = [line for line in unique_lines_f1 if line not in lines_f2]
 
-    with open("Testflight_list.txt", 'w') as f1:
+    with open("Testflight_List.txt", 'w') as f1:
         f1.write('\n'.join(updated_lines_f1))
 
 if __name__ == "__main__":
-    # Create images folder if the folder is not exists
-    from pathlib import Path
-    Path("images").mkdir(parents=True, exist_ok=True)
-    # Directory containing the images
-    folder_path = "images"  # Replace this with your folder path
-    
-    nowTime = datetime.now().strftime("%d/%m/%Y %I:%M %p")
-    txtTestflight_List = "Testflight_List.txt"
-    txtResult_AvailableTestflight = "Result_BetaAppsAvailable.md"
-    txtResult_ErrorLinkTestflight = "Result_ErrorLinkTestflight.txt"
-    
-    user_agent = UserAgent(browsers=['edge', 'chrome'])
-
-    CheckStatusCodeBetaApps()
-    ResultBetaAppsAvailable()
-    ErrorLinkTestflight()
+    fetch_beta_apps_info()
+    sort_and_update_results()
+    update_testflight_list()
