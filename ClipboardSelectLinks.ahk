@@ -39,7 +39,7 @@ F8::
     }
     Return
 
-F7::
+F6::
     Click, 3
 	Sleep, 50
     ; Save the currently selected text to a variable
@@ -78,4 +78,37 @@ F7::
 	Send, {ENTER}
     return
 
+F7::
+    Click, 3
+	Sleep, 50
+    ; Save the currently selected text to a variable
+    Clipboard := ""  ; Clear the clipboard
+    SendInput, ^c    ; Simulate Ctrl + C to copy selected text
+    ClipWait, 1      ; Wait for 1 second for the clipboard to contain data
 
+    ; Check if text is copied successfully
+    If ErrorLevel
+    {
+        MsgBox, No text was selected!
+        Return
+    }
+    
+    ; Save the copied text into a variable
+    input := Clipboard
+
+    ; Define a regular expression pattern to capture text within square brackets and remove the brackets
+    patternGetName := "https?.* "
+	
+    ; Use RegExMatch to extract the matched pattern from the input
+    if (RegExMatch(input, patternGetName, testflight_link)) {
+		
+        Clipboard := testflight_link
+    }
+	
+	Send, ^{t}
+	Sleep, 100
+	Send, ^{v}
+	Sleep, 50
+	Send, {ENTER}
+	
+    return
