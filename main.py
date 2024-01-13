@@ -72,7 +72,7 @@ def sort_and_update_results():
         contents = txt_result_available_testflight_file.readlines()
 
     def extract_text_within_brackets(line):
-        match = re.search(r"\[([^]]+)\]", line)
+        match = re.search(r"\*\*(.*?)\*\*", line)
         return match.group(1) if match else ""
 
     contents.sort(key=lambda x: extract_text_within_brackets(x))
