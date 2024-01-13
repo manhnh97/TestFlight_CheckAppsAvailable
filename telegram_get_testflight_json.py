@@ -1,6 +1,9 @@
 import re
+from os import path
 
-json_file = "D:\\Downloads\\Telegram Desktop\\ChatExport_2024-01-08"+"\\"+"result.json"
+json_folder = input("JSON folder: ")
+json_path = path.join(json_folder, "result.json").replace("\\", "\\\\")
+
 output_file = "telegram_output_testflight_list.txt"
 existing_links_file = "Testflight_List.txt"
 
@@ -13,7 +16,7 @@ def extract_unique_links(file_path):
     return links
 
 # Read the content of the JSON file
-with open(json_file, 'r', encoding='utf-8') as file:
+with open(json_path, 'r', encoding='utf-8') as file:
     file_content = file.read()
 
     # Regex pattern to match TestFlight links
@@ -41,3 +44,4 @@ with open(json_file, 'r', encoding='utf-8') as file:
     with open(existing_links_file, 'a') as append_file:
         for link in unique_new_links:
             append_file.write(link + '\n')
+        append_file.write('\n')
