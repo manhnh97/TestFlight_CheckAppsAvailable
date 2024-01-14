@@ -5,10 +5,8 @@ CD /D %~dp0
 
 :gitPull
 git pull origin master
-if %errorlevel% neq 0 (
-    echo Restoring code to the previous state...
-    git restore --source=HEAD --staged --worktree -- "Result_BetaAppsAvailable.md" "Testflight_List.txt"
-    exit /B
+	
+goto :pythonScript
 )
 goto :eof
 
@@ -20,6 +18,8 @@ if %errorlevel% neq 0 (
     echo Restoring code to the previous state...
     git restore --source=HEAD --staged --worktree -- "Result_BetaAppsAvailable.md" "Testflight_List.txt"
     exit /B
+	
+goto :commitGITHUB
 )
 goto :eof
 
