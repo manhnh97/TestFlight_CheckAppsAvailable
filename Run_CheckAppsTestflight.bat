@@ -3,12 +3,8 @@ setlocal enabledelayedexpansion
 title Check Apps Beta available on Testflight
 CD /D %~dp0
 
-:gitPull
-git pull origin master
-	
+git pull origin master    
 goto :pythonScript
-)
-goto :eof
 
 :pythonScript
 set "Testflight_CheckStatus=main.py"
@@ -18,10 +14,8 @@ if %errorlevel% neq 0 (
     echo Restoring code to the previous state...
     git restore --source=HEAD --staged --worktree -- "Result_BetaAppsAvailable.md" "Testflight_List.txt"
     exit /B
-	
-goto :commitGITHUB
 )
-goto :eof
+goto :commitGITHUB
 
 :commitGITHUB
 git add "Result_BetaAppsAvailable.md" "Testflight_List.txt"
