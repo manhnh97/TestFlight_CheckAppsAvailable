@@ -23,7 +23,8 @@ def camping_any_apps():
 def fetch_beta_apps_info():
     with open("Testflight_List.txt", 'r', encoding='utf-8') as txt_testflight_list_file,\
             open("Result_BetaAppsAvailable.md", 'w', encoding='utf-8') as txt_result_available_testflight_file,\
-            open("Result_ErrorLinkTestflight.txt", 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
+            open("Result_ErrorLinkTestflight.txt", 'w', encoding='utf-8') as txt_result_error_link_testflight_file,\
+            open("Result_BataAppsClose_Full.txt", 'w', encoding='utf-8') as txt_result_close_full_testflight_file:
         
         urls = list(set(txt_testflight_list_file.read().splitlines()))
         user_agent = UserAgent()
@@ -59,6 +60,8 @@ def fetch_beta_apps_info():
                             Beep(2000, 100)
                             print(f"{hashtag}<br />{url_testflight}")
                         txt_result_available_testflight_file.write(f"| **{name.strip()}** | {hashtag}<br />{url_testflight} |\n")
+                    else:
+                        txt_result_close_full_testflight_file.write(f"{name.strip()}\t{url_testflight}\n")
                 else:
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
         
