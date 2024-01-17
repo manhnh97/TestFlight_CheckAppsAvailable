@@ -8,23 +8,10 @@ from fake_useragent import UserAgent
 from datetime import datetime
 from os import path
 
-def camping_any_apps():
-    # Open the file in read mode to check if it exists
-    try:
-        with open('camp_apps.txt', 'r', encoding='utf-8') as txt_camp_apps:
-            camp_apps = [line.strip() for line in txt_camp_apps.readlines()]
-    except FileNotFoundError:
-        # If the file does not exist, create it
-        with open('camp_apps.txt', 'w', encoding='utf-8') as txt_camp_apps:
-            camp_apps = []
-
-    return camp_apps
-
 def fetch_beta_apps_info():
     with open("Testflight_List.txt", 'r', encoding='utf-8') as txt_testflight_list_file,\
             open("Result_BetaAppsAvailable.md", 'w', encoding='utf-8') as txt_result_available_testflight_file,\
-            open("Result_ErrorLinkTestflight.txt", 'w', encoding='utf-8') as txt_result_error_link_testflight_file,\
-            open("Result_BataAppsClose_Full.txt", 'w', encoding='utf-8') as txt_result_close_full_testflight_file:
+            open("Result_ErrorLinkTestflight.txt", 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
         
         urls = list(set(txt_testflight_list_file.read().splitlines()))
         user_agent = UserAgent()
@@ -56,12 +43,7 @@ def fetch_beta_apps_info():
                         name = ''.join(text_matches).replace('|', '-')
                         hashtags = re.findall(r"\b\w+\b", name)
                         hashtag = " ".join(["#" + hashtag.upper() for hashtag in hashtags])
-                        if name in camping_any_apps():
-                            Beep(2000, 100)
-                            print(f"{hashtag}<br />{url_testflight}")
                         txt_result_available_testflight_file.write(f"| **{name.strip()}** | {hashtag}<br />{url_testflight} |\n")
-                    else:
-                        txt_result_close_full_testflight_file.write(f"{name.strip()}\t{url_testflight}\n")
                 else:
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
         

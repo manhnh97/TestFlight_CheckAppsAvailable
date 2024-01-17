@@ -10,11 +10,6 @@ goto :pythonScript
 set "Testflight_CheckStatus=main.py"
 echo Run "%Testflight_CheckStatus%" script...
 python "%Testflight_CheckStatus%"
-if %errorlevel% neq 0 (
-    echo Restoring code to the previous state...
-    git restore --source=HEAD --staged --worktree -- "Result_BetaAppsAvailable.md" "Testflight_List.txt"
-    exit /B
-)
 goto :commitGITHUB
 
 :commitGITHUB

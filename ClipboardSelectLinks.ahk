@@ -31,7 +31,8 @@ F8::
 	
     if WinExist("ahk_exe Telegram.exe")
     {
-        WinActivate ; Use the window found by WinExist.
+        WinActivate, "ahk_exe Telegram.exe" ; Use the window found by WinExist.
+		WinWaitActivate, "ahk_exe Telegram.exe"
         Sleep, 100
         Send, ^v
         Sleep, 100
