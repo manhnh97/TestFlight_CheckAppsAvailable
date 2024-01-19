@@ -90,5 +90,5 @@ def update_testflight_list():
 
 if __name__ == "__main__":
     fetch_beta_apps_info()
-    # sort_and_update_results()
-    # update_testflight_list()
+    sort_and_update_results()
+    update_testflight_list()
