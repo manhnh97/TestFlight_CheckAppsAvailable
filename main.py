@@ -11,7 +11,8 @@ from os import path
 def fetch_beta_apps_info():
     with open("Testflight_List.txt", 'r', encoding='utf-8') as txt_testflight_list_file,\
             open("Result_BetaAppsAvailable.md", 'w', encoding='utf-8') as txt_result_available_testflight_file,\
-            open("Result_ErrorLinkTestflight.txt", 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
+            open("Result_ErrorLinkTestflight.txt", 'w', encoding='utf-8') as txt_result_error_link_testflight_file,\
+            open("Name_Testflight.txt", 'w', encoding='utf-8') as txt_result_name_link_testflight_file:
         
         urls = list(set(txt_testflight_list_file.read().splitlines()))
         user_agent = UserAgent()
@@ -38,6 +39,11 @@ def fetch_beta_apps_info():
                 if r.status_code == 200:
                     soup = bs(r.text, 'html.parser')
                     text_matches = re.findall(r'To join the\s(.*?)\sbeta', soup.get_text(), re.IGNORECASE)
+                    
+                    pattern_title = re.compile(r'the(.*?)beta', re.IGNORECASE | re.DOTALL)
+                    match_title = pattern_title.search(soup.text)
+                    result_titlename = match_title.group(1).strip()
+                    txt_result_name_link_testflight_file.write(f"{result_titlename} => {url_testflight}")
                     
                     if text_matches:
                         name = ''.join(text_matches).replace('|', '-')
