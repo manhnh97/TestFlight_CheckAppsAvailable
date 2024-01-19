@@ -38,15 +38,19 @@ def fetch_beta_apps_info():
                     
                 if r.status_code == 200:
                     soup = bs(r.text, 'html.parser')
-                    text_matches = re.findall(r'To join the\s(.*?)\sbeta', soup.get_text(), re.IGNORECASE)
+                    soup_text = soup.get_text()
                     
-                    pattern_title = re.compile(r'the(.*?)beta', re.IGNORECASE | re.DOTALL)
-                    match_title = pattern_title.search(soup.text)
-                    result_titlename = match_title.group(1).strip()
-                    txt_result_name_link_testflight_file.write(f"{result_titlename} => {url_testflight}")
+                    title_tag = soup.find('title').text
+                    title_matches = re.search(r'the(.*?)beta', title_tag, re.IGNORECASE)
+                    if title_matches:
+                        title_name_between_the_and_beta = title_matches.group(1).strip()
+                        txt_result_name_link_testflight_file.write(f"{title_name_between_the_and_beta} => {url_testflight}\n")
                     
+                    text_tag = soup.find('div', class_='beta-status').find('span')
+                    text_matches = re.search(r'To join the\s(.*?)\sbeta', soup_text, re.IGNORECASE)
                     if text_matches:
-                        name = ''.join(text_matches).replace('|', '-')
+                        textname_between_tothe_and_beta = text_matches.group(1).strip()
+                        name = ''.join(textname_between_tothe_and_beta).replace('|', '-')
                         hashtags = re.findall(r"\b\w+\b", name)
                         hashtag = " ".join(["#" + hashtag.upper() for hashtag in hashtags])
                         txt_result_available_testflight_file.write(f"| **{name.strip()}** | {hashtag}<br />{url_testflight} |\n")
@@ -86,5 +90,5 @@ def update_testflight_list():
 
 if __name__ == "__main__":
     fetch_beta_apps_info()
-    sort_and_update_results()
-    update_testflight_list()
+    # sort_and_update_results()
+    # update_testflight_list()
