@@ -1,4 +1,3 @@
-from winsound import Beep
 from time import sleep
 from bs4 import BeautifulSoup as bs
 import requests
@@ -6,24 +5,23 @@ import re
 from requests.exceptions import ConnectTimeout
 from fake_useragent import UserAgent
 from datetime import datetime
-from os import path
 
 def fetch_beta_apps_info():
     with open("Testflight_List.txt", 'r', encoding='utf-8') as txt_testflight_list_file,\
             open("Result_BetaAppsAvailable.md", 'w', encoding='utf-8') as txt_result_available_testflight_file,\
-            open("Result_ErrorLinkTestflight.txt", 'w', encoding='utf-8') as txt_result_error_link_testflight_file,\
-            open("Name_Testflight.txt", 'w', encoding='utf-8') as txt_result_name_link_testflight_file:
-        
-        urls = list(set(txt_testflight_list_file.read().splitlines()))
-        user_agent = UserAgent()
+            open("Result_ErrorLinkTestflight.txt", 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
         
         try:
+            user_agent = UserAgent()
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '}
+            
             session = requests.Session()
-            headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+            
+            urls = list(set(txt_testflight_list_file.read().split()))
             
             while urls:
                 url_testflight = urls.pop(0).strip()
-                
+
                 try:
                     r = session.get(url_testflight, headers=headers)
                 except ConnectTimeout:
@@ -37,16 +35,8 @@ def fetch_beta_apps_info():
                     urls.append(url_testflight)
                     
                 if r.status_code == 200:
-                    soup = bs(r.text, 'html.parser')
-                    soup_text = soup.get_text()
+                    soup_text = bs(r.text, 'html.parser').get_text()
                     
-                    title_tag = soup.find('title').text
-                    title_matches = re.search(r'the(.*?)beta', title_tag, re.IGNORECASE)
-                    if title_matches:
-                        title_name_between_the_and_beta = title_matches.group(1).strip()
-                        txt_result_name_link_testflight_file.write(f"{title_name_between_the_and_beta} => {url_testflight}\n")
-                    
-                    text_tag = soup.find('div', class_='beta-status').find('span')
                     text_matches = re.search(r'To join the\s(.*?)\sbeta', soup_text, re.IGNORECASE)
                     if text_matches:
                         textname_between_tothe_and_beta = text_matches.group(1).strip()
@@ -56,7 +46,6 @@ def fetch_beta_apps_info():
                         txt_result_available_testflight_file.write(f"| **{name.strip()}** | {hashtag}<br />{url_testflight} |\n")
                 else:
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
-        
         except AttributeError:
             pass
         finally:
