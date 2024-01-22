@@ -59,7 +59,7 @@ def fetch_beta_apps_info():
                         title_text = soup_text.find('title').getText()
                         text_matches = re.search(pattern_Full, title_text, re.IGNORECASE)
                         textname_between_join_and_beta = text_matches.group(1).strip()
-                        txt_result_full_testflight_file.write(f"{textname_between_join_and_beta} => {url_testflight}")
+                        txt_result_full_testflight_file.write(f"{textname_between_join_and_beta} => {url_testflight}\n")
                 else:
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
         except AttributeError:
@@ -83,14 +83,14 @@ def sort_and_update_results():
         txt_result_available_testflight_file.writelines(contents)
 
 def update_testflight_list():
-    with open(TXT_TESTFLIGHT_LIST, 'r') as f1, open(TXT_RESULT_ERROR_BETA_APPS, 'r') as f2:
+    with open(TXT_TESTFLIGHT_LIST, 'r', encoding='utf-8') as f1, open(TXT_RESULT_ERROR_BETA_APPS, 'r', encoding='utf-8') as f2:
         lines_f1 = f1.read().splitlines()
         lines_f2 = f2.read().splitlines()
 
     unique_lines_f1 = list(set(lines_f1))
     updated_lines_f1 = [line for line in unique_lines_f1 if line not in lines_f2]
 
-    with open(TXT_TESTFLIGHT_LIST, 'w') as f1:
+    with open(TXT_TESTFLIGHT_LIST, 'w', encoding='utf-8') as f1:
         f1.write('\n'.join(updated_lines_f1))
 
 if __name__ == "__main__":
