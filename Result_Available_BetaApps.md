@@ -1,13 +1,6 @@
 # Beta Apps are available	[23/01/2024 06:19 PM]
 | Name | #HASHTAG |
 | --- | --- | 
-https://testflight.apple.com/join/N1uysyQ7
-https://testflight.apple.com/join/Yaj3PqE1
-https://testflight.apple.com/join/GgBqXAqm
-https://testflight.apple.com/join/obCzlDk7
-https://testflight.apple.com/join/SX9RMrIs
-https://testflight.apple.com/join/xOD9qftQ
-le.com/join/qlRpaL76 |
 | **(Dev) Daikin ti premia** | #DEV #DAIKIN #TI #PREMIA<br />https://testflight.apple.com/join/19OkzluX |
 | **(GALLERY)** | #GALLERY<br />https://testflight.apple.com/join/rc0NcVih |
 | **(非公式)JR四国列車運行情報** | #非公式 #JR四国列車運行情報<br />https://testflight.apple.com/join/MQIrsNYX |
