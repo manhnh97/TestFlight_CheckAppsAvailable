@@ -59,7 +59,7 @@ def fetch_beta_apps_info():
                         title_text = soup_text.find('title').getText()
                         text_matches = re.search(pattern_Full, title_text, re.IGNORECASE)
                         textname_between_join_and_beta = text_matches.group(1).strip()
-                        txt_result_full_testflight_file.write(f"{textname_between_join_and_beta} => {url_testflight}\n")
+                        txt_result_full_testflight_file.write(f"{textname_between_join_and_beta} => {url_testflight}<br />\n")
                 else:
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
         except AttributeError:
