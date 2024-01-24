@@ -6,10 +6,10 @@ from requests.exceptions import ConnectTimeout
 from fake_useragent import UserAgent
 from datetime import datetime
 
-TXT_TESTFLIGHT_LIST = "Testflight_List.txt"
-TXT_RESULT_AVAILABLE_BETA_APPS = "Result_Available_BetaApps.md"
-TXT_RESULT_FULL_BETA_APPS = "Result_Full_BetaApps.md"
-TXT_RESULT_ERROR_BETA_APPS = "Result_Available_BetaApps.md"
+TXT_TESTFLIGHT_LIST =               "Testflight_List.txt"
+TXT_RESULT_AVAILABLE_BETA_APPS =    "Result_Available_BetaApps.md"
+TXT_RESULT_FULL_BETA_APPS =         "Result_Full_BetaApps.md"
+TXT_RESULT_ERROR_BETA_APPS =        "Result_Error_BetaApps.md"
 
 def fetch_beta_apps_info():
     with open(TXT_TESTFLIGHT_LIST, 'r', encoding='utf-8') as txt_testflight_list_file,\
@@ -59,7 +59,9 @@ def fetch_beta_apps_info():
                         title_text = soup_text.find('title').getText()
                         text_matches = re.search(pattern_Full, title_text, re.IGNORECASE)
                         textname_between_join_and_beta = text_matches.group(1).strip()
-                        txt_result_full_testflight_file.write(f"{textname_between_join_and_beta} => {url_testflight}<br />\n")
+                        txt_result_full_testflight_file.write(f"{textname_between_join_and_beta} => {url_testflight}\n")
+                    else:
+                        txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
                 else:
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
         except AttributeError:
