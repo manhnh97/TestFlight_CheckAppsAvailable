@@ -5,6 +5,7 @@ import re
 from requests.exceptions import ConnectTimeout
 from fake_useragent import UserAgent
 from datetime import datetime
+from winsound import Beep
 
 TXT_TESTFLIGHT_LIST =               "Testflight_List.txt"
 TXT_RESULT_AVAILABLE_BETA_APPS =    "Result_Available_BetaApps.md"
@@ -99,3 +100,4 @@ if __name__ == "__main__":
     fetch_beta_apps_info()
     sort_and_update_results()
     update_testflight_list()
+    Beep(2000, 1500)
