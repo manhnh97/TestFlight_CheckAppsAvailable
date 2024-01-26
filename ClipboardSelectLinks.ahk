@@ -106,8 +106,8 @@ F9::
     if WinExist(WinTitle)
     {
         ; Activate the Telegram window
-        WinActivate, %WinTitle%
-        Sleep, 150
+        WinWaitActive, %WinTitle%
+        Sleep, 100
         
         ; Paste the modified text and press Enter
         Send, ^v
