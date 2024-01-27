@@ -18,14 +18,13 @@ def fetch_beta_apps_info():
             open(TXT_RESULT_FULL_BETA_APPS, 'w', encoding='utf-8') as txt_result_full_testflight_file,\
             open(TXT_RESULT_ERROR_BETA_APPS, 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
         
+        user_agent = UserAgent()
+        headers = {'User-Agent': user_agent.random}
+        pattern_Available = r'To join the\s(.*?)\sbeta'
+        pattern_Full = r'Join the\s(.*?)\sbeta'
+        
         try:
-            user_agent = UserAgent()
-            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '}
-            pattern_Available = r'To join the\s(.*?)\sbeta'
-            pattern_Full = r'Join the\s(.*?)\sbeta'
-                        
             session = requests.Session()
-            
             urls = list(set(txt_testflight_list_file.read().split()))
             
             while urls:
@@ -39,9 +38,10 @@ def fetch_beta_apps_info():
                     continue
                 
                 if r.status_code == 429:
-                    retry_after = int(r.headers.get('Retry-After', 3))
+                    retry_after = int(r.headers.get('Retry-After', 5))
                     sleep(retry_after)
                     urls.append(url_testflight)
+                    headers = {'User-Agent': user_agent.random}
                     
                 if r.status_code == 200:
                     soup_text = bs(r.text, 'html.parser')
@@ -100,4 +100,4 @@ if __name__ == "__main__":
     fetch_beta_apps_info()
     sort_and_update_results()
     update_testflight_list()
-    Beep(2000, 1500)
+    Beep(2000, 1000)
