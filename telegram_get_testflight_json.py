@@ -1,5 +1,6 @@
 import re
 import os
+from os import path
 
 # Function to extract unique links from a file
 def extract_unique_links(file_path):
@@ -10,7 +11,8 @@ def extract_unique_links(file_path):
     return links
 
 # Define the root directory
-json_root_folder = r"D:\\Downloads\\Telegram Desktop"
+json_folder = input("Telegram Desktop folder: ")
+json_root_folder = path.join(json_folder, "result.json").replace("\\", "\\\\")
 
 output_file = "telegram_output_testflight_list.txt"
 existing_links_file = "Testflight_List.txt"
