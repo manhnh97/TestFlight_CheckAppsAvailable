@@ -1,8 +1,6 @@
-import re
 import os
-from os import path
+import re
 
-# Function to extract unique links from a file
 def extract_unique_links(file_path):
     links = set()
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -10,49 +8,59 @@ def extract_unique_links(file_path):
             links.add(line.strip())
     return links
 
-# Define the root directory
-json_folder = input("Telegram Desktop folder: ")
-json_root_folder = path.join(json_folder, "result.json").replace("\\", "\\\\")
+def find_result_json_files(root_folder):
+    result_files = []
+    for foldername, subfolders, filenames in os.walk(root_folder):
+        for filename in filenames:
+            if filename == 'result.json':
+                result_files.append(os.path.join(foldername, filename))
+    return result_files
 
-output_file = "telegram_output_testflight_list.txt"
-existing_links_file = "Testflight_List.txt"
+# Specify the root folder where you want to start searching
+ROOT_FOLDER = r'D:\Downloads\Telegram Desktop'
+
+OUTPUT_FILE = "telegram_output_testflight_list.txt"
+EXISTING_LINKS_FILE = "Testflight_List.txt"
 
 # Regex pattern to match TestFlight links
-pattern = r'https?://testflight\\.apple\\.com/join/[a-zA-Z0-9_-]+'
+PATTERN = r'https?://testflight\.apple\.com/join/[a-zA-Z0-9]{8}+'
+
+if not os.path.exists(EXISTING_LINKS_FILE):
+    # File does not exist, create it
+    with open(EXISTING_LINKS_FILE, 'w'):
+        pass
+
+# Call the function to find all result.json files
+result_json_files = find_result_json_files(ROOT_FOLDER)
 
 # Set to store unique links
 unique_links = set()
 
-# Traverse through the directory structure
-for root, dirs, files in os.walk(json_root_folder):
-    for file in files:
-        if file == "result.json":
-            json_path = os.path.join(root, file)
+# Print the list of result.json files found
+for file in result_json_files:
+    json_path = file.replace('\\', '\\\\')
+    with open(json_path, 'r', encoding='utf-8') as file:
+        file_content = file.read()
 
-            # Read the content of the JSON file
-            with open(json_path, 'r', encoding='utf-8') as file:
-                file_content = file.read()
+        # Find all TestFlight links in the JSON string
+        testflight_links = re.findall(PATTERN, file_content)
 
-                # Find all TestFlight links in the JSON string
-                testflight_links = re.findall(pattern, file_content)
-
-                # Add the links to the set of unique links
-                unique_links.update(testflight_links)
+        # Add the links to the set of unique links
+        unique_links.update(testflight_links)
 
 # Write unique TestFlight links to a file
-with open(output_file, 'a+') as output:
+with open(OUTPUT_FILE, 'a+') as output:
     for link in unique_links:
         output.write(link + '\n')
 
 # Get existing links
-existing_links = extract_unique_links(existing_links_file)
-new_links = extract_unique_links(output_file)
+new_links = extract_unique_links(OUTPUT_FILE)
 
-# Get the unique links that are not in the existing set
-unique_new_links = new_links - existing_links
+# Read unique lines from file 'b' and store them in a set
+unique_lines = set()
+with open(OUTPUT_FILE, 'r', encoding='utf-8') as infile, open(EXISTING_LINKS_FILE, 'w', encoding='utf-8') as outfile:
+    for line in infile:
+        unique_lines.add(line.strip())
 
-# Append unique new links to the Testflight_List.txt file
-with open(existing_links_file, 'a') as append_file:
-    for link in unique_new_links:
-        append_file.write(link + '\n')
-    append_file.write('\n')
+    for line in unique_lines:
+        outfile.write(line + '\n')
