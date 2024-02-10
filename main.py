@@ -38,7 +38,7 @@ def fetch_beta_apps_info():
                     continue
                 
                 if r.status_code == 429:
-                    retry_after = int(r.headers.get('Retry-After', 10))
+                    retry_after = int(r.headers.get('Retry-After', 6))
                     sleep(retry_after)
                     urls.append(url_testflight)
                     headers = {'User-Agent': user_agent.random}
