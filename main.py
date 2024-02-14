@@ -5,7 +5,6 @@ import re
 from requests.exceptions import ConnectTimeout
 from fake_useragent import UserAgent
 from datetime import datetime
-from winsound import Beep
 from random import choice
 
 # Constants
@@ -13,79 +12,78 @@ URL_PROXIES = "https://api.proxyscrape.com/v3/free-proxy-list/get?request=displa
 TXT_TESTFLIGHT_LIST =               "Testflight_List.txt"
 TXT_RESULT_AVAILABLE_BETA_APPS =    "Result_Available_BetaApps.md"
 TXT_RESULT_FULL_BETA_APPS =         "Result_Full_BetaApps.md"
-TXT_RESULT_ERROR_BETA_APPS =        "Result_Error_BetaApps.md"
+# TXT_RESULT_ERROR_BETA_APPS =        "Result_Error_BetaApps.md"
 MAX_RETRIES = 3
 
 def fetch_beta_apps_info():
     with open(TXT_TESTFLIGHT_LIST, 'r', encoding='utf-8') as txt_testflight_list_file,\
             open(TXT_RESULT_AVAILABLE_BETA_APPS, 'w', encoding='utf-8') as txt_result_available_testflight_file,\
-            open(TXT_RESULT_FULL_BETA_APPS, 'w', encoding='utf-8') as txt_result_full_testflight_file,\
-            open(TXT_RESULT_ERROR_BETA_APPS, 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
-        
+            open(TXT_RESULT_FULL_BETA_APPS, 'w', encoding='utf-8') as txt_result_full_testflight_file:
+            # open(TXT_RESULT_ERROR_BETA_APPS, 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
         user_agent = UserAgent()
         try:
             response = requests.get(URL_PROXIES)
-            response.raise_for_status()  # Raise an exception for non-200 status codes
-            proxy_data = response.json()['proxies']
-
-            random_proxy = choice(proxy_data)
-            headers = {'User-Agent': user_agent.random}
-            
-            try:
-                session = requests.Session()
-            
-                pattern_Available = r'To join the\s(.*?)\sbeta'
-                pattern_Full = r'Join the\s(.*?)\sbeta'
-                urls = list(set(txt_testflight_list_file.read().split()))
+            if response.status_code == 200:
+                proxy_data = response.json()['proxies']
+                random_proxy = choice(proxy_data)
+                headers = {'User-Agent': user_agent.random}
                 
-                while urls:
-                    url_testflight = urls.pop(0).strip()
+                try:
+                    session = requests.Session()
+                
+                    pattern_Available = r'To join the\s(.*?)\sbeta'
+                    pattern_Full = r'Join the\s(.*?)\sbeta'
+                    urls = list(set(txt_testflight_list_file.read().split()))
                     
-                    try:
-                        r = session.get(url_testflight, headers=headers, proxies={random_proxy['protocol']: random_proxy['proxy']})
-                    except ConnectTimeout:
-                        urls.append(url_testflight)
-                        random_proxy = choice(proxy_data)
-                        headers = {'User-Agent': user_agent.random}
-                        continue
-                    
-                    if r.status_code == 429:
-                        urls.append(url_testflight)
-                        random_proxy = choice(proxy_data)
-                        headers = {'User-Agent': user_agent.random}
-                        retry_after = int(r.headers.get('Retry-After', MAX_RETRIES))
-                        sleep(retry_after)
+                    while urls:
+                        url_testflight = urls.pop(0).strip()
                         
-                    if r.status_code == 200:
-                        soup_text = bs(r.text, 'html.parser')
-                        beta_status_element = soup_text.find(class_='beta-status')
-                        first_span = beta_status_element.find('span')
-                        span_text = first_span.get_text(strip=True)
+                        try:
+                            r = session.get(url_testflight, headers=headers, proxies={random_proxy['protocol']: random_proxy['proxy']})
+                        except ConnectTimeout:
+                            urls.append(url_testflight)
+                            random_proxy = choice(proxy_data)
+                            headers = {'User-Agent': user_agent.random}
+                            continue
                         
-                        if re.search(pattern_Available, span_text, re.IGNORECASE):
+                        if r.status_code == 429:
+                            urls.append(url_testflight)
+                            random_proxy = choice(proxy_data)
+                            headers = {'User-Agent': user_agent.random}
+                            retry_after = int(r.headers.get('Retry-After', MAX_RETRIES))
+                            sleep(retry_after)
+                            
+                        if r.status_code == 200:
+                            soup_text = bs(r.text, 'html.parser')
+                            beta_status_element = soup_text.find(class_='beta-status')
+                            first_span = beta_status_element.find('span')
+                            span_text = first_span.get_text(strip=True)
+                            
                             text_matches = re.search(pattern_Available, span_text, re.IGNORECASE)
-                            textname_between_tothe_and_beta = text_matches.group(1).strip()
-                            name = ''.join(textname_between_tothe_and_beta).replace('|', '-')
-                            hashtags = re.findall(r"\b\w+\b", name)
-                            hashtag = " ".join(["#" + hashtag.upper() for hashtag in hashtags])
-                            txt_result_available_testflight_file.write(f"| **{name.strip()}** | {hashtag}<br />{url_testflight} |\n")
-                        elif "This beta is full." == span_text:
-                            title_text = soup_text.find('title').getText()
-                            text_matches = re.search(pattern_Full, title_text, re.IGNORECASE)
-                            textname_between_join_and_beta = text_matches.group(1).strip()
-                            txt_result_full_testflight_file.write(f"{textname_between_join_and_beta} => {url_testflight}\n")
-                        else:
-                            txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
-                    else:
-                        txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
-            except (ConnectTimeout, TimeoutError, OSError) as e:
-                    print(f"Connection error: {e}")
-                    pass
-            finally:
-                session.close()
-                r.close()
+                            if text_matches:
+                                textname_between_tothe_and_beta = text_matches.group(1).strip()
+                                name = ''.join(textname_between_tothe_and_beta).replace('|', '-')
+                                hashtags = re.findall(r"\b\w+\b", name)
+                                hashtag = " ".join(["#" + hashtag.upper() for hashtag in hashtags])
+                                txt_result_available_testflight_file.write(f"| **{name.strip()}** | {hashtag}<br />{url_testflight} |\n")
+                            elif "This beta is full." == span_text:
+                                title_text = soup_text.find('title').getText()
+                                text_matches = re.search(pattern_Full, title_text, re.IGNORECASE)
+                                textname_between_join_and_beta = text_matches.group(1).strip()
+                                txt_result_full_testflight_file.write(f"{textname_between_join_and_beta} => {url_testflight}\n")
+                        #     else:
+                        #         txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
+                        # else:
+                        #     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
+                        
+                except (ConnectTimeout, TimeoutError, OSError) as e:
+                        # print(f"Connection error: {e}")
+                        pass
+                finally:
+                    session.close()
+                    r.close()
         except Exception as e:
-            print(f"ProxyError: {e}")
+            # print(f"ProxyError: {e}")
             pass
 
 def sort_and_update_results():
