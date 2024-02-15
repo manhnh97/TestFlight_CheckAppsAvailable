@@ -5,86 +5,90 @@ import re
 from requests.exceptions import ConnectTimeout
 from fake_useragent import UserAgent
 from datetime import datetime
-from random import choice
+import random
 
 # Constants
 URL_PROXIES = "https://api.proxyscrape.com/v3/free-proxy-list/get?request=displayproxies&proxy_format=ipport&format=json"
 TXT_TESTFLIGHT_LIST =               "Testflight_List.txt"
 TXT_RESULT_AVAILABLE_BETA_APPS =    "Result_Available_BetaApps.md"
 TXT_RESULT_FULL_BETA_APPS =         "Result_Full_BetaApps.md"
-# TXT_RESULT_ERROR_BETA_APPS =        "Result_Error_BetaApps.md"
+TXT_RESULT_ERROR_BETA_APPS =        "Result_Error_BetaApps.md"
 MAX_RETRIES = 3
 
-def fetch_beta_apps_info():
+def ListProxies():
+    list_proxies = []
+    response = requests.get(URL_PROXIES)
+    proxy_data = response.json().get('proxies', [])  # Use get() with a default value of an empty list
+    if response.status_code == 200:
+        listCountry = ['VN']
+        for proxies in proxy_data:
+            ip_data = proxies.get('ip_data', {})  # Use get() to handle missing 'ip_data' key
+            countryCode = ip_data.get('countryCode')
+            if countryCode in listCountry:
+                # print(f"{countryCode}:: {proxies['protocol']}: {proxies['proxy']}")
+                list_proxies.append((proxies['protocol'], proxies['proxy']))
+    return list_proxies
+
+def fetch_beta_apps_info(data_proxy):
     with open(TXT_TESTFLIGHT_LIST, 'r', encoding='utf-8') as txt_testflight_list_file,\
             open(TXT_RESULT_AVAILABLE_BETA_APPS, 'w', encoding='utf-8') as txt_result_available_testflight_file,\
-            open(TXT_RESULT_FULL_BETA_APPS, 'w', encoding='utf-8') as txt_result_full_testflight_file:
-            # open(TXT_RESULT_ERROR_BETA_APPS, 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
+            open(TXT_RESULT_FULL_BETA_APPS, 'w', encoding='utf-8') as txt_result_full_testflight_file,\
+            open(TXT_RESULT_ERROR_BETA_APPS, 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
+        urls = list(set(txt_testflight_list_file.read().split()))
         user_agent = UserAgent()
+        session = requests.Session()
+        headers = {'User-Agent': user_agent.random}
+        protocol, proxy = random.choice(data_proxy)
+    
+        pattern_Available = r'To join the\s(.*?)\sbeta'
+        pattern_Full = r'Join the\s(.*?)\sbeta'
         try:
-            response = requests.get(URL_PROXIES)
-            if response.status_code == 200:
-                proxy_data = response.json()['proxies']
-                random_proxy = choice(proxy_data)
-                headers = {'User-Agent': user_agent.random}
-                
+            while urls:
+                url_testflight = urls.pop(0).strip()
                 try:
-                    session = requests.Session()
+                    r = session.get(url_testflight, headers=headers, proxies={protocol: proxy})
+                except ConnectTimeout:
+                    urls.append(url_testflight)
+                    headers = {'User-Agent': user_agent.random}
+                    protocol, proxy = random.choice(data_proxy)
+                    continue
                 
-                    pattern_Available = r'To join the\s(.*?)\sbeta'
-                    pattern_Full = r'Join the\s(.*?)\sbeta'
-                    urls = list(set(txt_testflight_list_file.read().split()))
+                if r.status_code == 429:
+                    urls.append(url_testflight)
+                    headers = {'User-Agent': user_agent.random}
+                    protocol, proxy = random.choice(data_proxy)
+                    retry_after = int(r.headers.get('Retry-After', MAX_RETRIES))
+                    sleep(retry_after)
+                
+                if r.status_code == 200:
+                    soup_text = bs(r.text, 'html.parser')
+                    beta_status_element = soup_text.find(class_='beta-status')
+                    first_span = beta_status_element.find('span')
+                    span_text = first_span.get_text(strip=True)
                     
-                    while urls:
-                        url_testflight = urls.pop(0).strip()
-                        
-                        try:
-                            r = session.get(url_testflight, headers=headers, proxies={random_proxy['protocol']: random_proxy['proxy']})
-                        except ConnectTimeout:
-                            urls.append(url_testflight)
-                            random_proxy = choice(proxy_data)
-                            headers = {'User-Agent': user_agent.random}
-                            continue
-                        
-                        if r.status_code == 429:
-                            urls.append(url_testflight)
-                            random_proxy = choice(proxy_data)
-                            headers = {'User-Agent': user_agent.random}
-                            retry_after = int(r.headers.get('Retry-After', MAX_RETRIES))
-                            sleep(retry_after)
-                            
-                        if r.status_code == 200:
-                            soup_text = bs(r.text, 'html.parser')
-                            beta_status_element = soup_text.find(class_='beta-status')
-                            first_span = beta_status_element.find('span')
-                            span_text = first_span.get_text(strip=True)
-                            
-                            text_matches = re.search(pattern_Available, span_text, re.IGNORECASE)
-                            if text_matches:
-                                textname_between_tothe_and_beta = text_matches.group(1).strip()
-                                name = ''.join(textname_between_tothe_and_beta).replace('|', '-')
-                                hashtags = re.findall(r"\b\w+\b", name)
-                                hashtag = " ".join(["#" + hashtag.upper() for hashtag in hashtags])
-                                txt_result_available_testflight_file.write(f"| **{name.strip()}** | {hashtag}<br />{url_testflight} |\n")
-                            elif "This beta is full." == span_text:
-                                title_text = soup_text.find('title').getText()
-                                text_matches = re.search(pattern_Full, title_text, re.IGNORECASE)
-                                textname_between_join_and_beta = text_matches.group(1).strip()
-                                txt_result_full_testflight_file.write(f"{textname_between_join_and_beta} => {url_testflight}\n")
-                        #     else:
-                        #         txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
-                        # else:
-                        #     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
-                        
-                except (ConnectTimeout, TimeoutError, OSError) as e:
-                        # print(f"Connection error: {e}")
-                        pass
-                finally:
-                    session.close()
-                    r.close()
-        except Exception as e:
-            # print(f"ProxyError: {e}")
-            pass
+                    text_matches = re.search(pattern_Available, span_text, re.IGNORECASE)
+                    if text_matches:
+                        textname_between_tothe_and_beta = text_matches.group(1).strip()
+                        name = ''.join(textname_between_tothe_and_beta).replace('|', '-')
+                        hashtags = re.findall(r"\b\w+\b", name)
+                        hashtag = " ".join(["#" + hashtag.upper() for hashtag in hashtags])
+                        txt_result_available_testflight_file.write(f"| **{name.strip()}** | {hashtag}<br />{url_testflight} |\n")
+                    elif "This beta is full." == span_text:
+                        title_text = soup_text.find('title').getText()
+                        text_matches = re.search(pattern_Full, title_text, re.IGNORECASE)
+                        textname_between_join_and_beta = text_matches.group(1).strip()
+                        txt_result_full_testflight_file.write(f"{textname_between_join_and_beta} => {url_testflight}\n")
+                    else:
+                        txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
+                else:
+                    txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
+        except (ConnectTimeout, TimeoutError, OSError) as e:
+            print(f"Connection error: {e}")
+            # pass
+        finally:
+            session.close()
+            r.close()
+        
 
 def sort_and_update_results():
     with open(TXT_RESULT_AVAILABLE_BETA_APPS, "r", encoding="utf-8") as txt_result_available_testflight_file:
@@ -113,6 +117,7 @@ def update_testflight_list():
         f1.write('\n'.join(updated_lines_f1))
 
 if __name__ == "__main__":
-    fetch_beta_apps_info()
+    data_proxy = ListProxies()
+    fetch_beta_apps_info(data_proxy)
     sort_and_update_results()
     update_testflight_list()
