@@ -4,6 +4,8 @@ import requests
 import re
 from requests.exceptions import ConnectTimeout
 from fake_useragent import UserAgent
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
 from datetime import datetime
 import random
 
@@ -13,6 +15,7 @@ TXT_TESTFLIGHT_LIST =               "Testflight_List.txt"
 TXT_RESULT_AVAILABLE_BETA_APPS =    "Result_Available_BetaApps.md"
 TXT_RESULT_FULL_BETA_APPS =         "Result_Full_BetaApps.md"
 TXT_RESULT_ERROR_BETA_APPS =        "Result_Error_BetaApps.md"
+TXT_RESULT_429_BETA_APPS =          "Result_429_BetaApps.md"
 MAX_RETRIES = 3
 
 def ListProxies():
@@ -33,10 +36,14 @@ def fetch_beta_apps_info(data_proxy):
     with open(TXT_TESTFLIGHT_LIST, 'r', encoding='utf-8') as txt_testflight_list_file,\
             open(TXT_RESULT_AVAILABLE_BETA_APPS, 'w', encoding='utf-8') as txt_result_available_testflight_file,\
             open(TXT_RESULT_FULL_BETA_APPS, 'w', encoding='utf-8') as txt_result_full_testflight_file,\
-            open(TXT_RESULT_ERROR_BETA_APPS, 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
+            open(TXT_RESULT_ERROR_BETA_APPS, 'w', encoding='utf-8') as txt_result_error_link_testflight_file,\
+            open(TXT_RESULT_429_BETA_APPS, 'w', encoding='utf-8') as txt_result_429_link_testflight_file:
         urls = list(set(txt_testflight_list_file.read().split()))
         user_agent = UserAgent()
         session = requests.Session()
+        adapter = HTTPAdapter(max_retries=MAX_RETRIES)
+        session.mount('http://', adapter)
+        session.mount('https://', adapter)
         headers = {'User-Agent': user_agent.random}
         protocol, proxy = random.choice(data_proxy)
     
@@ -59,6 +66,8 @@ def fetch_beta_apps_info(data_proxy):
                     protocol, proxy = random.choice(data_proxy)
                     retry_after = int(r.headers.get('Retry-After', MAX_RETRIES))
                     sleep(retry_after)
+                    txt_result_429_link_testflight_file.write(f"{url_testflight}\n")
+                    continue
                 
                 if r.status_code == 200:
                     soup_text = bs(r.text, 'html.parser')
@@ -84,7 +93,11 @@ def fetch_beta_apps_info(data_proxy):
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
         except (ConnectTimeout, TimeoutError, OSError) as e:
             print(f"Connection error: {e}")
-            # pass
+            urls.append(url_testflight)
+            headers = {'User-Agent': user_agent.random}
+            protocol, proxy = random.choice(data_proxy)
+            pass
+        
         finally:
             session.close()
             r.close()
