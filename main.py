@@ -15,8 +15,7 @@ TXT_TESTFLIGHT_LIST =               "Testflight_List.txt"
 TXT_RESULT_AVAILABLE_BETA_APPS =    "Result_Available_BetaApps.md"
 TXT_RESULT_FULL_BETA_APPS =         "Result_Full_BetaApps.md"
 TXT_RESULT_ERROR_BETA_APPS =        "Result_Error_BetaApps.md"
-TXT_RESULT_429_BETA_APPS =          "Result_429_BetaApps.md"
-MAX_RETRIES = 3
+MAX_RETRIES = 5
 
 def ListProxies():
     list_proxies = []
@@ -36,8 +35,7 @@ def fetch_beta_apps_info(data_proxy):
     with open(TXT_TESTFLIGHT_LIST, 'r', encoding='utf-8') as txt_testflight_list_file,\
             open(TXT_RESULT_AVAILABLE_BETA_APPS, 'w', encoding='utf-8') as txt_result_available_testflight_file,\
             open(TXT_RESULT_FULL_BETA_APPS, 'w', encoding='utf-8') as txt_result_full_testflight_file,\
-            open(TXT_RESULT_ERROR_BETA_APPS, 'w', encoding='utf-8') as txt_result_error_link_testflight_file,\
-            open(TXT_RESULT_429_BETA_APPS, 'w', encoding='utf-8') as txt_result_429_link_testflight_file:
+            open(TXT_RESULT_ERROR_BETA_APPS, 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
         urls = list(set(txt_testflight_list_file.read().split()))
         user_agent = UserAgent()
         session = requests.Session()
@@ -66,7 +64,6 @@ def fetch_beta_apps_info(data_proxy):
                     protocol, proxy = random.choice(data_proxy)
                     retry_after = int(r.headers.get('Retry-After', MAX_RETRIES))
                     sleep(retry_after)
-                    txt_result_429_link_testflight_file.write(f"{url_testflight}\n")
                     continue
                 
                 if r.status_code == 200:
