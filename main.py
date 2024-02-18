@@ -5,9 +5,8 @@ import re
 from requests.exceptions import ConnectTimeout
 from fake_useragent import UserAgent
 from requests.adapters import HTTPAdapter
-from urllib3.util import Retry
 from datetime import datetime
-import random
+from random import choice
 
 # Constants
 URL_PROXIES = "https://api.proxyscrape.com/v3/free-proxy-list/get?request=displayproxies&proxy_format=ipport&format=json"
@@ -15,14 +14,14 @@ TXT_TESTFLIGHT_LIST =               "Testflight_List.txt"
 TXT_RESULT_AVAILABLE_BETA_APPS =    "Result_Available_BetaApps.md"
 TXT_RESULT_FULL_BETA_APPS =         "Result_Full_BetaApps.md"
 TXT_RESULT_ERROR_BETA_APPS =        "Result_Error_BetaApps.md"
-MAX_RETRIES = 5
+MAX_RETRIES = 3
 
 def ListProxies():
     list_proxies = []
     response = requests.get(URL_PROXIES)
     proxy_data = response.json().get('proxies', [])  # Use get() with a default value of an empty list
     if response.status_code == 200:
-        listCountry = ['VN']
+        listCountry = ['VN', 'US']
         for proxies in proxy_data:
             ip_data = proxies.get('ip_data', {})  # Use get() to handle missing 'ip_data' key
             countryCode = ip_data.get('countryCode')
@@ -43,7 +42,7 @@ def fetch_beta_apps_info(data_proxy):
         session.mount('http://', adapter)
         session.mount('https://', adapter)
         headers = {'User-Agent': user_agent.random}
-        protocol, proxy = random.choice(data_proxy)
+        protocol, proxy = choice(data_proxy)
     
         pattern_Available = r'To join the\s(.*?)\sbeta'
         pattern_Full = r'Join the\s(.*?)\sbeta'
@@ -55,13 +54,13 @@ def fetch_beta_apps_info(data_proxy):
                 except ConnectTimeout:
                     urls.append(url_testflight)
                     headers = {'User-Agent': user_agent.random}
-                    protocol, proxy = random.choice(data_proxy)
+                    protocol, proxy = choice(data_proxy)
                     continue
                 
                 if r.status_code == 429:
                     urls.append(url_testflight)
                     headers = {'User-Agent': user_agent.random}
-                    protocol, proxy = random.choice(data_proxy)
+                    protocol, proxy = choice(data_proxy)
                     retry_after = int(r.headers.get('Retry-After', MAX_RETRIES))
                     sleep(retry_after)
                     continue
@@ -90,16 +89,13 @@ def fetch_beta_apps_info(data_proxy):
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
         except (ConnectTimeout, TimeoutError, OSError) as e:
             print(f"Connection error: {e}")
-            urls.append(url_testflight)
             headers = {'User-Agent': user_agent.random}
-            protocol, proxy = random.choice(data_proxy)
-            pass
-        
+            protocol, proxy = choice(data_proxy)
+            urls.append(url_testflight)
         finally:
-            session.close()
             r.close()
+            session.close()
         
-
 def sort_and_update_results():
     with open(TXT_RESULT_AVAILABLE_BETA_APPS, "r", encoding="utf-8") as txt_result_available_testflight_file:
         contents = txt_result_available_testflight_file.readlines()
