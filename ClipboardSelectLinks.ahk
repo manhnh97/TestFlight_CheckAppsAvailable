@@ -106,6 +106,7 @@ F9::
     if WinExist(WinTitle)
     {
         ; Activate the Telegram window
+		WinActivate, %WinTitle%
         WinWaitActive, %WinTitle%
         Sleep, 100
         
