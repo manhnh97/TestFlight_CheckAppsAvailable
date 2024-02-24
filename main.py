@@ -14,7 +14,7 @@ TXT_TESTFLIGHT_LIST =               "Testflight_List.txt"
 TXT_RESULT_AVAILABLE_BETA_APPS =    "Result_Available_BetaApps.md"
 TXT_RESULT_FULL_BETA_APPS =         "Result_Full_BetaApps.md"
 TXT_RESULT_ERROR_BETA_APPS =        "Result_Error_BetaApps.md"
-MAX_RETRIES = 3
+MAX_RETRIES = 5
 
 def ListProxies():
     list_proxies = []
@@ -79,14 +79,14 @@ def fetch_beta_apps_info(data_proxy):
                         text_matches = re.search(pattern_Full, title_text, re.IGNORECASE)
                         textname_between_join_and_beta = text_matches.group(1).strip()
                         txt_result_full_testflight_file.write(f"{textname_between_join_and_beta} => {url_testflight}\n")
-                txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
+                else:
+                    txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
         except (ConnectTimeout, TimeoutError, OSError) as e:
             print(f"Connection error: {e}")
             headers = {'User-Agent': user_agent.random}
             protocol, proxy = choice(data_proxy)
             urls.append(url_testflight)
         finally:
-            r.close()
             session.close()
         
 def sort_and_update_results():
