@@ -11,9 +11,9 @@ from random import choice
 # Constants
 URL_PROXIES = "https://api.proxyscrape.com/v3/free-proxy-list/get?request=displayproxies&proxy_format=ipport&format=json"
 TXT_TESTFLIGHT_LIST =               "Testflight_List.txt"
-TXT_RESULT_AVAILABLE_BETA_APPS =    "Result_Available_BetaApps.md"
-TXT_RESULT_FULL_BETA_APPS =         "Result_Full_BetaApps.md"
-TXT_RESULT_ERROR_BETA_APPS =        "Result_Error_BetaApps.md"
+TXT_RESULT_AVAILABLE_BETA_APPS =    "Result_Testflight_Available_BetaApps.md"
+TXT_RESULT_FULL_BETA_APPS =         "Result_Testflight_Full_BetaApps.md"
+TXT_RESULT_ERROR_BETA_APPS =        "ResultTestflight_Error_BetaApps.md"
 MAX_RETRIES = 5
 
 def ListProxies():
@@ -86,6 +86,7 @@ def fetch_beta_apps_info(data_proxy):
             headers = {'User-Agent': user_agent.random}
             protocol, proxy = choice(data_proxy)
             urls.append(url_testflight)
+            pass
         finally:
             session.close()
         
