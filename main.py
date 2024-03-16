@@ -13,15 +13,17 @@ URL_PROXIES = "https://api.proxyscrape.com/v3/free-proxy-list/get?request=displa
 TXT_TESTFLIGHT_LIST =               "Testflight_List.txt"
 TXT_RESULT_AVAILABLE_BETA_APPS =    "Result_Testflight_Available_BetaApps.md"
 TXT_RESULT_FULL_BETA_APPS =         "Result_Testflight_Full_BetaApps.md"
-TXT_RESULT_ERROR_BETA_APPS =        "ResultTestflight_Error_BetaApps.md"
+TXT_RESULT_NEWTESTERS_BETA_APPS =   "Result_Testflight_NewTesters_BetaApps.md"
+TXT_RESULT_ERROR_BETA_APPS =        "Result_Testflight_Error_BetaApps.md"
 MAX_RETRIES = 5
+
 
 def ListProxies():
     list_proxies = []
     response = requests.get(URL_PROXIES)
     proxy_data = response.json().get('proxies', [])  # Use get() with a default value of an empty list
     if response.status_code == 200:
-        listCountry = ['VN', 'US', 'CN']
+        listCountry = ['VN']
         for proxies in proxy_data:
             ip_data = proxies.get('ip_data', {})  # Use get() to handle missing 'ip_data' key
             countryCode = ip_data.get('countryCode')
@@ -33,6 +35,7 @@ def fetch_beta_apps_info(data_proxy):
     with open(TXT_TESTFLIGHT_LIST, 'r', encoding='utf-8') as txt_testflight_list_file,\
             open(TXT_RESULT_AVAILABLE_BETA_APPS, 'w', encoding='utf-8') as txt_result_available_testflight_file,\
             open(TXT_RESULT_FULL_BETA_APPS, 'w', encoding='utf-8') as txt_result_full_testflight_file,\
+            open(TXT_RESULT_NEWTESTERS_BETA_APPS, 'w', encoding='utf-8') as txt_result_newtesters_testflight_file,\
             open(TXT_RESULT_ERROR_BETA_APPS, 'w', encoding='utf-8') as txt_result_error_link_testflight_file:
         urls = list(set(txt_testflight_list_file.read().split()))
         user_agent = UserAgent()
@@ -79,6 +82,8 @@ def fetch_beta_apps_info(data_proxy):
                         text_matches = re.search(pattern_Full, title_text, re.IGNORECASE)
                         textname_between_join_and_beta = text_matches.group(1).strip()
                         txt_result_full_testflight_file.write(f"{textname_between_join_and_beta} => {url_testflight}\n")
+                    elif "accepting any new testers" in span_text:
+                        txt_result_newtesters_testflight_file.write("{url_testflight}")
                 else:
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
         except (ConnectTimeout, TimeoutError, OSError) as e:
