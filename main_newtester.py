@@ -10,12 +10,12 @@ from lxml import html
 
 # Constants
 URL_PROXIES = "https://api.proxyscrape.com/v3/free-proxy-list/get?request=displayproxies&proxy_format=ipport&format=json"
-TXT_RESULT_NEWTESTERS_BETA_APPS = "ResultTestflight_NewTesters_BetaApps.md"
-TXT_RESULT_ERROR_BETA_APPS =        "ResultTestflight_Error_BetaApps.md"
+TXT_RESULT_NEWTESTERS_BETA_APPS = "Result_Testflight_NewTesters_BetaApps.md"
+TXT_RESULT_ERROR_BETA_APPS =        "Result_Testflight_Error_BetaApps.md"
 
 TOKEN_REMINDSLOW_ID = ''
 BASE_URL_REMINDSLOW = f""
-GROUP_TESTFLIGHT_CAMPINGAPPS_ID = ''
+GROUP_TESTFLIGHT_CAMPINGAPPS_ID = '-'
 
 XPATH_STATUS = '//*[@class="beta-status"]/span/text()'
 XPATH_TITLE = '/html/head/title/text()'
@@ -83,6 +83,7 @@ def fetch_beta_apps_info(data_proxy):
                                         "text": f"{hashtag}\n\n{url_testflight}\nOpening for New Testers"
                                     }
                         requests.post(BASE_URL_REMINDSLOW, data=parameter)
+                        txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
                 else:
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
         except (ConnectTimeout, TimeoutError, OSError) as e:
