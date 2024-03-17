@@ -27,11 +27,11 @@ MAX_RETRIES = 3
 def ListProxies():
     list_proxies = []
     response = requests.get(URL_PROXIES)
-    proxy_data = response.json().get('proxies', [])  # Use get() with a default value of an empty list
+    proxy_data = response.json().get('proxies', [])
     if response.status_code == 200:
         listCountry = ['VN']
         for proxies in proxy_data:
-            ip_data = proxies.get('ip_data', {})  # Use get() to handle missing 'ip_data' key
+            ip_data = proxies.get('ip_data', {})
             countryCode = ip_data.get('countryCode')
             if countryCode in listCountry:
                 list_proxies.append((proxies['protocol'], proxies['proxy']))
@@ -69,21 +69,26 @@ def fetch_beta_apps_info(data_proxy):
                 
                 if r.status_code == 200:
                     page = html.fromstring(r.text)
-                    free_slots = page.xpath(XPATH_STATUS)[0] not in FULL_TEXTS
+                    status_elements = page.xpath(XPATH_STATUS)
+                    title_elements = page.xpath(XPATH_TITLE)
                     
-                    if free_slots:
-                        title = re.findall(
-                                TITLE_REGEX,
-                                page.xpath(XPATH_TITLE)[0])[0]
-                        textname_between_tothe_and_beta = title.strip()
-                        hashtags = re.findall(r"\b\w+\b", textname_between_tothe_and_beta)
-                        hashtag = " ".join(["#" + hashtag.upper() for hashtag in hashtags])
-                        parameter = {
-                                        "chat_id": GROUP_TESTFLIGHT_CAMPINGAPPS_ID,
-                                        "text": f"{hashtag}\n\n{url_testflight}\nOpening for New Testers"
-                                    }
-                        requests.post(BASE_URL_REMINDSLOW, data=parameter)
-                        txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
+                    if status_elements and title_elements:
+                        status = status_elements[0]
+                        title = title_elements[0]
+                        
+                        free_slots = status not in FULL_TEXTS
+                        
+                        if free_slots:
+                            title_match = re.findall(TITLE_REGEX, title)
+                            if title_match:
+                                hashtags = re.findall(r"\b\w+\b", title_match[0].strip())
+                                hashtag = " ".join(["#" + tag.upper() for tag in hashtags])
+                                parameter = {
+                                    "chat_id": GROUP_TESTFLIGHT_CAMPINGAPPS_ID,
+                                    "text": f"{hashtag}\n{url_testflight}\nOpening for New Testers"
+                                }
+                                requests.post(BASE_URL_REMINDSLOW, data=parameter)
+                                txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
                 else:
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
         except (ConnectTimeout, TimeoutError, OSError) as e:
@@ -96,7 +101,8 @@ def fetch_beta_apps_info(data_proxy):
             session.close()
 
 def update_testflight_list():
-    with open(TXT_RESULT_NEWTESTERS_BETA_APPS, 'r', encoding='utf-8') as f1, open(TXT_RESULT_ERROR_BETA_APPS, 'r', encoding='utf-8') as f2:
+    with open(TXT_RESULT_NEWTESTERS_BETA_APPS, 'r', encoding='utf-8') as f1, \
+        open(TXT_RESULT_ERROR_BETA_APPS, 'r', encoding='utf-8') as f2:
         lines_f1 = f1.read().splitlines()
         lines_f2 = f2.read().splitlines()
     unique_lines_f1 = list(set(lines_f1))
