@@ -83,7 +83,7 @@ def fetch_beta_apps_info(data_proxy):
                         textname_between_join_and_beta = text_matches.group(1).strip()
                         txt_result_full_testflight_file.write(f"{textname_between_join_and_beta} => {url_testflight}\n")
                     elif "accepting any new testers" in span_text:
-                        txt_result_newtesters_testflight_file.write("{url_testflight}")
+                        txt_result_newtesters_testflight_file.write(f"{url_testflight}\n")
                 else:
                     txt_result_error_link_testflight_file.write(f"{url_testflight}\n")
         except (ConnectTimeout, TimeoutError, OSError) as e:
