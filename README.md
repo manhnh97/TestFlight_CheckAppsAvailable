@@ -5,6 +5,9 @@
 | Github | **[Beta Apps Are Available](https://github.com/manhnh97/Testflight_CheckAppsAvailable/blob/master/Result_Testflight_Available_BetaApps.md)** |
 | Github | **[Testflight Departures](https://github.com/manhnh97/Testflight_Departures/blob/master/Result_BetaAppsAvailable.md)** |
 | Github | **[Testflight AwesomeTestflight](https://github.com/pluwen/awesome-testflight-link)** |
+| Telegram | **[TestflightM](https://t.me/testflightm)** |
+| Telegram | **[TestflightMchat](https://t.me/testflightmchat)** |
+| Telegram | **[Testflight1110](https://t.me/testflight1110)** |
 | Telegram | **[TestflightR](https://t.me/testflightR)** |
 | Telegram | **[Testflight Gamerv](https://t.me/tfgamerv)** |
 | Telegram | **[TestflightX](https://t.me/TestFlightX)** |
