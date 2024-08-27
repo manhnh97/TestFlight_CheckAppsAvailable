@@ -1,4 +1,4 @@
-| https://t.me/discoverytestflightapps |
+| https://t.me/testflightm |
 | --- | 
 | ClickMobile Touch<br />https://testflight.apple.com/join/6VNg8JZl |
 | Ordway<br />https://testflight.apple.com/join/TdgH2IhC |
