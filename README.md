@@ -2,7 +2,7 @@
 ## You can find beta apps here!!!
 | Brands | Names/Links |
 | --- | --- |
-| Github | **[Beta Apps Are Available](https://github.com/manhnh97/Testflight_CheckAppsAvailable/blob/master/Result_Testflight_Available_BetaApps.md)** |
+| Github | **[Beta Apps Are Available](https://github.com/manhnh97/Testflight_CheckAppsAvailable/blob/master/data-available-beta-apps.txt)** |
 | Github | **[Testflight Departures](https://github.com/manhnh97/Testflight_Departures/blob/master/Result_BetaAppsAvailable.md)** |
 | Github | **[Testflight AwesomeTestflight](https://github.com/pluwen/awesome-testflight-link)** |
 | Telegram | **[TestflightM](https://t.me/testflightm)** |
